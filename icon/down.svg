@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="12.656" viewBox="0 0 24 12.656">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="아래쪽화살표" d="M0,8.057l9.52,9.507a3.507,3.507,0,0,0,4.948,0L24,8.046,21.879,5.929l-9.531,9.517a.5.5,0,0,1-.707,0L2.121,5.94Z" transform="translate(1812.175 6066.743)"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_32" data-name="마스크 그룹 32" transform="translate(-1812.175 -6072.672)" clip-path="url(#clip-path)">
+    <rect id="사각형_25" data-name="사각형 25" width="24" height="24" transform="translate(1812 6067)" fill="#fff"/>
+  </g>
+</svg>

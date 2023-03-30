@@ -1,0 +1,3880 @@
+@media screen and (min-width:1533px) and (max-width:1700px) {
+
+    /* 비즈니스페이지 */
+    #business #btitle p{
+        margin-bottom: 10px;
+    }
+    #business #btitle h2{
+        font-size: 5em;
+        line-height: 88px;
+    }
+    #ocean .bcard{
+        width: 380px;
+        height: 550px;
+    }
+    #ocean .bcard:nth-child(1){
+        background-size: 350px 520px;
+    }
+    #ocean .bcard h3{
+        line-height: 550px;
+    }
+    #ocean .bcard:nth-child(2){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #ocean .bcard:nth-child(3){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #ocean .bcard:nth-child(4){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #ocean .bcard:nth-child(5){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #ocean .bcard dl{
+        margin-top: 280px;
+    }
+    #ocean .bcard dl .title{
+        font-size: 1.5625em;
+    }
+    #ocean .bcard dl .subtitle{
+        font-size: 1.0625em;
+    }
+    #ocean .bcard dl .text{
+        width: 350px;
+        line-height: 26px;
+        font-size: 0.9375em;
+    }
+    #ocean .bcard>a{
+        bottom: 15px;
+        right: 15px;
+    }
+
+    #food .bcard{
+        width: 380px;
+        height: 550px;
+    }
+    #food .bcard:nth-child(1){
+        background-size: 350px 520px;
+    }
+    #food .bcard h3{
+        line-height: 550px;
+    }
+    #food .bcard:nth-child(2){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #food .bcard:nth-child(3){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #food .bcard:nth-child(4){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #food .bcard:nth-child(5){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #food .bcard dl{
+        margin-top: 280px;
+    }
+    #food .bcard dl .title{
+        font-size: 1.5625em;
+    }
+    #food .bcard dl .subtitle{
+        font-size: 1.0625em;
+    }
+    #food .bcard dl .text{
+        width: 350px;
+        line-height: 26px;
+        font-size: 0.9375em;
+    }
+    #food .bcard>a{
+        bottom: 15px;
+        right: 15px;
+    }
+
+    #living .bcard{
+        width: 380px;
+        height: 550px;
+    }
+    #living .bcard:nth-child(1){
+        background-size: 350px 520px;
+    }
+    #living .bcard h3{
+        line-height: 550px;
+    }
+    #living .bcard:nth-child(2){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #living .bcard:nth-child(3){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #living .bcard:nth-child(4){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #living .bcard:nth-child(5){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #living .bcard dl{
+        margin-top: 280px;
+    }
+    #living .bcard dl .title{
+        font-size: 1.5625em;
+    }
+    #living .bcard dl .subtitle{
+        font-size: 1.0625em;
+    }
+    #living .bcard dl .text{
+        width: 350px;
+        line-height: 26px;
+        font-size: 0.9375em;
+    }
+    #living .bcard>a{
+        bottom: 15px;
+        right: 15px;
+    }
+
+    #global .bcard{
+        width: 380px;
+        height: 550px;
+    }
+    #global .bcard:nth-child(1){
+        background-size: 350px 520px;
+    }
+    #global .bcard h3{
+        line-height: 550px;
+    }
+    #global .bcard:nth-child(2){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #global .bcard:nth-child(3){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #global .bcard:nth-child(4){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #global .bcard:nth-child(5){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #global .bcard:nth-child(6){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #global .bcard:nth-child(7){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #global .bcard dl{
+        margin-top: 280px;
+    }
+    #global .bcard dl .title{
+        font-size: 1.5625em;
+    }
+    #global .bcard dl .subtitle{
+        font-size: 1.0625em;
+    }
+    #global .bcard dl .text{
+        width: 350px;
+        line-height: 26px;
+        font-size: 0.9375em;
+    }
+    #global .bcard>a{
+        bottom: 15px;
+        right: 15px;
+    }
+    /* //비즈니스페이지 */
+
+    /* 미디어페이지 */
+    #media #mtitle p{
+        margin-bottom: 10px;
+    }
+    #media #mtitle h2{
+        font-size: 5em;
+        line-height: 88px;
+        margin-bottom: 25px;
+    }
+    #media #mtitle a{
+        background-size: 216px 31px;
+    }
+    /* //미디어페이지 */
+
+    /* 뉴스페이지 */
+    #news #ntitle p{
+        margin-bottom: 10px;
+    }
+    #news #ntitle h2{
+        font-size: 5em;
+        line-height: 88px;
+        margin-bottom: 25px;
+    }
+    #news #ntitle a{
+        background-size: 194px 31px;
+    }
+    #newsboxs .nbox dl .title{
+        font-size: 1.375em;
+    }
+    #newsboxs .nbox dl .text{
+        font-size: 1em;
+    }
+    /* //뉴스페이지 */
+
+    /* 채용페이지 */
+    #recruitment{
+        background-position: center center;
+    }
+    #recruitment a{
+        background-size: 365px 130px;
+        width: 365px;
+        padding-left: 27px;
+    }
+    /* //채용페이지 */
+
+    /* 하단 */
+    #fbottom  .ftext{
+        margin: 10vh 100px;
+    }
+    /* //하단 */
+}
+
+@media screen and (min-width:1400px) and (max-width:1532px) {
+    body{
+        font-size: 15px;
+    }
+
+    /* header */
+    header{
+        padding: 0 50px;
+    }
+    /* 로고 */
+    header .logo{
+        left: 50px;
+    }
+    /* //로고 */
+    /* header 아이콘 */
+    header .hicon{
+        width: 7.5%;
+        right: 50px;
+    }
+    /* //header 아이콘 */
+    /* //header */
+
+    /* 비즈니스페이지 */
+    #business #btitle{
+        left: 130px;
+    }
+    #business #btitle p{
+        margin-bottom: 10px;
+    }
+    #business #btitle h2{
+        font-size: 5em;
+        line-height: 88px;
+    }
+    #ocean .bcard{
+        width: 380px;
+        height: 550px;
+    }
+    #ocean .bcard:nth-child(1){
+        background-size: 350px 520px;
+    }
+    #ocean .bcard h3{
+        line-height: 550px;
+    }
+    #ocean .bcard:nth-child(2){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #ocean .bcard:nth-child(3){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #ocean .bcard:nth-child(4){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #ocean .bcard:nth-child(5){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #ocean .bcard dl{
+        margin-top: 280px;
+    }
+    #ocean .bcard dl .title{
+        font-size: 1.5625em;
+    }
+    #ocean .bcard dl .subtitle{
+        font-size: 1.0625em;
+    }
+    #ocean .bcard dl .text{
+        width: 350px;
+        line-height: 26px;
+        font-size: 0.9375em;
+    }
+    #ocean .bcard>a{
+        bottom: 15px;
+        right: 15px;
+    }
+
+    #food .bcard{
+        width: 380px;
+        height: 550px;
+    }
+    #food .bcard:nth-child(1){
+        background-size: 350px 520px;
+    }
+    #food .bcard h3{
+        line-height: 550px;
+    }
+    #food .bcard:nth-child(2){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #food .bcard:nth-child(3){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #food .bcard:nth-child(4){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #food .bcard:nth-child(5){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #food .bcard dl{
+        margin-top: 280px;
+    }
+    #food .bcard dl .title{
+        font-size: 1.5625em;
+    }
+    #food .bcard dl .subtitle{
+        font-size: 1.0625em;
+    }
+    #food .bcard dl .text{
+        width: 350px;
+        line-height: 26px;
+        font-size: 0.9375em;
+    }
+    #food .bcard>a{
+        bottom: 15px;
+        right: 15px;
+    }
+
+    #living .bcard{
+        width: 380px;
+        height: 550px;
+    }
+    #living .bcard:nth-child(1){
+        background-size: 350px 520px;
+    }
+    #living .bcard h3{
+        line-height: 550px;
+    }
+    #living .bcard:nth-child(2){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #living .bcard:nth-child(3){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #living .bcard:nth-child(4){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #living .bcard:nth-child(5){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #living .bcard dl{
+        margin-top: 280px;
+    }
+    #living .bcard dl .title{
+        font-size: 1.5625em;
+    }
+    #living .bcard dl .subtitle{
+        font-size: 1.0625em;
+    }
+    #living .bcard dl .text{
+        width: 350px;
+        line-height: 26px;
+        font-size: 0.9375em;
+    }
+    #living .bcard>a{
+        bottom: 15px;
+        right: 15px;
+    }
+
+    #global .bcard{
+        width: 380px;
+        height: 550px;
+    }
+    #global .bcard:nth-child(1){
+        background-size: 350px 520px;
+    }
+    #global .bcard h3{
+        line-height: 550px;
+    }
+    #global .bcard:nth-child(2){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #global .bcard:nth-child(3){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #global .bcard:nth-child(4){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #global .bcard:nth-child(5){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #global .bcard:nth-child(6){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #global .bcard:nth-child(7){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #global .bcard dl{
+        margin-top: 280px;
+    }
+    #global .bcard dl .title{
+        font-size: 1.5625em;
+    }
+    #global .bcard dl .subtitle{
+        font-size: 1.0625em;
+    }
+    #global .bcard dl .text{
+        width: 350px;
+        line-height: 26px;
+        font-size: 0.9375em;
+    }
+    #global .bcard>a{
+        bottom: 15px;
+        right: 15px;
+    }
+    /* //비즈니스페이지 */
+
+    /* 미디어페이지 */
+    #media #mtitle{
+        left: 130px;
+    }
+    #media #mtitle p{
+        margin-bottom: 10px;
+    }
+    #media #mtitle h2{
+        font-size: 5em;
+        line-height: 88px;
+        margin-bottom: 25px;
+    }
+    #media #mtitle a{
+        background-size: 216px 31px;
+    }
+    /* //미디어페이지 */
+
+    /* 뉴스페이지 */
+    #news #ntitle{
+        left: 130px;
+    }
+    #news #ntitle p{
+        margin-bottom: 10px;
+    }
+    #news #ntitle h2{
+        font-size: 5em;
+        line-height: 88px;
+        margin-bottom: 25px;
+    }
+    #news #ntitle a{
+        background-size: 194px 31px;
+    }
+    #newsboxs .nbox dl .title{
+        font-size: 1.375em;
+    }
+    #newsboxs .nbox dl .text{
+        font-size: 1em;
+    }
+    /* //뉴스페이지 */
+
+    /* 채용페이지 */
+    #recruitment{
+        background-position: center center;
+    }
+    #recruitment a{
+        background-size: 365px 130px;
+        width: 365px;
+        padding-left: 27px;
+    }
+    /* //채용페이지 */
+
+    /* 하단 */
+    #fbottom img{
+        margin: 6.5vh 100px;
+    }
+    /* //하단 */
+}
+
+@media screen and (min-width:1204px) and (max-width:1399px) {
+    body{
+        font-size: 15px;
+    }
+
+    /* header */
+    header{
+        padding: 0 50px;
+    }
+    /* 로고 */
+    header .logo{
+        left: 50px;
+    }
+    /* //로고 */
+    /* 메뉴 */
+    nav #menu>li{
+        padding: 0 7px;
+    }
+    /* //메뉴 */
+    /* header 아이콘 */
+    header .hicon{
+        width: 7.5%;
+        right: 50px;
+    }
+    /* //header 아이콘 */
+    /* 검색 */
+    .searchbox input[type="search"]{
+        width: 40%;
+    }
+    /* //검색 */
+    /* //header */
+
+    /* 비즈니스페이지 */
+    #business #btitle{
+        left: 130px;
+    }
+    #business #btitle p{
+        font-size: 1.3333em;
+        margin-bottom: 10px;
+    }
+    #business #btitle p::before{
+        margin: 9px;
+    }
+    #business #btitle h2{
+        font-size: 4.3333em;
+        line-height: 88px;
+    }
+    #ocean .bcard{
+        width: 380px;
+        height: 550px;
+    }
+    #ocean .bcard:nth-child(1){
+        background-size: 350px 520px;
+    }
+    #ocean .bcard h3{
+        line-height: 550px;
+    }
+    #ocean .bcard:nth-child(2){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #ocean .bcard:nth-child(3){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #ocean .bcard:nth-child(4){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #ocean .bcard:nth-child(5){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #ocean .bcard dl{
+        margin-top: 280px;
+    }
+    #ocean .bcard dl .title{
+        font-size: 1.5625em;
+    }
+    #ocean .bcard dl .subtitle{
+        font-size: 1.0625em;
+    }
+    #ocean .bcard dl .text{
+        width: 350px;
+        line-height: 26px;
+        font-size: 0.9375em;
+    }
+    #ocean .bcard>a{
+        bottom: 15px;
+        right: 15px;
+    }
+
+    #food .bcard{
+        width: 380px;
+        height: 550px;
+    }
+    #food .bcard:nth-child(1){
+        background-size: 350px 520px;
+    }
+    #food .bcard h3{
+        line-height: 550px;
+    }
+    #food .bcard:nth-child(2){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #food .bcard:nth-child(3){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #food .bcard:nth-child(4){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #food .bcard:nth-child(5){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #food .bcard dl{
+        margin-top: 280px;
+    }
+    #food .bcard dl .title{
+        font-size: 1.5625em;
+    }
+    #food .bcard dl .subtitle{
+        font-size: 1.0625em;
+    }
+    #food .bcard dl .text{
+        width: 350px;
+        line-height: 26px;
+        font-size: 0.9375em;
+    }
+    #food .bcard>a{
+        bottom: 15px;
+        right: 15px;
+    }
+
+    #living .bcard{
+        width: 380px;
+        height: 550px;
+    }
+    #living .bcard:nth-child(1){
+        background-size: 350px 520px;
+    }
+    #living .bcard h3{
+        line-height: 550px;
+    }
+    #living .bcard:nth-child(2){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #living .bcard:nth-child(3){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #living .bcard:nth-child(4){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #living .bcard:nth-child(5){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #living .bcard dl{
+        margin-top: 280px;
+    }
+    #living .bcard dl .title{
+        font-size: 1.5625em;
+    }
+    #living .bcard dl .subtitle{
+        font-size: 1.0625em;
+    }
+    #living .bcard dl .text{
+        width: 350px;
+        line-height: 26px;
+        font-size: 0.9375em;
+    }
+    #living .bcard>a{
+        bottom: 15px;
+        right: 15px;
+    }
+
+    #global .bcard{
+        width: 380px;
+        height: 550px;
+    }
+    #global .bcard:nth-child(1){
+        background-size: 350px 520px;
+    }
+    #global .bcard h3{
+        line-height: 550px;
+    }
+    #global .bcard:nth-child(2){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #global .bcard:nth-child(3){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #global .bcard:nth-child(4){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #global .bcard:nth-child(5){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #global .bcard:nth-child(6){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #global .bcard:nth-child(7){
+        background-size: 350px 250px;
+        background-position: center 15px;
+    }
+    #global .bcard dl{
+        margin-top: 280px;
+    }
+    #global .bcard dl .title{
+        font-size: 1.5625em;
+    }
+    #global .bcard dl .subtitle{
+        font-size: 1.0625em;
+    }
+    #global .bcard dl .text{
+        width: 350px;
+        line-height: 26px;
+        font-size: 0.9375em;
+    }
+    #global .bcard>a{
+        bottom: 15px;
+        right: 15px;
+    }
+    /* //비즈니스페이지 */
+
+    /* 미디어페이지 */
+    #media #mtitle{
+        left: 130px;
+    }
+    #media #mtitle p{
+        font-size: 1.3333em;
+        margin-bottom: 10px;
+    }
+    #media #mtitle p::before{
+        margin: 9px;
+    }
+    #media #mtitle h2{
+        font-size: 4.3333em;
+        line-height: 88px;
+        margin-bottom: 15px;
+    }
+    #media #mtitle a{
+        background-size: 172px 31px;
+    }
+    /* //미디어페이지 */
+
+    /* 뉴스페이지 */
+    #news #ntitle{
+        left: 130px;
+    }
+    #news #ntitle p{
+        font-size: 1.3333em;
+        margin-bottom: 10px;
+    }
+    #news #ntitle p::before{
+        margin: 9px;
+    }
+    #news #ntitle h2{
+        font-size: 4.3333em;
+        line-height: 88px;
+        margin-bottom: 15px;
+    }
+    #news #ntitle a{
+        background-size: 161px 31px;
+    }
+    #newsboxs{
+        width: 60%;
+    }
+    #newsboxs .nbox dl .title{
+        font-size: 1.375em;
+    }
+    #newsboxs .nbox dl .text{
+        font-size: 1em;
+    }
+    /* //뉴스페이지 */
+
+    /* 채용페이지 */
+    #recruitment{
+        background-position: center center;
+    }
+    #recruitment p:nth-of-type(1){
+        font-size: 1.3333em;
+    }
+    #recruitment p:nth-of-type(1)::before{
+        margin: 9px;
+    }
+    #recruitment a{
+        background-size: 340px 130px;
+        width: 340px;
+        padding-left: 27px;
+        top: 434px;
+    }
+    /* //채용페이지 */
+
+    /* 챌린지페이지 */
+    #challenge a{
+        font-size: 2.5333em;
+    }
+    /* //챌린지페이지 */
+
+    /* 하단 */
+    #fbottom img{
+        margin: 6.5vh 100px;
+    }
+    #fbottom .ftext{
+        margin: 10vh 80px;
+    }
+    /* //하단 */
+
+    /* 패밀리사이트 */
+    #familysite{
+        width: 950px;
+        height: 450px;
+    }
+    .fsmenu{
+        margin-top: 60px;
+    }
+    .fsmenu .fsbox{
+        width: 18.5%;
+    }
+    .fsmenu .fsbox>li{
+        line-height: 45px;
+    }
+    .fsmenu .fsbox>li:nth-child(2){
+        margin-top: 15px;
+    }
+    /* //패밀리사이트 */
+}
+
+@media screen and (min-width:1000px) and (max-width:1203px){
+    body{
+        font-size: 15px;
+    }
+    header{
+        padding: 0 50px;
+    }
+    /* 로고 */
+    header .logo{
+        position: static;
+        margin-top: 2vh;
+    }
+    /* 메뉴 */
+    nav #menu{
+        display: none;
+    }
+    header .menuicon{
+        display: block;
+    }
+    /* //메뉴 */
+    /* header 아이콘 */
+    header .hicon{
+        width: 9%;
+        right: 50px;
+    }
+    /* //header 아이콘 */
+    /* 검색 */
+    .searchbox input[type="search"]{
+        width: 50%;
+    }
+    /* //검색 */
+
+    /* 슬로건페이지 */
+    #slogan .slogantext>li{
+        text-align: center;
+        font-size: 4.5vw;
+    }
+    #slogan .slogantext>li br{
+        display: block !important;
+    }
+    /* //슬로건페이지 */
+
+    /* 비즈니스페이지 */
+    #business #btitle{
+        left: 110px;
+    }
+    #business #btitle p{
+        font-size: 1.3333em;
+        margin-bottom: 10px;
+    }
+    #business #btitle p::before{
+        margin: 9px;
+    }
+    #business #btitle h2{
+        font-size: 4.2666em;
+        line-height: 82px;
+    }
+    #ocean .bcard{
+        width: 380px;
+        height: 560px;
+    }
+    #ocean .bcard:nth-child(1){
+        background-size: 350px 530px;
+    }
+    #ocean .bcard h3{
+        line-height: 560px;
+    }
+    #ocean .bcard:nth-child(2){
+        background-size: 350px 260px;
+        background-position: 13px 13px;
+    }
+    #ocean .bcard:nth-child(3){
+        background-size: 350px 260px;
+        background-position: 13px 13px;
+    }
+    #ocean .bcard:nth-child(4){
+        background-size: 350px 260px;
+        background-position: 13px 13px;
+    }
+    #ocean .bcard:nth-child(5){
+        background-size: 350px 260px;
+        background-position: 13px 13px;
+    }
+    #ocean .bcard dl{
+        margin-top: 290px;
+    }
+    #ocean .bcard dl .title{
+        font-size: 1.6666em;
+        margin-bottom: 5px;
+    }
+    #ocean .bcard dl .subtitle{
+        font-size: 1.1333em;
+        margin-bottom: 5px;
+    }
+    #ocean .bcard dl .text{
+        width: 350px;
+        line-height: 30px;
+    }
+    #ocean .bcard>a{
+        bottom: 13px;
+        right: 13px;
+    }
+
+    #food .bcard{
+        width: 380px;
+        height: 560px;
+    }
+    #food .bcard:nth-child(1){
+        background-size: 350px 530px;
+    }
+    #food .bcard h3{
+        line-height: 560px;
+    }
+    #food .bcard:nth-child(2){
+        background-size: 350px 260px;
+        background-position: 13px 13px;
+    }
+    #food .bcard:nth-child(3){
+        background-size: 350px 260px;
+        background-position: 13px 13px;
+    }
+    #food .bcard:nth-child(4){
+        background-size: 350px 260px;
+        background-position: 13px 13px;
+    }
+    #food .bcard:nth-child(5){
+        background-size: 350px 260px;
+        background-position: 13px 13px;
+    }
+    #food .bcard dl{
+        margin-top: 290px;
+    }
+    #food .bcard dl .title{
+        font-size: 1.6666em;
+        margin-bottom: 5px;
+    }
+    #food .bcard dl .subtitle{
+        font-size: 1.1333em;
+        margin-bottom: 5px;
+    }
+    #food .bcard dl .text{
+        width: 350px;
+        line-height: 30px;
+    }
+    #food .bcard>a{
+        bottom: 13px;
+        right: 13px;
+    }
+
+    #living .bcard{
+        width: 380px;
+        height: 560px;
+    }
+    #living .bcard:nth-child(1){
+        background-size: 350px 530px;
+    }
+    #living .bcard h3{
+        line-height: 560px;
+    }
+    #living .bcard:nth-child(2){
+        background-size: 350px 260px;
+        background-position: 13px 13px;
+    }
+    #living .bcard:nth-child(3){
+        background-size: 350px 260px;
+        background-position: 13px 13px;
+    }
+    #living .bcard:nth-child(4){
+        background-size: 350px 260px;
+        background-position: 13px 13px;
+    }
+    #living .bcard:nth-child(5){
+        background-size: 350px 260px;
+        background-position: 13px 13px;
+    }
+    #living .bcard dl{
+        margin-top: 290px;
+    }
+    #living .bcard dl .title{
+        font-size: 1.6666em;
+        margin-bottom: 5px;
+    }
+    #living .bcard dl .subtitle{
+        font-size: 1.1333em;
+        margin-bottom: 5px;
+    }
+    #living .bcard dl .text{
+        width: 350px;
+        line-height: 30px;
+    }
+    #living .bcard>a{
+        bottom: 13px;
+        right: 13px;
+    }
+
+    #global .bcard{
+        width: 380px;
+        height: 560px;
+    }
+    #global .bcard:nth-child(1){
+        background-size: 350px 530px;
+    }
+    #global .bcard h3{
+        line-height: 560px;
+    }
+    #global .bcard:nth-child(2){
+        background-size: 350px 260px;
+        background-position: 13px 13px;
+    }
+    #global .bcard:nth-child(3){
+        background-size: 350px 260px;
+        background-position: 13px 13px;
+    }
+    #global .bcard:nth-child(4){
+        background-size: 350px 260px;
+        background-position: 13px 13px;
+    }
+    #global .bcard:nth-child(5){
+        background-size: 350px 260px;
+        background-position: 13px 13px;
+    }
+    #global .bcard:nth-child(6){
+        background-size: 350px 260px;
+        background-position: 13px 13px;
+    }
+    #global .bcard:nth-child(7){
+        background-size: 350px 260px;
+        background-position: 13px 13px;
+    }
+    #global .bcard dl{
+        margin-top: 290px;
+    }
+    #global .bcard dl .title{
+        font-size: 1.6666em;
+        margin-bottom: 5px;
+    }
+    #global .bcard dl .subtitle{
+        font-size: 1.1333em;
+        margin-bottom: 5px;
+    }
+    #global .bcard dl .text{
+        width: 350px;
+        line-height: 30px;
+    }
+    #global .bcard>a{
+        bottom: 13px;
+        right: 13px;
+    }
+    /* //비즈니스페이지 */
+
+    /* 미디어페이지 */
+    #media #mtitle{
+        left: 110px;
+    }
+    #media #mtitle p{
+        font-size: 1.3333em;
+        margin-bottom: 10px;
+    }
+    #media #mtitle p::before{
+        margin: 9px;
+    }
+    #media #mtitle h2{
+        font-size: 4.2666em;
+        line-height: 82px;
+    }
+    #media #mtitle a{
+        background-size: 164px 31px;
+    }
+    #youtube{
+        margin-right: 50px;
+        width: 53%;
+    }
+    /* //미디어페이지 */
+
+    /* 뉴스페이지 */
+    #news #ntitle{
+        left: 110px;
+    }
+    #news #ntitle p{
+        font-size: 1.3333em;
+        margin-bottom: 10px;
+    }
+    #news #ntitle p::before{
+        margin: 9px;
+    }
+    #news #ntitle h2{
+        font-size: 4.2666em;
+        line-height: 82px;
+    }
+    #news #ntitle a{
+        background-size: 164px 31px;
+    }
+    #newsboxs{
+        width: 55%;
+        right: 50px;
+    }
+    #newsboxs .nbox dl .title{
+        font-size: 1.4666em;
+    }
+    #newsboxs .nbox dl .text{
+        font-size: 1em;
+    }
+    /* //뉴스페이지 */
+
+    /* 채용페이지 */
+    #recruitment{
+        background-position: center center;
+    }
+    #recruitment p:nth-of-type(1){
+        font-size: 1.3333em;
+        top: 40vh;
+    }
+    #recruitment p:nth-of-type(1)::before{
+        margin: 9px;
+    }
+    #recruitment p:nth-of-type(2){
+        font-size: 4vw;
+        line-height: 6vw;
+        top: 40.5vh;
+    }
+    #recruitment a{
+        background-size: 280px 130px;
+        width: 280px;
+        padding-left: 17px;
+        top: 700px;
+        right: 50px;
+        font-size: 1.6em;
+    }
+    /* //채용페이지 */
+
+    /* 챌린지페이지 */
+    #challenge a{
+        font-size: 2.4666em;
+    }
+    /* //챌린지페이지 */
+
+    /* 하단 */
+    #fheader nav .bottommenu li{
+        padding: 0 35px;
+    } 
+    #fbottom img{
+        margin: 6.5vh 100px;
+    }
+    #fbottom  .ftext{
+        margin: 10vh 50px;
+    }
+    /* //하단 */
+
+    /* 패밀리사이트 */
+    #familysite{
+        width: 950px;
+        height: 450px;
+    }
+    .fsmenu{
+        margin-top: 60px;
+    }
+    .fsmenu .fsbox{
+        width: 18.5%;
+    }
+    .fsmenu .fsbox>li{
+        line-height: 45px;
+    }
+    .fsmenu .fsbox>li:nth-child(2){
+        margin-top: 15px;
+    }
+    /* //패밀리사이트 */
+}
+
+@media screen and (min-width:700px) and (max-width:999px){
+    body{
+        font-size: 14px;
+    }
+    header{
+        padding: 0 50px;
+    }
+    /* 로고 */
+    header .logo{
+        position: static;
+        margin-top: 2vh;
+    }
+    /* //로고 */
+    /* 메뉴 */
+    nav #menu{
+        display: none;
+    }
+    header .menuicon{
+        display: block;
+    }
+    #actmenu{
+        width: 40%;
+    }
+    #actmenu #menu1>li{
+        width: 60%;;
+    }
+    nav .close img{
+        width: 30px;
+        height: 30px;
+    }
+    /* //메뉴 */
+    /* header 아이콘 */
+    header .hicon{
+        width: 12%;
+        right: 50px;
+    }
+    /* //header 아이콘 */
+    /* 언어 */
+    .hicon .lang .langlist>li{
+        line-height: 35px;
+    }
+    /* //언어 */
+    /* 검색 */
+    .searchbox input[type="search"]{
+        width: 50%;
+    }
+    /* //검색 */
+
+    /* 페이지 넘어가기 */
+    #pagedot{
+        display: none;
+    }
+    /* //페이지 넘어가기 */
+
+    /* 슬로건페이지 */
+    #slogan .slogantext{
+        height: auto;
+    }
+    #slogan .slogantext>li{
+        text-align: center;
+        font-size: 4.5vw;
+        padding: 300px 0;
+    }
+    #slogan .slogantext>li br{
+        display: block !important;
+    }
+    #sbtn button{
+        width: 50px;
+        height: 50px;
+    }
+    #sbtn button:nth-child(1){
+        margin-left: 50px;
+    }
+    #sbtn button:nth-child(2){
+        margin-right: 50px;
+    }
+    /* //슬로건페이지 */
+    /* 슬로건페이지 넘어가기 */
+    #spagedot{
+        width: 130px;
+    }
+    #spagedot>a{
+        width: 23px;
+        height: 23px;
+    }
+    #spagedot>a .sdot{
+        width: 13px;
+        height: 13px;
+    }
+    /* //슬로건페이지 넘어가기 */
+    
+    /* 비즈니스페이지 */
+    #business{
+        height: auto;
+    }
+    #business #btitle{
+        position: static;
+        margin: 70px 50px 30px 50px;
+    }
+    #business #btitle p{
+        display: none;
+    }
+    #business #btitle p::before{
+        display: none;
+    }
+    #business #btitle h2{
+        font-size: 3.5em;
+    }
+    #business #btitle h2 br{
+        display: none;
+    }
+    #cardbox{
+        position: static;
+        padding-left: 30px;
+    }
+    #ocean .bcard{
+        width: 350px;
+        height: 530px;
+        margin-right: 30px;
+    }
+    #ocean .bcard:hover{
+        border: 3px solid #0065bd;
+    }
+    #ocean .bcard:nth-child(1){
+        background-size: 325px 505px;
+    }
+    #ocean .bcard h3{
+        line-height: 530px;
+    }
+    #ocean .bcard:nth-child(2){
+        background-size: 325px 325px;
+        background-position: 11px 9.5px;
+    }
+    #ocean .bcard:nth-child(3){
+        background-size: 325px 325px;
+        background-position: 11px 9.5px;
+    }
+    #ocean .bcard:nth-child(4){
+        background-size: 325px 325px;
+        background-position: 11px 9.5px;
+    }
+    #ocean .bcard:nth-child(5){
+        background-size: 325px 325px;
+        background-position: 11px 9.5px;
+    }
+    #ocean .bcard dl{
+        margin-top: 370px;
+    }
+    #ocean .bcard dl .title{
+        font-size: 1.6666em;
+        margin-bottom: 15px;
+    }
+    #ocean .bcard dl .subtitle{
+        font-size: 1.1333em;
+    }
+    #ocean .bcard dl .text{
+        display: none;
+    }
+    #ocean .bcard>a{
+        bottom: 9.5px;
+        right: 11px;
+    }
+
+    #food .bcard{
+        width: 350px;
+        height: 530px;
+        margin-right: 30px;
+    }
+    #food .bcard:hover{
+        border: 3px solid #0065bd;
+    }
+    #food .bcard:nth-child(1){
+        background-size: 325px 505px;
+    }
+    #food .bcard h3{
+        line-height: 530px;
+    }
+    #food .bcard:nth-child(2){
+        background-size: 325px 325px;
+        background-position: 11px 9.5px;
+    }
+    #food .bcard:nth-child(3){
+        background-size: 325px 325px;
+        background-position: 11px 9.5px;
+    }
+    #food .bcard:nth-child(4){
+        background-size: 325px 325px;
+        background-position: 11px 9.5px;
+    }
+    #food .bcard:nth-child(5){
+        background-size: 325px 325px;
+        background-position: 11px 9.5px;
+    }
+    #food .bcard dl{
+        margin-top: 370px;
+    }
+    #food .bcard dl .title{
+        font-size: 1.6666em;
+        margin-bottom: 15px;
+    }
+    #food .bcard dl .subtitle{
+        font-size: 1.1333em;
+    }
+    #food .bcard dl .text{
+        display: none;
+    }
+    #food .bcard>a{
+        bottom: 9.5px;
+        right: 11px;
+    }
+
+    #living .bcard{
+        width: 350px;
+        height: 530px;
+        margin-right: 30px;
+    }
+    #living .bcard:hover{
+        border: 3px solid #0065bd;
+    }
+    #living .bcard:nth-child(1){
+        background-size: 325px 505px;
+    }
+    #living .bcard h3{
+        line-height: 530px;
+    }
+    #living .bcard:nth-child(2){
+        background-size: 325px 325px;
+        background-position: 11px 9.5px;
+    }
+    #living .bcard:nth-child(3){
+        background-size: 325px 325px;
+        background-position: 11px 9.5px;
+    }
+    #living .bcard:nth-child(4){
+        background-size: 325px 325px;
+        background-position: 11px 9.5px;
+    }
+    #living .bcard:nth-child(5){
+        background-size: 325px 325px;
+        background-position: 11px 9.5px;
+    }
+    #living .bcard dl{
+        margin-top: 370px;
+    }
+    #living .bcard dl .title{
+        font-size: 1.6666em;
+        margin-bottom: 15px;
+    }
+    #living .bcard dl .subtitle{
+        font-size: 1.1333em;
+    }
+    #living .bcard dl .text{
+        display: none;
+    }
+    #living .bcard>a{
+        bottom: 9.5px;
+        right: 11px;
+    }
+
+    #global .bcard{
+        width: 350px;
+        height: 530px;
+        margin-right: 30px;
+    }
+    #global .bcard:hover{
+        border: 3px solid #0065bd;
+    }
+    #global .bcard:nth-child(1){
+        background-size: 325px 505px;
+    }
+    #global .bcard h3{
+        line-height: 530px;
+    }
+    #global .bcard:nth-child(2){
+        background-size: 325px 325px;
+        background-position: 11px 9.5px;
+    }
+    #global .bcard:nth-child(3){
+        background-size: 325px 325px;
+        background-position: 11px 9.5px;
+    }
+    #global .bcard:nth-child(4){
+        background-size: 325px 325px;
+        background-position: 11px 9.5px;
+    }
+    #global .bcard:nth-child(5){
+        background-size: 325px 325px;
+        background-position: 11px 9.5px;
+    }
+    #global .bcard:nth-child(6){
+        background-size: 325px 325px;
+        background-position: 11px 9.5px;
+    }
+    #global .bcard:nth-child(7){
+        background-size: 325px 325px;
+        background-position: 11px 9.5px;
+    }
+    #global .bcard dl{
+        margin-top: 370px;
+    }
+    #global .bcard dl .title{
+        font-size: 1.6666em;
+        margin-bottom: 15px;
+    }
+    #global .bcard dl .subtitle{
+        font-size: 1.1333em;
+    }
+    #global .bcard dl .text{
+        display: none;
+    }
+    #global .bcard>a{
+        bottom: 9.5px;
+        right: 11px;
+    }
+    /* //비즈니스페이지 */
+
+    /* 미디어페이지 */
+    #media{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #media #mtitle{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: static;
+        padding: 0 50px;
+        margin: 100px 0 30px 0;
+    }
+    #media #mtitle p{
+        display: none;
+    }
+    #media #mtitle p::before{
+        display: none;
+    }
+    #media #mtitle h2{
+        font-size: 3.5em;
+        letter-spacing: -3px;
+        margin-bottom: 0;
+    }
+    #media #mtitle h2 br{
+        display: none;
+    }
+    #media #mtitle a{
+        background-size: 160px 31px;
+        width: 160px;
+    }
+    #youtube{
+        width: 100%;
+        height: auto;
+        float: none;
+        position: static;
+        overflow-y: visible;
+        padding: 0 50px;
+        margin-top: 0;
+        margin-right: 0px;
+    }
+    #youtube .item:nth-child(1){
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #youtube .item:nth-child(2){
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #youtube .item:nth-child(3){
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #youtube .item:nth-child(4){
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #youtube .item:nth-child(5){
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #youtube .item:nth-child(6){
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #youtube .item:nth-child(7){
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    #youtube .item:nth-child(8){
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    #youtube .item:nth-child(9){
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    #youtube .item:nth-child(10){
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    
+    /* //미디어페이지 */
+
+    /* 뉴스페이지 */
+    #news{
+        height: auto;
+    }
+    #news #ntitle{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: static;
+        padding: 0 50px;
+        margin: 100px 0 30px 0;
+    }
+    #news #ntitle p{
+        display: none;
+    }
+    #news #ntitle p::before{
+        display: none;
+    }
+    #news #ntitle h2{
+        font-size: 3.5em;
+        letter-spacing: -3px;
+        margin-bottom: 0;
+    }
+    #news #ntitle h2 br{
+        display: none;
+    }
+    #news #ntitle a{
+        background-size: 160px 31px;
+        width: 160px;
+    }
+    #newsboxs{
+        position: static;
+        margin: 30px 50px 100px 50px;
+    }
+    #newsboxs .nbox{
+        padding-top: 20px;
+    }
+    #newsboxs .nbox:nth-child(1){
+        border-top: 3px solid #0065bd;
+        padding-top: 20px;
+    }
+    #newsboxs .nbox dl .title{
+        font-size: 1.4286em;
+        margin-bottom: 15px;
+    }
+    #newsboxs .nbox dl .text{
+        font-size: 1.0714em;
+        margin-bottom: 20px;
+    }
+    /* //뉴스페이지 */
+
+    /* 채용페이지 */
+    #recruitment{
+        height: auto;
+        padding: 200px 0;
+    }
+    #recruitment p:nth-of-type(1){
+        display: none;
+    }
+    #recruitment p:nth-of-type(1)::before{
+        display: none;
+    }
+    #recruitment p:nth-of-type(2){
+        font-size: 5vw;
+        margin-left: 50px;
+        line-height: 7vw;
+        top: 0;
+    }
+    #recruitment a{
+        background-size: 240px 130px;
+        width: 240px;
+        padding-left: 17px;
+        top: 385px;
+        right: 0;
+        margin-right: 50px;
+        font-size: 1.4286em;
+    }
+    /* //채용페이지 */
+
+    /* 챌린지페이지 */
+    #challenge{
+        height: auto;
+        padding: 180px 0;
+    }
+    #challenge a{
+        font-size: 2em;
+        top: 0;
+    }
+    /* //챌린지페이지 */
+
+    /* 하단 */
+    footer{
+        height: auto;
+    }
+    #fheader{
+        height: auto;
+    }
+    #fheader nav .bottommenu li{
+        padding: 0 20px;
+    }
+    #fheader nav .bottommenu li a{
+        font-size: 1em;
+    }
+    #fbottom img{
+        display: none;
+    }
+    #fbottom  .ftext{
+        float: none;
+        margin: auto;
+        padding: 80px 0;
+    }
+    /* //하단 */
+
+    /* 패밀리사이트 */
+    #familysite{
+        width: 100%;
+        height: 450px;
+        bottom: 340px;
+    }
+    .fsmenu{
+        margin: 0 30px;
+        margin-top: 60px;
+    }
+    .fsmenu .fsbox{
+        width: 17%;
+    }
+    .fsmenu .fsbox>li{
+        line-height: 45px;
+    }
+    .fsmenu .fsbox>li:nth-child(2){
+        margin-top: 15px;
+    }
+    .fsmenu .fsbox>li a{
+        font-size: 0.9285em;
+        font-weight: 800;
+    }
+    .fsmenu .fsbox .title{
+        border-top: 3px solid #0065bd;
+        border-bottom: 3px solid #0065bd;
+    }
+    #familysite>a img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //패밀리사이트 */
+
+    /* 최상단하단버튼 */
+    #udbtn{
+        width: 40px;
+        height: 90px;
+        bottom: 35px;
+        right: 12px;
+    }
+    #udbtn>a{
+        width: 40px;
+        height: 40px;
+        padding-top: 14px;
+
+    }
+    /* //최상단하단버튼 */
+
+    /* 팝업창 */
+    #popup{
+        top: 200px;
+    }
+    /* //팝업창 */
+}
+
+@media screen and (min-width:520px) and (max-width:699px) {
+    body{
+        font-size: 13px;
+    }
+    header{
+        padding: 0 20px;
+        height: 100px;
+    }
+    /* 로고 */
+    header .logo{
+        position: static;
+        margin-top: 20px;
+        width: 120px;
+        height: 52px;
+    }
+    .logo img{
+        width: 120px;
+        height: 52px;
+    }
+    /* //로고 */
+    /* 메뉴 */
+    nav #menu{
+        display: none;
+    }
+    header .menuicon{
+        display: block;
+        top: 48px;
+        left: 20px;
+    }
+    #actmenu{
+        width: 50%;
+    }
+    #actmenu #menu1>li{
+        width: 60%;
+    }
+    nav .close{
+        top: 25px;
+        left: 25px;
+    }
+    nav .close img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //메뉴 */
+    /* header 아이콘 */
+    header .hicon{
+        width: 17%;
+        top: 44px;
+        right: 20px;
+    }
+    /* //header 아이콘 */
+    /* 언어 */
+    .hicon .lang .langlist{
+        top: 35px;
+        left: -8px;
+    }
+    .hicon .lang .langlist>li{
+        line-height: 30px;
+    }
+    /* //언어 */
+    /* 검색 */
+    .search{
+        height: 170px;
+    }
+    .searchbox{
+        margin-top: 95px;
+    }
+    .searchbox input[type="search"]{
+        width: 50%;
+        height: 35px;
+    }
+    .searchbox button img{
+        width: 20px;
+        height: 20px;
+    }
+    .search>a{
+        top: 25px;
+        right: 25px;
+    }
+    .search>a img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //검색 */
+
+    /* 페이지 넘어가기 */
+    #pagedot{
+        display: none;
+    }
+    /* //페이지 넘어가기 */
+
+    /* 슬로건페이지 */
+    #slogan .slogantext{
+        height: auto;
+    }
+    #slogan .slogantext>li{
+        text-align: center;
+        font-size: 5vw;
+        padding: 250px 0;
+    }
+    #slogan .slogantext>li br{
+        display: block !important;
+    }
+    #sbtn button{
+        width: 35px;
+        height: 35px;
+    }
+    #sbtn button:nth-child(1){
+        margin-left: 20px;
+    }
+    #sbtn button:nth-child(2){
+        margin-right: 20px;
+    }
+    /* //슬로건페이지 */
+    /* 슬로건페이지 넘어가기 */
+    #spagedot{
+        width: 110px;
+        bottom: 25px;
+    }
+    #spagedot>a{
+        width: 21px;
+        height: 21px;
+    }
+    #spagedot>a .sdot{
+        width: 11px;
+        height: 11px;
+    }
+    /* //슬로건페이지 넘어가기 */
+    
+    /* 비즈니스페이지 */
+    #business{
+        height: auto;
+    }
+    #business #btitle{
+        position: static;
+        margin: 30px 20px;
+    }
+    #business #btitle p{
+        display: none;
+    }
+    #business #btitle p::before{
+        display: none;
+    }
+    #business #btitle h2{
+        font-size: 3.0769em;
+        letter-spacing: -2px;
+    }
+    #business #btitle h2 br{
+        display: none;
+    }
+    #cardbox{
+        position: static;
+        padding-left: 30px;
+    }
+    #ocean .bcard{
+        width: 260px;
+        height: 380px;
+        margin-right: 30px;
+    }
+    #ocean .bcard:hover{
+        border: 3px solid #0065bd;
+    }
+    #ocean .bcard:nth-child(1){
+        background-size: 240px 360px;
+    }
+    #ocean .bcard h3{
+        line-height: 380px;
+        font-size: 1.5384em;
+    }
+    #ocean .bcard:nth-child(2){
+        background-size: 240px 240px;
+        background-position: 8px 7px;
+    }
+    #ocean .bcard:nth-child(3){
+        background-size: 240px 240px;
+        background-position: 8px 7px;
+    }
+    #ocean .bcard:nth-child(4){
+        background-size: 240px 240px;
+        background-position: 8px 7px;
+    }
+    #ocean .bcard:nth-child(5){
+        background-size: 240px 240px;
+        background-position: 8px 7px;
+    }
+    #ocean .bcard dl{
+        margin-top: 260px;
+    }
+    #ocean .bcard dl .title{
+        font-size: 1.5384em;
+        margin-bottom: 15px;
+    }
+    #ocean .bcard dl .subtitle{
+        font-size: 1em;
+        width: 230px;
+        margin: auto;
+    }
+    #ocean .bcard dl .text{
+        display: none;
+    }
+    #ocean .bcard>a{
+        width: 50px;
+        height: 20px;
+        background-size: 50px 20px;
+        bottom: 7px;
+        right: 8px;
+    }
+
+    #food .bcard{
+        width: 260px;
+        height: 380px;
+        margin-right: 30px;
+    }
+    #food .bcard:hover{
+        border: 3px solid #0065bd;
+    }
+    #food .bcard:nth-child(1){
+        background-size: 240px 360px;
+    }
+    #food .bcard h3{
+        line-height: 380px;
+        font-size: 1.5384em;
+    }
+    #food .bcard:nth-child(2){
+        background-size: 240px 240px;
+        background-position: 8px 7px;
+    }
+    #food .bcard:nth-child(3){
+        background-size: 240px 240px;
+        background-position: 8px 7px;
+    }
+    #food .bcard:nth-child(4){
+        background-size: 240px 240px;
+        background-position: 8px 7px;
+    }
+    #food .bcard:nth-child(5){
+        background-size: 240px 240px;
+        background-position: 8px 7px;
+    }
+    #food .bcard dl{
+        margin-top: 260px;
+    }
+    #food .bcard dl .title{
+        font-size: 1.5384em;
+        margin-bottom: 15px;
+    }
+    #food .bcard dl .subtitle{
+        font-size: 1em;
+        width: 230px;
+        margin: auto;
+    }
+    #food .bcard dl .text{
+        display: none;
+    }
+    #food .bcard>a{
+        width: 50px;
+        height: 20px;
+        background-size: 50px 20px;
+        bottom: 7px;
+        right: 8px;
+    }
+
+    #living .bcard{
+        width: 260px;
+        height: 380px;
+        margin-right: 30px;
+    }
+    #living .bcard:hover{
+        border: 3px solid #0065bd;
+    }
+    #living .bcard:nth-child(1){
+        background-size: 240px 360px;
+    }
+    #living .bcard h3{
+        line-height: 380px;
+        font-size: 1.5384em;
+    }
+    #living .bcard:nth-child(2){
+        background-size: 240px 240px;
+        background-position: 8px 7px;
+    }
+    #living .bcard:nth-child(3){
+        background-size: 240px 240px;
+        background-position: 8px 7px;
+    }
+    #living .bcard:nth-child(4){
+        background-size: 240px 240px;
+        background-position: 8px 7px;
+    }
+    #living .bcard:nth-child(5){
+        background-size: 240px 240px;
+        background-position: 8px 7px;
+    }
+    #living .bcard dl{
+        margin-top: 260px;
+    }
+    #living .bcard dl .title{
+        font-size: 1.5384em;
+        margin-bottom: 15px;
+    }
+    #living .bcard dl .subtitle{
+        font-size: 1em;
+        width: 230px;
+        margin: auto;
+    }
+    #living .bcard dl .text{
+        display: none;
+    }
+    #living .bcard>a{
+        width: 50px;
+        height: 20px;
+        background-size: 50px 20px;
+        bottom: 7px;
+        right: 8px;
+    }
+
+    #global .bcard{
+        width: 260px;
+        height: 380px;
+        margin-right: 30px;
+    }
+    #global .bcard:hover{
+        border: 3px solid #0065bd;
+    }
+    #global .bcard:nth-child(1){
+        background-size: 240px 360px;
+    }
+    #global .bcard h3{
+        line-height: 380px;
+        font-size: 1.5384em;
+    }
+    #global .bcard:nth-child(2){
+        background-size: 240px 240px;
+        background-position: 8px 7px;
+    }
+    #global .bcard:nth-child(3){
+        background-size: 240px 240px;
+        background-position: 8px 7px;
+    }
+    #global .bcard:nth-child(4){
+        background-size: 240px 240px;
+        background-position: 8px 7px;
+    }
+    #global .bcard:nth-child(5){
+        background-size: 240px 240px;
+        background-position: 8px 7px;
+    }
+    #global .bcard:nth-child(6){
+        background-size: 240px 240px;
+        background-position: 8px 7px;
+    }
+    #global .bcard:nth-child(7){
+        background-size: 240px 240px;
+        background-position: 8px 7px;
+    }
+    #global .bcard dl{
+        margin-top: 260px;
+    }
+    #global .bcard dl .title{
+        font-size: 1.5384em;
+        margin-bottom: 15px;
+    }
+    #global .bcard dl .subtitle{
+        font-size: 1em;
+        width: 230px;
+        margin: auto;
+    }
+    #global .bcard dl .text{
+        display: none;
+    }
+    #global .bcard>a{
+        width: 50px;
+        height: 20px;
+        background-size: 50px 20px;
+        bottom: 7px;
+        right: 8px;
+    }
+    /* //비즈니스페이지 */
+
+    /* 미디어페이지 */
+    #media{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #media #mtitle{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: static;
+        padding: 0 20px;
+        margin: 100px 0 30px 0;
+    }
+    #media #mtitle p{
+        display: none;
+    }
+    #media #mtitle p::before{
+        display: none;
+    }
+    #media #mtitle h2{
+        font-size: 3.0769em;
+        letter-spacing: -2px;
+        margin-bottom: 0;
+    }
+    #media #mtitle h2 br{
+        display: none;
+    }
+    #media #mtitle a{
+        background-size: 130px 31px;
+        width: 130px;
+        padding-top: 7px;
+    }
+    #youtube{
+        width: 100%;
+        height: auto;
+        float: none;
+        position: static;
+        overflow-y: visible;
+        padding: 0 20px;
+        margin-top: 0;
+        margin-right: 0px;
+    }
+    #youtube .item:nth-child(1){
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #youtube .item:nth-child(2){
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #youtube .item:nth-child(3){
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #youtube .item:nth-child(4){
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #youtube .item:nth-child(5){
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #youtube .item:nth-child(6){
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #youtube .item:nth-child(7){
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    #youtube .item:nth-child(8){
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    #youtube .item:nth-child(9){
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    #youtube .item:nth-child(10){
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    
+    /* //미디어페이지 */
+
+    /* 뉴스페이지 */
+    #news{
+        height: auto;
+    }
+    #news #ntitle{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: static;
+        padding: 0 20px;
+        margin: 100px 0 30px 0;
+    }
+    #news #ntitle p{
+        display: none;
+    }
+    #news #ntitle p::before{
+        display: none;
+    }
+    #news #ntitle h2{
+        font-size: 3.5em;
+        letter-spacing: -3px;
+        margin-bottom: 0;
+    }
+    #news #ntitle h2 br{
+        display: none;
+    }
+    #news #ntitle a{
+        background-size: 130px 31px;
+        width: 130px;
+        padding-top: 7px;
+    }
+    #newsboxs{
+        position: static;
+        margin: 0px 20px 100px 20px;
+    }
+    #newsboxs .nbox{
+        padding-top: 20px;
+    }
+    #newsboxs .nbox:nth-child(1){
+        border-top: 3px solid #0065bd;
+        padding-top: 20px;
+    }
+    #newsboxs .nbox dl .title{
+        font-size: 1.4286em;
+        margin-bottom: 15px;
+    }
+    #newsboxs .nbox dl .text{
+        font-size: 1.0714em;
+        margin-bottom: 20px;
+    }
+    /* //뉴스페이지 */
+
+    /* 채용페이지 */
+    #recruitment{
+        height: auto;
+        padding: 180px 0;
+    }
+    #recruitment p:nth-of-type(1){
+        display: none;
+    }
+    #recruitment p:nth-of-type(1)::before{
+        display: none;
+    }
+    #recruitment p:nth-of-type(2){
+        font-size: 5vw;
+        margin-left: 20px;
+        line-height: 7vw;
+        top: 0;
+    }
+    #recruitment a{
+        background-size: 180px 130px;
+        width: 180px;
+        padding-left: 8px;
+        top: 305px;
+        right: 0;
+        margin-right: 20px;
+        font-size: 1.1538em;
+    }
+    /* //채용페이지 */
+
+    /* 챌린지페이지 */
+    #challenge{
+        height: auto;
+        padding: 150px 0;
+    }
+    #challenge a{
+        font-size: 2em;
+        top: 0;
+    }
+    /* //챌린지페이지 */
+
+    /* 하단 */
+    footer{
+        height: auto;
+    }
+    #fheader{
+        height: auto;
+    }
+    #fheader nav .bottommenu{
+        justify-content: space-between;
+    }
+    #fheader nav .bottommenu li{
+        padding: 0 15px;
+        line-height: 80px;
+    }
+    #fheader nav .bottommenu li a{
+        font-size: 1em;
+    }
+    #fbottom img{
+        display: none;
+    }
+    #fbottom  .ftext{
+        margin: auto;
+        padding: 80px 0;
+    }
+    /* //하단 */
+
+    /* 패밀리사이트 */
+    #familysite{
+        width: 100%;
+        height: 400px;
+        bottom: 310px;
+    }
+    .fsmenu{
+        margin: 0 25px;
+        margin-top: 50px;
+    }
+    .fsmenu .fsbox{
+        width: 18%;
+    }
+    .fsmenu .fsbox>li{
+        line-height: 35px;
+    }
+    .fsmenu .fsbox>li:nth-child(2){
+        margin-top: 15px;
+    }
+    .fsmenu .fsbox>li a{
+        font-size: 0.76923em;
+        font-weight: 800;
+    }
+    .fsmenu .fsbox .title{
+        border-top: 2px solid #0065bd;
+        border-bottom: 2px solid #0065bd;
+    }
+    #familysite>a{
+        top: 13px;
+        right: 13px;
+    }
+    #familysite>a img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //패밀리사이트 */
+
+    /* 최상단하단버튼 */
+    #udbtn{
+        width: 40px;
+        height: 90px;
+        bottom: 35px;
+        right: 12px;
+    }
+    #udbtn>a{
+        width: 40px;
+        height: 40px;
+        padding-top: 14px;
+
+    }
+    /* //최상단하단버튼 */ 
+
+    /* 팝업창 */
+    #popup{
+        width: 400px;
+        height: 250px;
+        top: 160px;
+    }
+    #popup button{
+        margin-top: 50px;
+    }
+    /* //팝업창 */
+}
+
+@media screen and (min-width:390px) and (max-width:519px){
+    body{
+        font-size: 12px;
+    }
+    header{
+        padding: 0 20px;
+        height: 80px;
+    }
+    /* 로고 */
+    header .logo{
+        position: static;
+        margin-top: 25px;
+        width: 100px;
+        height: 41px;
+    }
+    .logo img{
+        width: 100px;
+        height: 41px;
+    }
+    /* //로고 */
+    /* 메뉴 */
+    nav #menu{
+        display: none;
+    }
+    header .menuicon{
+        display: block;
+        top: 44px;
+        left: 20px;
+    }
+    header .menuicon img{
+        width: 20px;
+        height: 20px;
+    }
+    #actmenu{
+        width: 55%;
+    }
+    #actmenu #menu1>li{
+        width: 65%;
+    }
+    nav.close{
+        top: 25px;
+        left: 25px;
+    }
+    nav .close img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //메뉴 */
+    /* header 아이콘 */
+    header .hicon{
+        width: 13%;
+        top: 44px;
+        right: 20px;
+    }
+    .hicon .lang>h2 a img{
+        width: 20px;
+        height: 20px;
+    }
+    .hicon>h2 a img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //header 아이콘 */
+    /* 언어 */
+    .hicon .lang .langlist{
+        top: 25px;
+        left: -9px;
+    }
+    .hicon .lang .langlist>li{
+        line-height: 25px;
+        padding: 3px 7px;
+    }
+    .hicon .lang .langlist>li>a{
+        font-size: 1em;
+    }
+    /* //언어 */
+    /* 검색 */
+    .search{
+        height: 170px;
+    }
+    .searchbox{
+        margin-top: 95px;
+    }
+    .searchbox input[type="search"]{
+        width: 50%;
+        height: 35px;
+    }
+    .searchbox button img{
+        width: 20px;
+        height: 20px;
+    }
+    .search>a{
+        top: 25px;
+        right: 25px;
+    }
+    .search>a img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //검색 */
+
+    /* 페이지 넘어가기 */
+    #pagedot{
+        display: none;
+    }
+    /* //페이지 넘어가기 */
+
+    /* 슬로건페이지 */
+    #slogan .slogantext{
+        height: auto;
+    }
+    #slogan .slogantext>li{
+        text-align: center;
+        font-size: 5.5vw;
+        padding: 180px 0;
+        line-height: 8vw;
+    }
+    #slogan .slogantext>li br{
+        display: block !important;
+    }
+    #sbtn button{
+        width: 25px;
+        height: 25px;
+    }
+    #sbtn button:nth-child(1){
+        margin-left: 20px;
+        padding-left: 5px;
+    }
+    #sbtn button:nth-child(2){
+        margin-right: 20px;
+        padding-right: 5px;
+    }
+    #sbtn button img{
+        width: 13px;
+        height: 13px;
+    }
+    /* //슬로건페이지 */
+    /* 슬로건페이지 넘어가기 */
+    #spagedot{
+        width: 100px;
+        bottom: 20px;
+    }
+    #spagedot>a{
+        width: 17px;
+        height: 17px;
+    }
+    #spagedot>a .sdot{
+        width: 9px;
+        height: 9px;
+        margin-top: 3px;
+    }
+    /* //슬로건페이지 넘어가기 */
+    
+    /* 비즈니스페이지 */
+    #business{
+        height: auto;
+    }
+    #business #btitle{
+        position: static;
+        margin: 20px 20px;
+    }
+    #business #btitle p{
+        display: none;
+    }
+    #business #btitle p::before{
+        display: none;
+    }
+    #business #btitle h2{
+        font-size: 2.3333em;
+        letter-spacing: -1px;
+    }
+    #business #btitle h2 br{
+        display: none;
+    }
+    #cardbox{
+        position: static;
+        padding-left: 15px;
+    }
+    #ocean .bcard{
+        width: 180px;
+        height: 270px;
+        margin-right: 10px;
+    }
+    #ocean .bcard:hover{
+        border: 3px solid #0065bd;
+    }
+    #ocean .bcard:nth-child(1){
+        background-size: 165px 255px;
+    }
+    #ocean .bcard h3{
+        line-height: 270px;
+        font-size: 1.3333em;
+    }
+    #ocean .bcard:nth-child(2){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #ocean .bcard:nth-child(3){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #ocean .bcard:nth-child(4){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #ocean .bcard:nth-child(5){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #ocean .bcard dl{
+        margin-top: 180px;
+    }
+    #ocean .bcard dl .title{
+        font-size: 1.3333em;
+        margin-bottom: 7px;
+    }
+    #ocean .bcard dl .subtitle{
+        font-size: 0.83333em;
+        width: 165px;
+        margin: auto;
+    }
+    #ocean .bcard dl .text{
+        display: none;
+    }
+    #ocean .bcard>a{
+        width: 30px;
+        height: 10px;
+        background-size: 30px 10px;
+        bottom: 7px;
+        right: 6.5px;
+    }
+
+    #food .bcard{
+        width: 180px;
+        height: 270px;
+        margin-right: 10px;
+    }
+    #food .bcard:hover{
+        border: 3px solid #0065bd;
+    }
+    #food .bcard:nth-child(1){
+        background-size: 165px 255px;
+    }
+    #food .bcard h3{
+        line-height: 270px;
+        font-size: 1.3333em;
+    }
+    #food .bcard:nth-child(2){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #food .bcard:nth-child(3){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #food .bcard:nth-child(4){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #food .bcard:nth-child(5){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #food .bcard dl{
+        margin-top: 180px;
+    }
+    #food .bcard dl .title{
+        font-size: 1.3333em;
+        margin-bottom: 7px;
+    }
+    #food .bcard dl .subtitle{
+        font-size: 0.83333em;
+        width: 165px;
+        margin: auto;
+    }
+    #food .bcard dl .text{
+        display: none;
+    }
+    #food .bcard>a{
+        width: 30px;
+        height: 10px;
+        background-size: 30px 10px;
+        bottom: 7px;
+        right: 6.5px;
+    }
+
+    #living .bcard{
+        width: 180px;
+        height: 270px;
+        margin-right: 10px;
+    }
+    #living .bcard:hover{
+        border: 3px solid #0065bd;
+    }
+    #living .bcard:nth-child(1){
+        background-size: 165px 255px;
+    }
+    #living .bcard h3{
+        line-height: 270px;
+        font-size: 1.3333em;
+    }
+    #living .bcard:nth-child(2){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #living .bcard:nth-child(3){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #living .bcard:nth-child(4){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #living .bcard:nth-child(5){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #living .bcard dl{
+        margin-top: 180px;
+    }
+    #living .bcard dl .title{
+        font-size: 1.3333em;
+        margin-bottom: 7px;
+    }
+    #living .bcard dl .subtitle{
+        font-size: 0.83333em;
+        width: 165px;
+        margin: auto;
+    }
+    #living .bcard dl .text{
+        display: none;
+    }
+    #living .bcard>a{
+        width: 30px;
+        height: 10px;
+        background-size: 30px 10px;
+        bottom: 7px;
+        right: 6.5px;
+    }
+
+    #global .bcard{
+        width: 180px;
+        height: 270px;
+        margin-right: 10px;
+    }
+    #global .bcard:hover{
+        border: 3px solid #0065bd;
+    }
+    #global .bcard:nth-child(1){
+        background-size: 165px 255px;
+    }
+    #global .bcard h3{
+        line-height: 270px;
+        font-size: 1.3333em;
+    }
+    #global .bcard:nth-child(2){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #global .bcard:nth-child(3){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #global .bcard:nth-child(4){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #global .bcard:nth-child(5){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #global .bcard:nth-child(6){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #global .bcard:nth-child(7){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #global .bcard dl{
+        margin-top: 180px;
+    }
+    #global .bcard dl .title{
+        font-size: 1.3333em;
+        margin-bottom: 7px;
+    }
+    #global .bcard dl .subtitle{
+        font-size: 0.83333em;
+        width: 165px;
+        margin: auto;
+    }
+    #global .bcard dl .text{
+        display: none;
+    }
+    #global .bcard>a{
+        width: 30px;
+        height: 10px;
+        background-size: 30px 10px;
+        bottom: 7px;
+        right: 6.5px;
+    }
+    /* //비즈니스페이지 */
+
+    /* 미디어페이지 */
+    #media{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #media #mtitle{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: static;
+        padding: 0 20px;
+        margin: 80px 0 20px 0;
+    }
+    #media #mtitle p{
+        display: none;
+    }
+    #media #mtitle p::before{
+        display: none;
+    }
+    #media #mtitle h2{
+        font-size: 2.3333em;
+        letter-spacing: -1px;
+        margin-bottom: 0;
+    }
+    #media #mtitle h2 br{
+        display: none;
+    }
+    #media #mtitle a{
+        background-size: 75px 20px;
+        width: 75px;
+        padding-top: 12px;
+        font-size: 1em;
+    }
+    #youtube{
+        width: 100%;
+        height: auto;
+        float: none;
+        position: static;
+        overflow-y: visible;
+        padding: 0 20px;
+        margin-top: 0;
+        margin-right: 0px;
+        gap: 30px;
+    }
+    #youtube .item:nth-child(1){
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #youtube .item:nth-child(2){
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #youtube .item:nth-child(3){
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #youtube .item:nth-child(4){
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #youtube .item:nth-child(5){
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #youtube .item:nth-child(6){
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #youtube .item:nth-child(7){
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    #youtube .item:nth-child(8){
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    #youtube .item:nth-child(9){
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    #youtube .item:nth-child(10){
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    
+    /* //미디어페이지 */
+
+    /* 뉴스페이지 */
+    #news{
+        height: auto;
+    }
+    #news #ntitle{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: static;
+        padding: 0 20px;
+        margin: 80px 0 20px 0;
+    }
+    #news #ntitle p{
+        display: none;
+    }
+    #news #ntitle p::before{
+        display: none;
+    }
+    #news #ntitle h2{
+        font-size: 2.3333em;
+        letter-spacing: -1px;
+        margin-bottom: 0;
+    }
+    #news #ntitle h2 br{
+        display: none;
+    }
+    #news #ntitle a{
+        background-size: 75px 20px;
+        width: 75px;
+        padding-top: 12px;
+        font-size: 1em;
+    }
+    #newsboxs{
+        position: static;
+        margin: 0px 20px 100px 20px;
+    }
+    #newsboxs .nbox{
+        padding-top: 15px;
+        border-bottom: 2px solid #0065bd;
+    }
+    #newsboxs .nbox:nth-child(1){
+        border-top: 2px solid #0065bd;
+        padding-top: 15px;
+    }
+    #newsboxs .nbox dl .title{
+        font-size: 1em;
+        margin-bottom: 12px;
+    }
+    #newsboxs .nbox dl .text{
+        font-size: 0.1em;
+        margin-bottom: 16px;
+    }
+    #newsboxs .nbox dl .date{
+        font-size: 0.1em;
+    }
+    /* //뉴스페이지 */
+
+    /* 채용페이지 */
+    #recruitment{
+        height: auto;
+        padding: 130px 0;
+    }
+    #recruitment p:nth-of-type(1){
+        display: none;
+    }
+    #recruitment p:nth-of-type(1)::before{
+        display: none;
+    }
+    #recruitment p:nth-of-type(2){
+        font-size: 5.5vw;
+        margin-left: 20px;
+        line-height: 8vw;
+        top: 0;
+    }
+    #recruitment a{
+        background-size: 120px 50px;
+        width: 120px;
+        height: 50px;
+        line-height: 40px;
+        padding-left: 6px;
+        top: 250px;
+        right: 0;
+        margin-right: 20px;
+        font-size: 0.8333em;
+    }
+    /* //채용페이지 */
+
+    /* 챌린지페이지 */
+    #challenge{
+        height: auto;
+        padding: 100px 0;
+    }
+    #challenge a{
+        font-size: 1.8333em;
+        top: 0;
+    }
+    /* //챌린지페이지 */
+
+    /* 하단 */
+    footer{
+        height: auto;
+    }
+    #fheader{
+        height: auto;
+    }
+    #fheader nav .bottommenu{
+        justify-content: space-between;
+    }
+    #fheader nav .bottommenu li{
+        padding: 0 10px;
+        line-height: 60px;
+    }
+    #fheader nav .bottommenu li a{
+        font-size: 1em;
+    }
+    #fbottom img{
+        display: none;
+    }
+    #fbottom  .ftext{
+        margin: auto;
+        padding: 60px 0;
+    }
+    #fbottom  .ftext .adress{
+        margin-bottom: 20px;
+    }
+    #fbottom  .ftext .adress p{
+        font-size: 1em;
+        float: none;
+    }
+    #fbottom  .ftext .adress a{
+        float: none;
+        width: 60px;
+        height: 25px;
+        font-size: 0.8333em;
+        line-height: 25px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    #fbottom  .ftext>p{
+        font-size: 0.8333em;
+        margin-left: 0;
+        text-align: center;
+    }
+    /* //하단 */
+
+    /* 패밀리사이트 */
+    #familysite{
+        width: 100%;
+        height: 280px;
+        bottom: 290px;
+    }
+    .fsmenu{
+        margin: 0 15px;
+        margin-top: 30px;
+    }
+    .fsmenu .fsbox{
+        width: 18%;
+    }
+    .fsmenu .fsbox>li{
+        line-height: 25px;
+    }
+    .fsmenu .fsbox>li:nth-child(2){
+        margin-top: 10px;
+    }
+    .fsmenu .fsbox>li a{
+        font-size: 0.6666em;
+        font-weight: 800;
+    }
+    .fsmenu .fsbox .title{
+        border-top: 2px solid #0065bd;
+        border-bottom: 2px solid #0065bd;
+    }
+    #familysite>a{
+        top: 10px;
+        right: 10px;
+    }
+    #familysite>a img{
+        width: 13px;
+        height: 13px;
+    }
+    /* //패밀리사이트 */
+
+    /* 최상단하단버튼 */
+    #udbtn{
+        width: 25px;
+        height: 55px;
+        bottom: 35px;
+        right: 10px;
+    }
+    #udbtn>a{
+        width: 25px;
+        height: 25px;
+        padding-top: 6px;
+    }
+    #udbtn>a img{
+        width: 13px;
+        height: 13px;
+    }
+    /* //최상단하단버튼 */ 
+
+    /* 팝업창 */
+    #popup{
+        width: 300px;
+        height: 200px;
+        top: 130px;
+    }
+    #popup p{
+        margin-top: 10px;
+        font-size: 1em;
+    }
+    #popup button{
+        padding: 7px 12px;
+        margin-top: 40px;
+        font-size: 1em;
+    }
+    /* //팝업창 */
+}
+
+@media screen and (max-width:389px) {
+    body{
+        font-size: 11px;
+    }
+    header{
+        padding: 0 20px;
+        height: 80px;
+    }
+    /* 로고 */
+    header .logo{
+        position: static;
+        margin-top: 25px;
+        width: 100px;
+        height: 41px;
+    }
+    .logo img{
+        width: 100px;
+        height: 41px;
+    }
+    /* //로고 */
+    /* 메뉴 */
+    nav #menu{
+        display: none;
+    }
+    header .menuicon{
+        display: block;
+        top: 44px;
+        left: 20px;
+    }
+    header .menuicon img{
+        width: 20px;
+        height: 20px;
+    }
+    #actmenu{
+        width: 60%;
+    }
+    #actmenu #menu1>li{
+        width: 65%;
+    }
+    nav .close{
+        top: 20px;
+        left: 20px;
+    }
+    nav .close img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //메뉴 */
+    /* header 아이콘 */
+    header .hicon{
+        width: 15%;
+        top: 44px;
+        right: 20px;
+    }
+    .hicon .lang>h2 a img{
+        width: 20px;
+        height: 20px;
+    }
+    .hicon>h2 a img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //header 아이콘 */
+    /* 언어 */
+    .hicon .lang .langlist{
+        top: 25px;
+        left: -9px;
+    }
+    .hicon .lang .langlist>li{
+        line-height: 25px;
+        padding: 3px 7px;
+    }
+    .hicon .lang .langlist>li>a{
+        font-size: 1em;
+    }
+    /* //언어 */
+    /* 검색 */
+    .search{
+        height: 170px;
+    }
+    .searchbox{
+        margin-top: 95px;
+    }
+    .searchbox input[type="search"]{
+        width: 50%;
+        height: 35px;
+    }
+    .searchbox button img{
+        width: 20px;
+        height: 20px;
+    }
+    .search>a{
+        top: 20px;
+        right: 20px;
+    }
+    .search>a img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //검색 */
+
+    /* 페이지 넘어가기 */
+    #pagedot{
+        display: none;
+    }
+    /* //페이지 넘어가기 */
+
+    /* 슬로건페이지 */
+    #slogan .slogantext{
+        height: auto;
+    }
+    #slogan .slogantext>li{
+        text-align: center;
+        font-size: 5.5vw;
+        padding: 180px 0;
+        line-height: 8vw;
+    }
+    #slogan .slogantext>li br{
+        display: block !important;
+    }
+    #sbtn button{
+        width: 25px;
+        height: 25px;
+    }
+    #sbtn button:nth-child(1){
+        margin-left: 20px;
+        padding-left: 5px;
+    }
+    #sbtn button:nth-child(2){
+        margin-right: 20px;
+        padding-right: 5px;
+    }
+    #sbtn button img{
+        width: 13px;
+        height: 13px;
+    }
+    /* //슬로건페이지 */
+    /* 슬로건페이지 넘어가기 */
+    #spagedot{
+        width: 100px;
+        bottom: 20px;
+    }
+    #spagedot>a{
+        width: 17px;
+        height: 17px;
+    }
+    #spagedot>a .sdot{
+        width: 9px;
+        height: 9px;
+        margin-top: 3px;
+    }
+    /* //슬로건페이지 넘어가기 */
+    
+    /* 비즈니스페이지 */
+    #business{
+        height: auto;
+    }
+    #business #btitle{
+        position: static;
+        margin: 20px 20px;
+    }
+    #business #btitle p{
+        display: none;
+    }
+    #business #btitle p::before{
+        display: none;
+    }
+    #business #btitle h2{
+        font-size: 2.3333em;
+        letter-spacing: -1px;
+    }
+    #business #btitle h2 br{
+        display: none;
+    }
+    #cardbox{
+        position: static;
+        padding-left: 15px;
+    }
+    #ocean .bcard{
+        width: 180px;
+        height: 270px;
+        margin-right: 10px;
+    }
+    #ocean .bcard:hover{
+        border: 3px solid #0065bd;
+    }
+    #ocean .bcard:nth-child(1){
+        background-size: 165px 255px;
+    }
+    #ocean .bcard h3{
+        line-height: 270px;
+        font-size: 1.3333em;
+    }
+    #ocean .bcard:nth-child(2){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #ocean .bcard:nth-child(3){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #ocean .bcard:nth-child(4){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #ocean .bcard:nth-child(5){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #ocean .bcard dl{
+        margin-top: 180px;
+    }
+    #ocean .bcard dl .title{
+        font-size: 1.3333em;
+        margin-bottom: 7px;
+    }
+    #ocean .bcard dl .subtitle{
+        font-size: 0.83333em;
+        width: 165px;
+        margin: auto;
+    }
+    #ocean .bcard dl .text{
+        display: none;
+    }
+    #ocean .bcard>a{
+        width: 30px;
+        height: 10px;
+        background-size: 30px 10px;
+        bottom: 7px;
+        right: 6.5px;
+    }
+
+    #food .bcard{
+        width: 180px;
+        height: 270px;
+        margin-right: 10px;
+    }
+    #food .bcard:hover{
+        border: 3px solid #0065bd;
+    }
+    #food .bcard:nth-child(1){
+        background-size: 165px 255px;
+    }
+    #food .bcard h3{
+        line-height: 270px;
+        font-size: 1.3333em;
+    }
+    #food .bcard:nth-child(2){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #food .bcard:nth-child(3){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #food .bcard:nth-child(4){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #food .bcard:nth-child(5){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #food .bcard dl{
+        margin-top: 180px;
+    }
+    #food .bcard dl .title{
+        font-size: 1.3333em;
+        margin-bottom: 7px;
+    }
+    #food .bcard dl .subtitle{
+        font-size: 0.83333em;
+        width: 165px;
+        margin: auto;
+    }
+    #food .bcard dl .text{
+        display: none;
+    }
+    #food .bcard>a{
+        width: 30px;
+        height: 10px;
+        background-size: 30px 10px;
+        bottom: 7px;
+        right: 6.5px;
+    }
+
+    #living .bcard{
+        width: 180px;
+        height: 270px;
+        margin-right: 10px;
+    }
+    #living .bcard:hover{
+        border: 3px solid #0065bd;
+    }
+    #living .bcard:nth-child(1){
+        background-size: 165px 255px;
+    }
+    #living .bcard h3{
+        line-height: 270px;
+        font-size: 1.3333em;
+    }
+    #living .bcard:nth-child(2){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #living .bcard:nth-child(3){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #living .bcard:nth-child(4){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #living .bcard:nth-child(5){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #living .bcard dl{
+        margin-top: 180px;
+    }
+    #living .bcard dl .title{
+        font-size: 1.3333em;
+        margin-bottom: 7px;
+    }
+    #living .bcard dl .subtitle{
+        font-size: 0.83333em;
+        width: 165px;
+        margin: auto;
+    }
+    #living .bcard dl .text{
+        display: none;
+    }
+    #living .bcard>a{
+        width: 30px;
+        height: 10px;
+        background-size: 30px 10px;
+        bottom: 7px;
+        right: 6.5px;
+    }
+
+    #global .bcard{
+        width: 180px;
+        height: 270px;
+        margin-right: 10px;
+    }
+    #global .bcard:hover{
+        border: 3px solid #0065bd;
+    }
+    #global .bcard:nth-child(1){
+        background-size: 165px 255px;
+    }
+    #global .bcard h3{
+        line-height: 270px;
+        font-size: 1.3333em;
+    }
+    #global .bcard:nth-child(2){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #global .bcard:nth-child(3){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #global .bcard:nth-child(4){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #global .bcard:nth-child(5){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #global .bcard:nth-child(6){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #global .bcard:nth-child(7){
+        background-size: 164px 164px;
+        background-position: 6.5px 7px;
+    }
+    #global .bcard dl{
+        margin-top: 180px;
+    }
+    #global .bcard dl .title{
+        font-size: 1.3333em;
+        margin-bottom: 7px;
+    }
+    #global .bcard dl .subtitle{
+        font-size: 0.83333em;
+        width: 165px;
+        margin: auto;
+    }
+    #global .bcard dl .text{
+        display: none;
+    }
+    #global .bcard>a{
+        width: 30px;
+        height: 10px;
+        background-size: 30px 10px;
+        bottom: 7px;
+        right: 6.5px;
+    }
+    /* //비즈니스페이지 */
+
+    /* 미디어페이지 */
+    #media{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #media #mtitle{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: static;
+        padding: 0 20px;
+        margin: 80px 0 20px 0;
+    }
+    #media #mtitle p{
+        display: none;
+    }
+    #media #mtitle p::before{
+        display: none;
+    }
+    #media #mtitle h2{
+        font-size: 2.3333em;
+        letter-spacing: -1px;
+        margin-bottom: 0;
+    }
+    #media #mtitle h2 br{
+        display: none;
+    }
+    #media #mtitle a{
+        background-size: 75px 20px;
+        width: 75px;
+        padding-top: 12px;
+        font-size: 1em;
+    }
+    #youtube{
+        width: 100%;
+        height: auto;
+        float: none;
+        position: static;
+        overflow-y: visible;
+        padding: 0 20px;
+        margin-top: 0;
+        margin-right: 0px;
+        gap: 30px;
+    }
+    #youtube .item:nth-child(1){
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #youtube .item:nth-child(2){
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #youtube .item:nth-child(3){
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #youtube .item:nth-child(4){
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    #youtube .item:nth-child(5){
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #youtube .item:nth-child(6){
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #youtube .item:nth-child(7){
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    #youtube .item:nth-child(8){
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    #youtube .item:nth-child(9){
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    #youtube .item:nth-child(10){
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    
+    /* //미디어페이지 */
+
+    /* 뉴스페이지 */
+    #news{
+        height: auto;
+    }
+    #news #ntitle{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: static;
+        padding: 0 20px;
+        margin: 80px 0 20px 0;
+    }
+    #news #ntitle p{
+        display: none;
+    }
+    #news #ntitle p::before{
+        display: none;
+    }
+    #news #ntitle h2{
+        font-size: 2.3333em;
+        letter-spacing: -1px;
+        margin-bottom: 0;
+    }
+    #news #ntitle h2 br{
+        display: none;
+    }
+    #news #ntitle a{
+        background-size: 75px 20px;
+        width: 75px;
+        padding-top: 12px;
+        font-size: 1em;
+    }
+    #newsboxs{
+        position: static;
+        margin: 0px 20px 100px 20px;
+    }
+    #newsboxs .nbox{
+        padding-top: 15px;
+        border-bottom: 2px solid #0065bd;
+    }
+    #newsboxs .nbox:nth-child(1){
+        border-top: 2px solid #0065bd;
+        padding-top: 15px;
+    }
+    #newsboxs .nbox dl .title{
+        font-size: 1em;
+        margin-bottom: 12px;
+    }
+    #newsboxs .nbox dl .text{
+        font-size: 0.1em;
+        margin-bottom: 16px;
+    }
+    #newsboxs .nbox dl .date{
+        font-size: 0.1em;
+    }
+    /* //뉴스페이지 */
+
+    /* 채용페이지 */
+    #recruitment{
+        height: auto;
+        padding: 130px 0;
+    }
+    #recruitment p:nth-of-type(1){
+        display: none;
+    }
+    #recruitment p:nth-of-type(1)::before{
+        display: none;
+    }
+    #recruitment p:nth-of-type(2){
+        font-size: 5.5vw;
+        margin-left: 20px;
+        line-height: 8vw;
+        top: 0;
+    }
+    #recruitment a{
+        background-size: 120px 50px;
+        width: 120px;
+        height: 50px;
+        line-height: 40px;
+        padding-left: 6px;
+        top: 250px;
+        right: 0;
+        margin-right: 20px;
+        font-size: 0.8333em;
+    }
+    /* //채용페이지 */
+
+    /* 챌린지페이지 */
+    #challenge{
+        height: auto;
+        padding: 100px 0;
+    }
+    #challenge a{
+        font-size: 1.8333em;
+        top: 0;
+    }
+    /* //챌린지페이지 */
+
+    /* 하단 */
+    footer{
+        height: auto;
+    }
+    #fheader{
+        height: auto;
+    }
+    #fheader nav .bottommenu{
+        justify-content: flex-start;
+    }
+    #fheader nav .bottommenu li{
+        padding: 0 10px;
+        line-height: 60px;
+    }
+    #fheader nav .bottommenu li a{
+        font-size: 1em;
+    }
+    #fbottom img{
+        display: none;
+    }
+    #fbottom  .ftext{
+        margin: auto;
+        padding: 60px 0;
+    }
+    #fbottom  .ftext .adress{
+        margin-bottom: 20px;
+    }
+    #fbottom  .ftext .adress p{
+        font-size: 1em;
+        float: none;
+    }
+    #fbottom  .ftext .adress a{
+        float: none;
+        width: 60px;
+        height: 25px;
+        font-size: 0.8333em;
+        line-height: 25px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    #fbottom  .ftext>p{
+        font-size: 0.8333em;
+        margin-left: 0;
+        text-align: center;
+    }
+    /* //하단 */
+
+    /* 패밀리사이트 */
+    #familysite{
+        width: 100%;
+        height: 280px;
+        bottom: 290px;
+    }
+    .fsmenu{
+        margin: 0 15px;
+        margin-top: 30px;
+    }
+    .fsmenu .fsbox{
+        width: 18%;
+    }
+    .fsmenu .fsbox>li{
+        line-height: 25px;
+    }
+    .fsmenu .fsbox>li:nth-child(2){
+        margin-top: 10px;
+    }
+    .fsmenu .fsbox>li a{
+        font-size: 0.6666em;
+        font-weight: 800;
+    }
+    .fsmenu .fsbox .title{
+        border-top: 2px solid #0065bd;
+        border-bottom: 2px solid #0065bd;
+    }
+    #familysite>a{
+        top: 10px;
+        right: 10px;
+    }
+    #familysite>a img{
+        width: 13px;
+        height: 13px;
+    }
+    /* //패밀리사이트 */
+
+    /* 최상단하단버튼 */
+    #udbtn{
+        width: 25px;
+        height: 55px;
+        bottom: 35px;
+        right: 10px;
+    }
+    #udbtn>a{
+        width: 25px;
+        height: 25px;
+        padding-top: 6px;
+    }
+    #udbtn>a img{
+        width: 13px;
+        height: 13px;
+    }
+    /* //최상단하단버튼 */
+
+    /* 팝업창 */
+    #popup{
+        width: 250px;
+        height: 150px;
+        top: 100px;
+        padding: 5px;
+    }
+    #popup p{
+        margin-top: 10px;
+        font-size: 1em;
+    }
+    #popup button{
+        padding: 7px 12px;
+        margin-top: 10px;
+        font-size: 1em;
+    }
+    /* //팝업창 */
+}

@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동원그룹</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media_style.css">
+    <script src="script/jquery-3.6.4.min.js"></script>
+    <script src="script/jquery-ui.min.js"></script>
+    <script src="script/main.js" defer></script>
+    <script src="script/slick.js"></script>
+    <script src="script/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <!-- headear -->
+    <header>
+        <!-- logo -->
+        <h1><a href="#" class="logo"><img src="icon/mainlogo.svg" alt="동원"></a></h1>
+        <!-- //logo -->
+
+        <!-- menu -->
+        <!-- 반응형 메뉴 -->
+        <a href="#" class="menuicon"><img src="icon/menu-burger.svg" alt="동원그룹 사이트 메뉴"></a>
+        
+        <nav id="actmenu">
+            <ul id="menu1">
+                <li><a href="#">동원 그룹<img src="icon/downarrow.svg" alt="동원그룹 세부메뉴 더보기"></a>
+                    <ul class="submenu1">
+                        <li><a href="#">경영 철학</a></li>
+                        <li><a href="#">주요 연혁</a></li>
+                        <li><a href="#">챌린지 히스토리</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">사업 영역<img src="icon/downarrow.svg" alt="사업영역 세부메뉴 더보기"></a>
+                    <ul class="submenu1">
+                        <li><a href="#">Ocean & Logistics</a></li>
+                        <li><a href="#">Food Culture</a></li>
+                        <li><a href="#">Living & Finance</a></li>
+                        <li><a href="#">Global</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">정도 경영<img src="icon/downarrow.svg" alt="정도경영 세부메뉴 더보기"></a>
+                    <ul class="submenu1">
+                        <li><a href="#">윤리 헌장</a></li>
+                        <li><a href="#">신고센터 안내</a></li>
+                        <li><a href="#">신고하기</a></li>
+                        <li><a href="#">답변확인</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Media Hub<img src="icon/downarrow.svg" alt="media hub 세부메뉴 더보기"></a>
+                    <ul class="submenu1">
+                        <li><a href="#">동원News</a></li>
+                        <li><a href="#">동원Now</a></li>
+                        <li><a href="#">동원Food</a></li>
+                        <li><a href="#">동원Tube</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">인재 채용<img src="icon/downarrow.svg" alt="인재채용 세부메뉴 더보기"></a>
+                    <ul class="submenu1">
+                        <li><a href="#">인재상</a></li>
+                        <li><a href="#">인사 제도</a></li>
+                        <li><a href="#">교육 제도</a></li>
+                        <li><a href="#">복지 제도</a></li>
+                        <li><a href="#">채용사이트</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">커뮤니티<img src="icon/downarrow.svg" alt="커뮤니티 세부메뉴 더보기"></a>
+                    <ul class="submenu1">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">자료실</a></li>
+                    </ul>
+                </li>
+            </ul>
+             <a href="#" class="close"><img src="icon/close.svg" alt="반응형메뉴 닫기"></a>
+        </nav>
+       
+        <!-- //반응형 메뉴 -->
+
+        <nav>
+            <h2 class="hidden">동원그룹 사이트 메뉴</h2>
+            <ul id="menu">
+                <li><a href="#">동원 그룹</a>
+                    <ul class="submenu">
+                        <li><a href="#">경영 철학</a></li>
+                        <li><a href="#">주요 연혁</a></li>
+                        <li><a href="#">챌린지 히스토리</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">사업 영역</a>
+                    <ul class="submenu">
+                        <li><a href="#">Ocean & Logistics</a></li>
+                        <li><a href="#">Food Culture</a></li>
+                        <li><a href="#">Living & Finance</a></li>
+                        <li><a href="#">Global</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">정도 경영</a>
+                    <ul class="submenu">
+                        <li><a href="#">윤리 헌장</a></li>
+                        <li><a href="#">신고센터 안내</a></li>
+                        <li><a href="#">신고하기</a></li>
+                        <li><a href="#">답변확인</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Media Hub</a>
+                    <ul class="submenu">
+                        <li><a href="#">동원News</a></li>
+                        <li><a href="#">동원Now</a></li>
+                        <li><a href="#">동원Food</a></li>
+                        <li><a href="#">동원Tube</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">인재 채용</a>
+                    <ul class="submenu">
+                        <li><a href="#">인재상</a></li>
+                        <li><a href="#">인사 제도</a></li>
+                        <li><a href="#">교육 제도</a></li>
+                        <li><a href="#">복지 제도</a></li>
+                        <li><a href="#">채용사이트</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">커뮤니티</a>
+                    <ul class="submenu">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">자료실</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!-- //menu -->
+
+        <!-- header icon -->
+        <div class="hicon">
+            <!-- 언어선택 -->
+            <div class="lang">
+               <h2><a href="#"><img src="icon/language.svg" alt="언어선택"></a></h2>
+                <ul class="langlist">
+                    <li><a href="#">KOR</a></li>
+                    <li><a href="#">ENG</a></li>
+                </ul> 
+            </div>
+            <!-- //언어선택 -->
+
+            <!-- 검색 -->
+            <h2><a href="#"><img src="icon/search.svg" alt="검색"></a></h2>
+            <!-- //검색 -->
+        </div>
+        <!-- //header icon -->
+
+        <!-- 검색창 -->
+        <div class="search">
+            <a href="#"><img src="icon/cross-w.svg" alt="검색닫기"></a>
+            <form class="searchbox">
+                <input type="search" name="sh" aria-label="검색내용입력">
+                <button type="button"><img src="icon/search.svg" alt="검색하기"></button>
+            </form>
+        </div>
+        
+        <!-- //검색창 -->
+    
+    </header>
+    <!-- //headear -->
+
+    <!-- contents start -->
+        <!-- 페이지 넘어가기 -->
+        <div id="pagedot">
+            <a href="#"><div class="pdot"></div><span class="hidden">메인 첫번째 섹션이동</span></a>
+            <a href="#"><div class="pdot"></div><span class="hidden">메인 두번째 섹션이동</span></a>
+            <a href="#"><div class="pdot"></div><span class="hidden">메인 세번째 섹션이동</span></a>
+            <a href="#"><div class="pdot"></div><span class="hidden">메인 네번째 섹션이동</span></a>
+            <a href="#"><div class="pdot"></div><span class="hidden">메인 다섯번째 섹션이동</span></a>
+            <a href="#"><div class="pdot"></div><span class="hidden">메인 여섯번째 섹션이동</span></a>
+        </div>
+        <!-- //페이지 넘어가기 -->
+
+        <main>
+            <!-- 슬로건페이지 -->
+            <section id="slogan" class="sect">
+                <h2 class="hidden">동원 슬로건</h2>
+
+                <ul class="slogantext">
+                    <li class="slogan1">새로운 가치를 창조하는<br> 사회 필요 기업이 되겠습니다.</li>
+                    <li class="slogan2">바다의 무한한 가치를<br> 식탁으로 전합니다.</li>
+                    <li class="slogan3">바다를 넘어 전세계에<br> 동원의 가치를 알리겠습니다.</li>
+                </ul>
+
+                <!-- 슬로건 넘기는 버튼 -->
+                <form id="sbtn">
+                    <button type="button"><img src="icon/left.svg" alt="이전 슬로건보기"></button>
+                    <button type="button"><img src="icon/right.svg" alt="다음 슬로건보기"></button>
+                </form>
+                <!-- //슬로건 넘기는 버튼 -->
+
+                <!-- 슬로건 페이지 넘어가기 -->
+                <div id="spagedot">
+                    <a href="#"><div class="sdot"></div><span class="hidden">첫번째 슬로건보기</span></a>
+                    <a href="#"><div class="sdot"></div><span class="hidden">두번째 슬로건보기</span></a>
+                    <a href="#"><div class="sdot"></div><span class="hidden">세번째 슬로건보기</span></a>
+                </div>
+                <!-- //슬로건 페이지 넘어가기 -->
+            </section>
+            <!-- //슬로건페이지 -->
+
+            <!-- 비즈니스페이지 -->
+            <section id="business" class="sect">
+
+                <!-- title -->
+                <div id="btitle">
+                    <p>Business</p>
+                    <h2>Group <br>Business</h2>
+                </div>
+                <!-- //title -->
+
+                <!-- 사업영역 설명 카드 -->
+                <section id="cardbox" class="swiper-container">
+                    <!-- 오션 -->
+                    <div id="ocean" class="swiper-wrapper">
+                        <div class="bcard swiper-slide">
+                            <h3>Ocean & Logistics</h3>
+                        </div>
+    
+                        <div class="bcard swiper-slide">
+                            <dl>
+                                <dt class="title">동원산업</dt>
+                                <dd class="subtitle">세계 1위 종합수산 식품기업</dd>
+                                <dd class="text">
+                                    동원산업은 1969년 4월 식량자원의 보고인 바다를 개척하기 위해 설립되었습니다. 설립 후, 지금까지 오대양을 누비며 대한민국의 수산사업을 선도하고 있으며, 고품질 수산 식품 공급으로 식문화 발전에 기여하고 있습니다.
+                                </dd>
+                            </dl>
+                            <a href="#" title="동원산업 바로가기"></a>                        
+                        </div>
+    
+                        <div class="bcard swiper-slide">
+                            <dl>
+                                <dt class="title">동원로엑스</dt>
+                                <dd class="subtitle">세계 물류시장을 선도하는 종합물류기업</dd>
+                                <dd class="text">
+                                    화물운송, 항만하역, 보관, 국제물류, 해외물류사업, 물류컨설팅까지 물류 전 영역을 아우르는 종합물류기업입니다. 부산, 인천, 울산, 당진, 동해 등 국내 주요 항만은 물론, 권역별 철도 및 운송거점과 글로벌 물류 네트워크를 갖추고 있습니다.
+                                </dd>
+                            </dl>
+                            <a href="#" title="동원로엑스 바로가기"></a>
+                        </div>
+    
+                        <div class="bcard swiper-slide">
+                            <dl>
+                                <dt class="title">BIDC</dt>
+                                <dd class="subtitle">부산항 배후물류단지 내 최대 물류센터 운영기업</dd>
+                                <dd class="text">
+                                    부산신항 배후단지 자유무역지대 외국인 투자 1호 기업으로 단일 규모로는 최대인 141천㎡의 물류센터를 운영 중에 있으며, 국가의 부산신항 배후단지 조성 정책에 부합하는 선도적 사업모델을 수행하고 있습니다.
+                                </dd>
+                            </dl>
+                            <a href="#" title="BIDC 바로가기"></a>
+                        </div>
+    
+                        <div class="bcard swiper-slide">
+                            <dl>
+                                <dt class="title">동원로엑스냉장</dt>
+                                <dd class="subtitle">부산-진해 냉장물류의 새로운 랜드마크</dd>
+                                <dd class="text">
+                                    지하 1층부터 지상 6층에 이르는 총 면적 1만 6,172평 규모로 국내 최대를 자부하고 있으며, 75개실에 달하는 보관실은 순수보관량 기준으로 자동화 1만8,900톤 평치창고 4만 2,100톤 등 영하 55도의 초저온부터 영상 15도까지 다양한 온도대의 화물을 최대 6만1,000톤까지 보관할 수 있습니다.
+                                </dd>
+                            </dl>
+                            <a href="#" title="동원로엑스냉장 바로가기"></a>
+                        </div>
+                    </div>
+                    
+                    <!-- //오션 -->
+
+                    <!-- 푸드 -->
+                    <div id="food" class="swiper-wrapper">
+                        <div class="bcard swiper-slide">
+                            <h3>Food Culture</h3>
+                        </div>
+    
+                        <div class="bcard swiper-slide">
+                            <dl>
+                                <dt class="title">동원F&B</dt>
+                                <dd class="subtitle">국민 건강에 기여하는 글로벌 종합식품기업</dd>
+                                <dd class="text">
+                                    2000년 11월 동원산업의 식품부문이 독립하여 탄생한 식품 전문 기업입니다. 좋은 음식이 곧 보약이라는 기업철학을 바탕으로 우리의 식탁을 더 건강하게 만드는 First & Best 식문화 기업으로 성장하고 있습니다.
+                                </dd>
+                            </dl>
+                            <a href="#" title="동원F&B 바로가기"></a>
+                        </div>
+    
+                        <div class="bcard swiper-slide">
+                            <dl>
+                                <dt class="title">동원홈푸드</dt>
+                                <dd class="subtitle">새로운 식문화를 선도하는 종합식품유통기업</dd>
+                                <dd class="text">
+                                    식자재 유통사업부터 조미식품 제조, 푸드서비스와 외식사업, 온라인 축산유통, 온라인 가정간편식(HMR)까지 다양한 사업영역을 통해 트렌드에 발맞춘 최고의 식품과 유통서비스를 제공합니다.
+                                </dd>
+                            </dl>
+                            <a href="#" title="동원홈푸드 바로가기"></a>
+                        </div>
+    
+                        <div class="bcard swiper-slide">
+                            <dl>
+                                <dt class="title">동원디어푸드</dt>
+                                <dd class="subtitle">고객에게 차별화된 서비스를 제공하는<br>온라인 비즈니스 기업</dd>
+                                <dd class="text">
+                                    가공식품, 가정간편식(HMR), 펫, 수산, 축산 등 그룹 인프라를 기반으로 한 온라인 비즈니스를 담당하고 있습니다.
+                                </dd>
+                            </dl>
+                            <a href="#" title="동원디어푸드 바로가기"></a>
+                        </div>
+    
+                        <div class="bcard swiper-slide">
+                            <dl>
+                                <dt class="title">동원팜스</dt>
+                                <dd class="subtitle">고품질 사료 전문 기업</dd>
+                                <dd class="text">
+                                    올바른 먹거리를 추구하는 축산농가에 전문 배합사료를 제조 및 판매합니다. 가축 특성에 맞게 최적화된 영양설계, 축산환경에 맞춘 사양프로그램 등으로 축산농가의 절대적 신뢰를 얻고 있습니다.
+                                </dd>
+                            </dl>
+                            <a href="#" title="동원팜스 바로가기"></a>
+                        </div>
+                    </div>
+                    <!-- //푸드 -->
+
+                    <!-- 생활 -->
+                    <div id="living" class="swiper-wrapper">
+                        <div class="bcard swiper-slide">
+                            <h3>Living & Finance</h3>
+                        </div>
+    
+                        <div class="bcard swiper-slide">
+                            <dl>
+                                <dt class="title">동원시스템즈</dt>
+                                <dd class="subtitle">국내 1위 종합 포장재 전문기업</dd>
+                                <dd class="text">
+                                    연구개발에 대한 과감한 투자, 차별화된 신규 아이템 개발, 적극적인 해외 사업 추진을 통해 차별화된 기능과 편의성을 갖춘 토탈 패키징 솔루션을 제공하고 있습니다.
+                                </dd>
+                            </dl>
+                            <a href="#" title="동원시스템즈 바로가기"></a>
+                        </div>
+    
+                        <div class="bcard swiper-slide">
+                            <dl>
+                                <dt class="title">동원건설산업</dt>
+                                <dd class="subtitle">종합 건설기업</dd>
+                                <dd class="text">
+                                    새로운 주거문화 형성부터 자연과의 조화로움을 추구하는 친환경 도시 설계를 담당하고 있습니다.
+                                </dd>
+                            </dl>
+                            <a href="#" title="동원건설산업 바로가기"></a>
+                        </div>
+    
+                        <div class="bcard swiper-slide">
+                            <dl>
+                                <dt class="title">동원CNS</dt>
+                                <dd class="subtitle">아웃소싱 서비스 기업</dd>
+                                <dd class="text">
+                                    다양한 분야에서 지속적인 아웃소싱 서비스를 제공하고 있으며, 특히 식품사업 분야의 전문성과 수년간의 노하우를 바탕으로 최상의 아웃소싱 서비스를 제공하고 있습니다.
+                                </dd>
+                            </dl>
+                            <a href="#" title="동원CNS 바로가기"></a>
+                        </div>
+    
+                        <div class="bcard swiper-slide">
+                            <dl>
+                                <dt class="title">동원기술투자</dt>
+                                <dd class="subtitle">국내 최초의 기업형 벤처캐피탈(CVC)</dd>
+                                <dd class="text">
+                                    동원그룹이 영위하는 사업을 바탕으로 기존 사업의 밸류체인을 강화하고 미래산업 육성을 위해 장기적 관점에서의 투자에 집중하고 있으며, 벤처기업 및 신기술사업자와 상생하는 방향으로 투자해 국내 벤처산업의 선순환 생태계 조성에 일조하고 있습니다.
+                                </dd>
+                            </dl>
+                            <a href="#" title="동원기술투자 바로가기"></a>
+                        </div>
+                    </div>
+                    <!-- //생활 -->
+
+                    <!-- 글로벌 -->
+                    <div id="global" class="swiper-wrapper">
+                        <div class="bcard swiper-slide">
+                            <h3>Global</h3>
+                        </div>
+    
+                        <div class="bcard swiper-slide">
+                            <dl>
+                                <dt class="title">StarKist</dt>
+                                <dd class="subtitle">미국 No.1 참치 브랜드</dd>
+                                <dd class="text">
+                                    100년 전통의 세계적인 참치 브랜드로서, 미국 상온 참치 시장의 46% 점유율을 차지하고 있습니다. 2008년, 동원그룹의 가족이 되어 생산기술 및 경영효율 혁신을 통해 매년 성장을 이어나가고 있습니다.
+                                </dd>
+                            </dl>
+                            <a href="#" title="StarKist 바로가기"></a>
+                        </div>
+    
+                        <div class="bcard swiper-slide">
+                            <dl>
+                                <dt class="title">S.C.A SA</dt>
+                                <dd class="subtitle">세네갈 최대 참치 제조 기업</dd>
+                                <dd class="text">
+                                    연간 최대 50,000톤의 참치를 가공 생산할 수 있는 참치 제조 전문 기업입니다. S.C.A SA의 전신인 SNCDS는 아프리카 최초의 참치 캔 회사이자 국영기업으로서, 2011년 동원그룹의 가족이 되어 새롭게 출발하며 성장하고 있습니다.
+                                </dd>
+                            </dl>
+                            <a href="#" title="S.C.A SA 바로가기"></a>
+                        </div>
+    
+                        <div class="bcard swiper-slide">
+                            <dl>
+                                <dt class="title">TALOFA SYSTEMS</dt>
+                                <dd class="subtitle">고품질 캔 포장재 전문 기업</dd>
+                                <dd class="text">
+                                    고품질 캔 포장재를 미국 가공참치시장 점유율 1위 업체인 스타키스트사의 참치 캔 포장용으로 공급하고 있습니다. 해외 시장 개척을 위한 또 하나의 전진기지로서 이를 기반으로 미주, 태평양 등의 시장 공략에 적극적으로 나서고 있습니다.
+                                </dd>
+                            </dl>
+                            <a href="#" title="TALOFA SYSTEMS 바로가기"></a>
+                        </div>
+    
+                        <div class="bcard swiper-slide">
+                            <dl>
+                                <dt class="title">TTP</dt>
+                                <dd class="subtitle">연포장재 전문 기업</dd>
+                                <dd class="text">
+                                    베트남 최대 연포장재 기업으로서 뛰어난 원가 경쟁력을 바탕으로 베트남 내수 시장의 확대를 목표로 하고 있습니다. 베트남 성장을 바탕으로 동남아를 비롯한 해외시장 개척을 위한 수출에 힘쓰고 있습니다.
+                                </dd>
+                            </dl>
+                            <a href="#" title="TTP 바로가기"></a>
+                        </div>
+    
+                        <div class="bcard swiper-slide">
+                            <dl>
+                                <dt class="title">MVP</dt>
+                                <dd class="subtitle">PET병, CAP 포장재 전문 기업</dd>
+                                <dd class="text">
+                                    베트남 PET병, CAP 포장재 전문 기업으로서 뛰어난 원가 경쟁력을 바탕으로 베트남 내수 시장의 확대를 목표로 하고 있습니다. 베트남 성장을 바탕으로 동남아를 비롯한 해외시장 개척을 위한 수출에 힘쓰고 있습니다.
+                                </dd>
+                            </dl>
+                            <a href="#" title="MVP 바로가기"></a>
+                        </div>
+    
+                        <div class="bcard swiper-slide">
+                            <dl>
+                                <dt class="title">CAPSEN</dt>
+                                <dd class="subtitle">세네갈 최고의 수산 전문기업</dd>
+                                <dd class="text">
+                                    2015년 1척의 선망선으로 시작하여 2018년 현재 4척의 선망선을 보유하고 있으며, 지속적으로 참치 어획량이 늘어나고 있습니다. 지속적인 수산업 발전을 위해 정부와의 교류, 어장 개척으로 현재 세네갈 최고의 수산 전문 기업으로 성장하였습니다.
+                                </dd>
+                            </dl>
+                            <a href="#" title="CAPSEN 바로가기"></a>
+                        </div>
+                    </div>
+                    <!-- //글로벌 -->
+                </section>
+                <!-- //사업영역 설명 카드 -->
+            </section>
+            <!-- //비즈니스페이지 -->
+
+            <!-- 미디어페이지 -->
+            <section id="media" class="sect">
+
+                <!-- title -->
+                <div id="mtitle">
+                    <p>Media Hub</p>
+                    <h2>Dongwon <br>Media</h2>
+                    <a href="#" title="동원미디어 내용 더 보러가기">More</a>
+                </div>
+                <!-- //title -->
+
+                <!-- 유튜브영상 -->
+                <div id="youtube">
+                    <div class="item">
+                        <img src="img/youtube1.jpg" alt="고요 속의 외침으로 부산에서 레전드 찍었다!">
+                    </div>
+                    <div class="item">
+                        <img src="img/youtube6.jpg" alt="동원숏타임 #금천미트한돈">
+                    </div>
+                    <div class="item">
+                        <img src="img/youtube2.jpg" alt="동원숏타임 #항해사 연봉의 진실">
+                    </div>
+                    <div class="item">
+                        <img src="img/youtube7.jpg" alt="동원숏타임 #프레시 팔레트 옐로우편">
+                    </div>
+                    <div class="item">
+                        <img src="img/youtube3.jpg" alt="동원상품을 어떻게 몸으로 말해요...">
+                    </div>
+                    <div class="item">
+                        <img src="img/youtube8.jpg" alt="가장 완벽한 피지컬을 가진 최고의 만두를 찾기 위한 여정, 최후의 1종은?">
+                    </div>
+                    <div class="item">
+                        <img src="img/youtube4.jpg" alt="우리는 동원신입사원">
+                    </div>
+                    <div class="item">
+                        <img src="img/youtube9.jpg" alt="동원숏타임 #수경재배청미채">
+                    </div>
+                    <div class="item">
+                        <img src="img/youtube5.jpg" alt="#항해브이로그 남극친구들">
+                    </div>
+                    <div class="item">
+                        <img src="img/youtube10.jpg" alt="이것은 그냥 구운 김이 아니여. 엄선된 원초로 가볍게 구운 김이여.">
+                    </div>
+                </div>
+                <!-- //유튜브영상 -->
+            </section>
+            <!-- //미디어페이지 -->
+
+            <!-- 뉴스페이지 -->
+            <section id="news" class="sect">
+
+                <!-- title -->
+                <div id="ntitle">
+                    <p>Media Hub</p>
+                    <h2>Dongwon <br>News</h2>
+                    <a href="#" title="동원뉴스 내용 더 보러가기">More</a>
+                </div>
+                <!-- //title -->
+
+                <!-- 뉴스내용 -->
+                <div id="newsboxs">
+                    <a href="#" class="nbox">
+                        <dl>
+                            <dt class="title">동원F&B, 알싸한 후추향 가득 ‘상상육포 페퍼&솔트’ 출시</dt>
+                            <dd class="text">동원F&B(대표이사 김성용)가 알싸한 후추향 가득한 ‘상상육포 페퍼&솔트’를 출시했다고 28일 밝혔다. ‘상상육포 페퍼&솔트’는 소금…</dd>
+                            <dd class="date">2023.02.28</dd>
+                        </dl>
+                    </a>
+
+                    <a href="#" class="nbox">
+                        <dl>
+                            <dt class="title">동원홈푸드, 저칼로리·저당 ‘비비드키친 데리야끼소스, 굴소스’ 출시</dt>
+                            <dd class="text">동원홈푸드가 칼로리와 당을 낮춘 저칼로리, 저당 소스 ‘비비드키친 데리야끼소스’와 ‘비비드키친 굴소스’를 출시했다고 22일 밝혔…</dd>
+                            <dd class="date">2023.02.22</dd> 
+                        </dl>
+                    </a>
+
+                    <a href="#" class="nbox">
+                        <dl>
+                            <dt class="title">동원그룹, 지난해 매출액 8조 8,660억원… ”역대 최대”</dt>
+                            <dd class="text">동원그룹이 창사 이래 최대 매출을 달성했다. 동원그룹의 사업형 지주사인 동원산업(006040)은 연결 재무제표 기준 지난해 매출액이…</dd>
+                            <dd class="date">2023.02.14</dd>
+                        </dl>
+                    </a>
+
+                    <a href="#" class="nbox">
+                        <dl>
+                            <dt class="title">동원F&B 유산균 음료 ‘쿨피스톡’, 제로 칼로리로 재탄생 </dt>
+                            <dd class="text">동원F&B(대표이사 김성용)가 유산균 음료 ‘쿨피스톡’을 제로 칼로리로 리뉴얼해 ‘쿨피스톡 제로’로 새롭게 선보인다고 9일 밝혔다. ‘…</dd>
+                            <dd class="date">2023.02.09</dd>
+                        </dl>
+                    </a>
+                </div>
+                <!-- //뉴스내용 -->
+            </section>
+            <!-- //뉴스페이지 -->
+
+            <!-- 채용페이지 -->
+            <section id="recruitment" class="sect">
+                <h2 class="hidden">채용</h2>
+                <p>Recruitmen</p>
+                <p>열성과 도전 정신, 새로움을<br>추구하는 인재를 모집합니다.</p>
+                <a href="#" title="채용사이트 바로가기">채용사이트 바로가기</a>
+            </section>
+            <!-- //채용페이지 -->
+
+            <!-- 챌린지페이지 -->
+            <section id="challenge" class="sect">
+                <h2 class="hidden">동원그룹 연혁</h2>
+                
+                <a href="#">
+                    <p>Since<br><span>1969</span><br>First Challenger, Dongwon</p>
+                </a>
+            </section>
+            <!-- //챌린지페이지 -->
+        </main>
+    <!-- //contents end -->
+
+    <!-- footer -->
+    <footer>
+        <!-- 하단 메뉴 -->
+        <div id="fheader">
+            <nav>
+                <h2 class="hidden">하단메뉴</h2>
+                <ul class="bottommenu">
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">고객문의</a></li>
+                    <li><a href="#">Family Site +</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- //하단 메뉴 -->
+
+        <!-- family site -->
+        <div id="familysite">
+            <div class="fsmenu">
+                <ul class="fsbox">
+                    <li class="title"><a href="#" >해양 & 물류</a></li>
+                    <li><a href="#">동원산업</a></li>
+                    <li><a href="#">동원로엑스</a></li>
+                    <li><a href="#">BIDC</a></li>
+                    <li><a href="#">동원로엑스냉장</a></li>
+                </ul>
+                <ul class="fsbox">
+                    <li class="title"><a href="#" >식품가공 & 유통</a></li>
+                    <li><a href="#">동원F&B</a></li>
+                    <li><a href="#">동원디어푸드</a></li>
+                    <li><a href="#">동원홈푸드</a></li>
+                    <li><a href="#">동원팜스</a></li>
+                </ul>
+                <ul class="fsbox">
+                    <li class="title"><a href="#" >금융 & 생활서비스</a></li>
+                    <li><a href="#">동원시스템즈</a></li>
+                    <li><a href="#">동원검설산업</a></li>
+                    <li><a href="#">동원CNS</a></li>
+                    <li><a href="#">동원기술투자</a></li>
+                </ul>
+                <ul class="fsbox">
+                    <li class="title"><a href="#" >인재 & 사회공헌</a></li>
+                    <li><a href="#">동원육영재단</a></li>
+                    <li><a href="#">동원리더스아카데미</a></li>
+                </ul>
+                <ul class="fsbox">
+                    <li class="title"><a href="#" >글로벌</a></li>
+                    <li><a href="#">StarKist</a></li>
+                    <li><a href="#">S.C.A.SA</a></li>
+                    <li><a href="#">TTP</a></li>
+                    <li><a href="#">MVP</a></li>
+                    <li><a href="#">TALOFA SYSTEMS</a></li>
+                    <li><a href="#">CAPSEN</a></li>
+                </ul>
+            </div>
+
+            <a href="#"><img src="icon/cross.svg" alt="패밀리사이트 닫기"></a>
+        </div>
+        <!-- //family site -->
+
+        <!-- 그룹 주소영역 -->
+        <div id="fbottom">
+            <img src="icon/bottomlogo.svg" alt="하단동원로고">
+            <div class="ftext">
+                <div class="adress">
+                    <p>서울시 서초구 마방로 68(양재동 275) 동원산업빌딩</p>
+                    <a href="#">방문 신청</a>
+                </div>
+                <p>©2019 Dongwon Group</p>
+            </div>
+        </div>
+        <!-- //그룹 주소영역 -->
+        
+    </footer>
+    <!-- //footer -->
+
+    <!-- 최상단하단버튼 -->
+    <div id="udbtn">
+        <a href="#" id="top"><img src="icon/up.svg" alt="최상단으로 가는 버튼"></a>
+        <a href="#" id="bottom"><img src="icon/down.svg" alt="최하단으로 가는 버튼"></a>
+    </div>
+    <!-- //최상단하단버튼 -->
+
+    <!-- popup창 -->
+    <div id="popup">
+        <p>이 사이트는 과제제출용으로 제작되었으며<br>상업적으로 이용되지 않습니다.</p>
+        <button type="button">닫기X</button>
+    </div>
+    <!-- //popup창 -->
+</body>
+</html>
