@@ -2958,15 +2958,15 @@
         padding-top: 15px;
     }
     #newsboxs .nbox dl .title{
-        font-size: 1em;
+        font-size: 1.25em;
         margin-bottom: 12px;
     }
     #newsboxs .nbox dl .text{
-        font-size: 0.1em;
+        font-size: 1.08333em;
         margin-bottom: 16px;
     }
     #newsboxs .nbox dl .date{
-        font-size: 0.1em;
+        font-size: 1em;
     }
     /* //뉴스페이지 */
 
@@ -3669,15 +3669,15 @@
         padding-top: 15px;
     }
     #newsboxs .nbox dl .title{
-        font-size: 1em;
+        font-size: 1.272727em;
         margin-bottom: 12px;
     }
     #newsboxs .nbox dl .text{
-        font-size: 0.1em;
+        font-size: 1.090909em;
         margin-bottom: 16px;
     }
     #newsboxs .nbox dl .date{
-        font-size: 0.1em;
+        font-size: 1.090909em;
     }
     /* //뉴스페이지 */
 
