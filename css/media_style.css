@@ -2189,7 +2189,7 @@
         margin-right: 20px;
     }
     #ocean .bcard:hover{
-        border: 3px solid #0065bd;
+        border: 2px solid #0065bd;
     }
     #ocean .bcard h3{
         line-height: 300px;
@@ -2240,7 +2240,7 @@
         margin-right: 10px;
     }
     #food .bcard:hover{
-        border: 3px solid #0065bd;
+        border: 2px solid #0065bd;
     }
     #food .bcard h3{
         line-height: 300px;
@@ -2291,7 +2291,7 @@
         margin-right: 10px;
     }
     #living .bcard:hover{
-        border: 3px solid #0065bd;
+        border: 2px solid #0065bd;
     }
     #living .bcard h3{
         line-height: 300px;
@@ -2342,7 +2342,7 @@
         margin-right: 10px;
     }
     #global .bcard:hover{
-        border: 3px solid #0065bd;
+        border: 2px solid #0065bd;
     }
     #global .bcard h3{
         line-height: 270px;
@@ -2690,7 +2690,7 @@
     #popup{
         width: 300px;
         height: 200px;
-        top: 370px;
+        top: 220px;
     }
     #popup p{
         margin-top: 10px;
@@ -2873,7 +2873,7 @@
         margin-right: 10px;
     }
     #ocean .bcard:hover{
-        border: 3px solid #0065bd;
+        border: 2px solid #0065bd;
     }
     #ocean .bcard h3{
         line-height: 270px;
@@ -2924,7 +2924,7 @@
         margin-right: 10px;
     }
     #food .bcard:hover{
-        border: 3px solid #0065bd;
+        border: 2px solid #0065bd;
     }
     #food .bcard h3{
         line-height: 270px;
@@ -2975,7 +2975,7 @@
         margin-right: 10px;
     }
     #living .bcard:hover{
-        border: 3px solid #0065bd;
+        border: 2px solid #0065bd;
     }
     #living .bcard h3{
         line-height: 270px;
@@ -3026,7 +3026,7 @@
         margin-right: 10px;
     }
     #global .bcard:hover{
-        border: 3px solid #0065bd;
+        border: 2px solid #0065bd;
     }
     #global .bcard h3{
         line-height: 270px;
@@ -3374,7 +3374,7 @@
     #popup{
         width: 250px;
         height: 150px;
-        top: 395px;
+        top: 220px;
         padding: 5px;
     }
     #popup p{
