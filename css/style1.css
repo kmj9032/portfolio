@@ -1,4 +1,11 @@
-@charset "UTF-8";
+@charset "utf-8";
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Secular+One&display=swap');
 /* 
     font-family: 'Lobster', cursive;
@@ -7,13 +14,35 @@
     font-family: 'Secular One', sans-serif;
 }
 */
-@font-face {
-    font-family: 'S-CoreDream-3Light';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
+/* @font-face {
+    font-family: "Score-3";
+    src: url(../font/S-Core_Dream_OTF/SCDream3.otf);
+
+    font-family: "Score-4";
+    src:url(../font/S-Core_Dream_OTF/SCDream4.otf);
+
+    font-family: "Score-5";
+    src: url(../font/S-Core_Dream_OTF/SCDream5.otf);
+
+    font-family: "Score-6";
+    src: url(../font/S-Core_Dream_OTF/SCDream6.otf);
+
+    font-family: "SecularOne";
+    src: url(../font/SecularOne-Regular.ttf);
+
+    font-family: "Roboto-Regular";
+    src: url(../font/Roboto/Roboto-Regular.ttf);
+
+    font-family: "Roboto-Medium";
+    src: url(../font/Roboto/Roboto-Medium.ttf);
+
+    font-family: "RobotoMono";
+    src: url(../font/RobotoMono-VariableFont_wght.ttf);
+    
+    font-family: "Lobster";
+    src: url(../font/Lobster-Regular.ttf);
+} */
 
 *{
     box-sizing: border-box;
@@ -35,7 +64,6 @@ img{
 body{
     font-size: 16px;
     position: relative;
-    transition: all 0.4s;
 }
 
 /* 아웃라인숨기기 */
@@ -52,9 +80,9 @@ body{
 /* header */
 header{
     width: 100%;
-    height: 13.5vh;
+    height: 135px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0 100px;
     position: fixed;
     z-index: 99;
@@ -63,22 +91,16 @@ header{
 /* 로고 */
 header .logo{
     display: block;
-    width: 160px;
-    height: 66px;
-    position: absolute;
-    top: 2vh;
-    left: 100px;
-}
-.logo img{
-    width: 160px;
-    height: 66px;
+    width: 220px;
+    height: 90px;
+    margin-top: 30px;
 }
 /* 로고 */
 
 /* 메뉴 */
 nav #menu{
     display: flex;
-    margin-top: 5vh;
+    margin-top: 75px;
 }
 nav #menu>li{
     padding: 0 20px;
@@ -92,6 +114,9 @@ nav #menu>li>a{
     font-weight: 300;
     color: #fff;
     padding: 0 10px;
+}
+nav #menu>li>a:hover{
+    background-color: rgba(34, 34, 34, 0.5);
 }
 nav .submenu{
     display: none;
@@ -112,91 +137,22 @@ nav .submenu>li>a{
     color: #fff;
 }
 nav .submenu>li:hover{
-    background-color: rgba(34, 34, 34, 0.8);
+    background-color: rgba(34, 34, 34, 0.5);
 }
 /* //메뉴 */
 
 /* 반응형메뉴 */
 header .menuicon{
     display: none;
-    position: absolute;
-    top: 7vh;
-    left: 50px;
-}
-#actmenu{
-    width: 30%;
-    height: 100vh;
-    background-color: #fff;
-    z-index: 99;
-    position: fixed;
-    top: 0;
-    left: -60%;
-    /* display: none; */
-}
-#actmenu #menu1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 8vh;
-    overflow: hidden;
-}
-#actmenu #menu1>li{
-    width: 50%;
-    margin: auto;
-    line-height: 80px;
-    text-align: center;
-}
-#actmenu #menu1>li>a{
-    display: block;
-    font-family: 'S-CoreDream-3Light';
-    font-size: 1.2em;
-    font-weight: 800;
-    color: #222;
-    padding: 0 10px;
-    border-bottom: 2px solid #222;
-}
-#actmenu #menu1>li>a:hover{
-    color: #0065bd;
-}
-#actmenu #menu1>li>a img{
-    float: right;
-    margin-top: 35px;
-    margin-right: 20px;
-}
-#actmenu .submenu1{
-    display: none;
-}
-#actmenu .submenu1>li{
-    padding: 0 10px;
-    line-height: 60px;
-}
-#actmenu .submenu1>li>a{
-    display: block;
-    font-family: 'S-CoreDream-3Light';
-    font-size: 1.2em;
-    font-weight: 500;
-    color: #222;
-}
-#actmenu .submenu1>li>a:hover{
-    color: #0065bd;
-}
-nav .close{
-    position: absolute;
-    top: 40px;
-    left: 40px;
-    z-index: 99;
-    /* display: none; */
 }
 /* //반응형메뉴 */
 
 /* header 아이콘 */
 header .hicon{
-    width: 6.5%;
+    width: 6.98%;
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    top: 6vh;
-    right: 100px;
+    margin-top: 85px;
 }
 /* 언어 */
 .hicon .lang{
@@ -204,7 +160,7 @@ header .hicon{
 }
 .hicon .lang .langlist{
     position: absolute;
-    top: 40px;
+    top: 50px;
     left: -11px;
     display: none;
 }
@@ -219,7 +175,7 @@ header .hicon{
     border-bottom: none;
 }
 .hicon .lang .langlist>li:hover{
-    background-color: rgba(34, 34, 34, 0.8);
+    background-color: rgba(34, 34, 34, 0.5);
 }
 .hicon .lang .langlist>li>a{
     display: block;
@@ -227,61 +183,50 @@ header .hicon{
     font-size: 1.125em;
     font-weight: 300;
     color: #fff;
-}
-.hicon .lang>h2 a img{
-    width: 30px;
-    height: 30px;
+    
 }
 /* //언어 */
 /* 검색 */
-.hicon>h2 a img{
-    width: 30px;
-    height: 30px;
-}
-.search{
+.hicon .searchbox{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 268px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
     display: none;
 }
-.searchbox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
-}
-.searchbox input[type="search"]{
-    width: 33.85%;
+.hicon .searchbox input[type="search"]{
+    width: 650px;
     height: 40px;
+    float: left;
+    margin-top: 150px;
+    margin-left: 50%;
+    transform: translateX(-325px);
     font-size: 1.125em;
 }
-.searchbox button{
+.hicon .searchbox button{
     padding: 10px 20px;
+    float: left;
     background-color: transparent;
     border: none;
     display: block;
+    margin-top: 145px;
+    transform: translateX(-325px);
 }
-.searchbox button:focus{
+.hicon .searchbox button:focus{
     cursor: pointer;
 }
-.searchbox button:hover{
+.hicon .searchbox button:hover{
     background-color: #000;
 }
-.searchbox button img{
+.hicon .searchbox button img{
     margin: auto;
     width: 30px;
     height: 30px;
 }
-.searchbox input:focus{
+.hicon .searchbox input:focus{
     outline: 1px solid #eee;
-}
-.search a{
-    position: absolute;
-    top: 40px;
-    right: 40px;
 }
 /* //검색 */
 /* //header 아이콘 */
@@ -304,14 +249,13 @@ header .hicon{
     border-radius: 50%;
     margin-bottom: 30px;
 }
-#pagedot>a:nth-child(6){
+#pagedot>a:nth-child(5){
     margin-bottom: 0;
 }
 #pagedot>a:nth-child(2),
 #pagedot>a:nth-child(3),
 #pagedot>a:nth-child(4),
-#pagedot>a:nth-child(5),
-#pagedot>a:nth-child(6){
+#pagedot>a:nth-child(5){
     border: none;
 }
 #pagedot>a .pdot{
@@ -325,56 +269,73 @@ header .hicon{
 #pagedot>a:nth-child(2) .pdot,
 #pagedot>a:nth-child(3) .pdot,
 #pagedot>a:nth-child(4) .pdot,
-#pagedot>a:nth-child(5) .pdot,
-#pagedot>a:nth-child(6) .pdot{
+#pagedot>a:nth-child(5) .pdot{
     background-color: rgba(238, 238, 238, 0.5);
 }
 /* //페이지 넘어가기 */
 
 /* 슬로건페이지 */
-#slogan{
-    overflow: hidden;
+#slogon{
     width: 100%;
     position: relative;
-    height: 100vh;
 }
-#slogan .slogantext{
+#slogon .slogontext{
     width: 300%;
-    height: 100vh;
+    height: 1080px;
     position: relative;
     display: flex;
 }
-#slogan .slogantext li{
+#slogon .slogontext>li{
     font-family: 'S-CoreDream-3Light';
     font-size: 3vw;
     font-weight: 500;
     color: #fff;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#slogan .slogantext li br{
-    display: none !important;
-}
-#slogan .slogantext .slogan1{
+#slogon .slogontext>.slogon1{
     background-image: url(../img/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
 }
-#slogan .slogantext .slogan2{
+#slogon .slogontext>.slogon2{
     background-image: url(../img/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
 }
-#slogan .slogantext .slogan3{
+#slogon .slogontext>.slogon3{
     background-image: url(../img/bg3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+}
+#sbtn{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#sbtn button{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#sbtn button:nth-child(1){
+    float: left;
+    margin-left: 100px;
+}
+#sbtn button:nth-child(2){
+    float: right;
+    margin-right: 100px;
+}
+#sbtn button img{
+    margin: auto;
 }
 
 /* 슬로건페이지 넘어가기 */
@@ -416,14 +377,13 @@ header .hicon{
 
 /* 비즈니스페이지 */
 #business{
-    overflow: hidden;
     width: 100%;
-    height: 100vh;
+    height: 1080px;
     position: relative;
 }
 #business #btitle{
     position: absolute;
-    top: 26vh;
+    top: 262px;
     left: 186px;
 }
 #business #btitle p{
@@ -454,11 +414,10 @@ header .hicon{
 #cardbox{
     display: flex;
     position: absolute;
-    top: 26vh;
-    left: 0;
+    top: 268px;
+    left: 658px;
     width: 100%;
     height: 100%;
-    padding-left: 38%;
 }
 #ocean{
     display: flex;
@@ -850,12 +809,12 @@ header .hicon{
 /* 미디어페이지 */
 #media{
     width: 100%;
-    height: 100vh;
+    height: 1080px;
     position: relative;
 }
 #media #mtitle{
     position: absolute;
-    top: 26vh;
+    top: 262px;
     left: 186px;
     float: left;
 }
@@ -901,11 +860,11 @@ header .hicon{
 }
 #youtube{
     width: 50%;
-    height: 83vh;
+    height: 930px;
     float: right;
     overflow-y: scroll;
-    margin-right: 100px;
-    margin-top: 15vh;
+    margin-right: 50px;
+    margin-top: 150px;
     display: grid;
     gap: 50px;
     position: relative;
@@ -956,29 +915,32 @@ header .hicon{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
     position: absolute;
     top: 0;
     left: 0;
     transition: 0.2s;
 }
 #youtube .item:hover::after{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0)
 }
 #youtube .item img{
     width: 100%;
     height: 100%;
 }
+
+
 /* //미디어페이지 */
 
 /* 뉴스페이지 */
 #news{
     width: 100%;
-    height: 100vh;
+    height: 1080px;
     position: relative;
 }
 #news #ntitle{
     position: absolute;
-    top: 26vh;
+    top: 262px;
     left: 186px;
 }
 #news #ntitle p{
@@ -1023,14 +985,14 @@ header .hicon{
 }
 #newsboxs{
     position: absolute;
-    top: 26vh;
+    top: 262px;
     right: 100px;
-    /* width: 54.167%; */
+    width: 54.167%;
 }
 #newsboxs .nbox{
     display: block;
     border-bottom: 3px solid #0065bd;
-    padding-top: 1vh;
+    padding-top: 50px;
 }
 #newsboxs .nbox:nth-child(1){
     padding-top: 0;
@@ -1039,30 +1001,29 @@ header .hicon{
     font-family: 'S-CoreDream-3Light';
     font-size: 1.625em;
     font-weight: 700;
-    margin-bottom: 1vh;
+    margin-bottom: 10px;
 }
 #newsboxs .nbox dl .text{
     font-family: 'S-CoreDream-3Light';
     font-size: 1.125em;
     font-weight: 400;
-    margin-bottom: 1.7vh;
+    margin-bottom: 17px;
 }
 #newsboxs .nbox dl .date{
     font-family: 'Roboto Mono';
     font-size: 1em;
     font-weight: 300;
     color: #505050;
-    margin-bottom: 1.5vh;
+    margin-bottom: 15px;
 }
 /* //뉴스페이지 */
 
 /* 채용페이지 */
 #recruitment{
     width: 100%;
-    height: 100vh;
+    height: 1080px;
     position: relative;
     background-image: url(../img/recruitment.jpg);
-    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1072,8 +1033,6 @@ header .hicon{
     height: 100%;
     background-color: rgba(0, 101, 189, 0.9);
     position: absolute;
-    top: 0;
-    left: 0;
 }
 #recruitment p:nth-of-type(1){
     font-family: "Roboto";
@@ -1082,8 +1041,8 @@ header .hicon{
     color: #fff;
     margin-bottom: 29px;
     position: relative;
-    top: 38vh;
-    margin-left: 154px;
+    top: 387px;
+    left: 154px;
 }
 #recruitment p:nth-of-type(1)::before{
     display: block;
@@ -1103,8 +1062,8 @@ header .hicon{
     line-height: 5vw;
     color: #fff;
     position: relative;
-    top: 38.7vh;
-    margin-left: 154px;
+    top: 387px;
+    left: 154px;
 }
 #recruitment a{
     display: block;
@@ -1129,12 +1088,11 @@ header .hicon{
 /* 챌린지페이지 */
 #challenge{
     width: 100%;
-    height: 68vh;
+    height: 680px;
     position: relative;
     background-image: url(../img/challenge.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
     background-attachment: fixed;
 }
 #challenge::before{
@@ -1143,8 +1101,6 @@ header .hicon{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     position: absolute;
-    top: 0;
-    left: 0;
 }
 #challenge a{
     font-family: "Roboto";
@@ -1153,7 +1109,7 @@ header .hicon{
     color: #fff;
     text-align: center;
     position: relative;
-    top: 22vh;
+    top: 211px;
 }
 #challenge a span{
     font-family: 'Lobster';
@@ -1161,7 +1117,6 @@ header .hicon{
 }
 #challenge a:hover{
     color: #c9c9c9;
-    transition: 0.2s;
 }
 /* //챌린지페이지 */
 /* contenst 끝 */
@@ -1169,14 +1124,14 @@ header .hicon{
 /* footer */
 footer{
     width: 100%;
-    height: 40vh;
+    height: 400px;
     background-color: #505050;
     position: relative;
 }
 /* footer메뉴 */
 #fheader{
     width: 100%;
-    height: 10.6vh;
+    height: 106px;
     border-bottom: 3px solid #707070;
 }
 #fheader nav .bottommenu{
@@ -1186,8 +1141,7 @@ footer{
 }
 #fheader nav .bottommenu li{
     padding: 0 50px;
-    line-height: 10.6vh;
-    
+    line-height: 104px;
 }
 #fheader nav .bottommenu li a{
     font-family: 'S-CoreDream-3Light';
@@ -1200,15 +1154,17 @@ footer{
 /* footer하단 */
 #fbottom{
     width: 100%;
-    display: flex;
+    height: 292px;
 }
 #fbottom img{
+    float: left;
     width: 182px;
     height: 75px;
-    margin:  6.5vh 200px;
+    margin:  65px 200px;
 }
 #fbottom  .ftext{
-    margin:  10vh 200px;
+    float: left;
+    margin: 111px 125px;
 }
 #fbottom  .ftext .adress{
     margin-bottom: 25px;
@@ -1221,8 +1177,7 @@ footer{
     float: left;
 }
 #fbottom  .ftext .adress a{
-    display: block;
-    float: left;
+    display: inline-block;
     width: 74px;
     height: 30px;
     background-color: #222;
@@ -1240,7 +1195,7 @@ footer{
     font-size: 1.125em;
     font-weight: 300;
     color: #eee;
-    margin-left: 115px;
+    margin-left: 137px;
 }
 /* //footer하단 */
 
@@ -1250,7 +1205,7 @@ footer{
     height: 500px;
     background-color: #f6f6f6;
     position: absolute;
-    bottom: 40.1vh;
+    bottom: 401px;
     left: 50%;
     transform: translateX(-50%);
     display: none;
@@ -1295,10 +1250,9 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    position: fixed;
-    bottom: 4vh;
+    position: absolute;
+    bottom: 480px;
     right: 23px;
-    z-index: 98;
 }
 #udbtn>a{
     display: block;
@@ -1323,6 +1277,7 @@ footer{
     left: 50%;
     top: 300px;
     transform: translateX(-50%);
+    display: none;
 }
 #popup p{
     font-family: 'S-CoreDream-3Light';
@@ -1340,6 +1295,5 @@ footer{
     font-size: 1.125em;
     color: #eee;
     margin-top: 65px;
-    cursor: pointer;
 }
 /* //popup창 */

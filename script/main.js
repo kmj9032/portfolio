@@ -1,10 +1,8 @@
-$(document).ready(function(){
-
     // 페이지제어
     let n = 0;
     let state = 1;
     $(window).on('wheel',function(){
-        if(event.wheelDelata < 0 && state == 1){
+        if(event.wheelDelta < 0 && state == 1){
             state = 0;
             n++;
             if(n > 5) n = 5;
@@ -14,7 +12,7 @@ $(document).ready(function(){
             });
             console.log(n)
         }
-        else if(event.wheelDelata > 0 && state == 1){
+        else if(event.wheelDelta > 0 && state == 1){
             state = 0;
             n--;
             if(n < 0) n = 0;
@@ -24,7 +22,12 @@ $(document).ready(function(){
             });
         }
     })
-    
+    $("#pagedot a").on('click',function(e){
+        e.preventDefault();
+        n = $(this).index();
+        let pos = $('.sect').eq(n)
+        $('html, body').animate({ scrollTop: pos.position().top }, 500)
+    })
 
     // 팝업창
     $("#popup button").click(function(){
@@ -33,7 +36,7 @@ $(document).ready(function(){
 
     // 최상단스크롤
     $("#udbtn").hide();
-    $(document).scroll(function(){
+    $(window).scroll(function(){
         if($(this).scrollTop() != 0){
             $("#udbtn").fadeIn();
         } else{
@@ -114,46 +117,47 @@ $(document).ready(function(){
     })
 
     // 슬로건페이지
-    // $(".slogantext").slick({
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     arrows: false,
-    //     infinite: true,
-    //     speed: 500,
-    //     fade: true,
-    //     cssEase: 'linear'
+    $('.bxslider').bxSlider({
+        auto: true,
+        autoControls: true,
+        stopAutoOnClick: true,
+        pager: true,
+        contol:true,
+        dot: true
+    });
+    $('#slider-next').click(function(){
+        slider.goToNextSlide();
+        return false;
+    });
+    $('#slider-count').click(function(){
+        var count = slider.getSlideCount();
+        alert('Slide count: ' + count);
+        return false;
+    });
+
+
+    // let slogan = 1;
+    // $("#sbtn button:nth-child(2)").click(function(){
+    //     if(slogan < 3){
+    //         $(".slogantext li").css({transform:`translateX(-${slogan}00%)`, transition: `all 0.8s`});
+    //         slogan += 1;
+    //     } else{
+    //         $(".slogantext li").css({transform:`translateX(0)`});
+    //         slogan = 1;
+    //     }
     // });
-
-
-    let slogan = 1;
-    $("#sbtn button:nth-child(2)").click(function(){
-        if(slogan < 3){
-            $(".slogantext li").css({transform:`translateX(-${slogan}00%)`, transition: `all 0.8s`});
-            slogan += 1;
-        } else{
-            $(".slogantext li").css({transform:`translateX(0)`});
-            slogan = 1;
-        }
-    });
-    $("#sbtn button:nth-child(1)").click(function(){
-        if(slogan > 1){
-            $(".slogantext li").css({transform:`translateX(-${slogan - 2}00%)`, transition: `all 0.8s`});
-            slogan -= 1;
-        } else{
-            $(".slogantext li").css({transform:`translateX(-200%)`});
-            slogan = 3;
-        }
-    });
+    // $("#sbtn button:nth-child(1)").click(function(){
+    //     if(slogan > 1){
+    //         $(".slogantext li").css({transform:`translateX(-${slogan - 2}00%)`, transition: `all 0.8s`});
+    //         slogan -= 1;
+    //     } else{
+    //         $(".slogantext li").css({transform:`translateX(-200%)`});
+    //         slogan = 3;
+    //     }
+    // });
     
 
 
 
     // 비즈니스페이지
-    const swiper = new Swiper('.swiper-container',{
-        direction: 'horizontal',
-        slidesPerView: auto,
-        centeredSlides: true,
-        debugger: false,
-        mousewheel: true,
-    });
-});
+    

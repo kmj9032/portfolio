@@ -1303,16 +1303,6 @@
     #slogan .slogantext>li br{
         display: block !important;
     }
-    #sbtn button{
-        width: 50px;
-        height: 50px;
-    }
-    #sbtn button:nth-child(1){
-        margin-left: 50px;
-    }
-    #sbtn button:nth-child(2){
-        margin-right: 50px;
-    }
     /* //슬로건페이지 */
     /* 슬로건페이지 넘어가기 */
     #spagedot{
@@ -1910,16 +1900,6 @@
     }
     #slogan .slogantext>li br{
         display: block !important;
-    }
-    #sbtn button{
-        width: 35px;
-        height: 35px;
-    }
-    #sbtn button:nth-child(1){
-        margin-left: 20px;
-    }
-    #sbtn button:nth-child(2){
-        margin-right: 20px;
     }
     /* //슬로건페이지 */
     /* 슬로건페이지 넘어가기 */
@@ -2575,22 +2555,6 @@
     }
     #slogan .slogantext>li br{
         display: block !important;
-    }
-    #sbtn button{
-        width: 25px;
-        height: 25px;
-    }
-    #sbtn button:nth-child(1){
-        margin-left: 20px;
-        padding-left: 5px;
-    }
-    #sbtn button:nth-child(2){
-        margin-right: 20px;
-        padding-right: 5px;
-    }
-    #sbtn button img{
-        width: 13px;
-        height: 13px;
     }
     /* //슬로건페이지 */
     /* 슬로건페이지 넘어가기 */
