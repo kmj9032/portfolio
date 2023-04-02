@@ -37,7 +37,7 @@ ul.bxslider {
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
   position: absolute;
-  bottom: -30px;
+  bottom: 60px;
   width: 100%;
 }
 /* LOADER */
@@ -61,21 +61,21 @@ ul.bxslider {
   padding-top: 20px;
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
-  background: #666;
+  background: rgba(80, 80, 80, 0.5);
   text-indent: -9999px;
   display: block;
-  width: 10px;
-  height: 10px;
-  margin: 0 5px;
+  width: 15px;
+  height: 15px;
+  margin: 0 20px;
   outline: 0;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  border-radius: 5px;
+  border-radius: 50%;
 }
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active,
 .bx-wrapper .bx-pager.bx-default-pager a:focus {
-  background: #000;
+  background: #fff;
 }
 .bx-wrapper .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
@@ -87,6 +87,32 @@ ul.bxslider {
 .bx-wrapper .bx-pager-item {
   font-size: 0;
   line-height: 0;
+}
+@media screen and (min-width:700px) and (max-width:999px){
+  .bx-wrapper .bx-pager.bx-default-pager a{
+    width: 13px;
+    height: 13px;
+  }
+}
+@media screen and (min-width:520px) and (max-width:699px){
+  .bx-wrapper .bx-pager.bx-default-pager a{
+    width: 13px;
+    height: 13px;
+  }
+}
+@media screen and (min-width:390px) and (max-width:519px){
+  .bx-wrapper .bx-pager.bx-default-pager a{
+    width: 11px;
+    height: 11px;
+    margin: 0 15px;
+  }
+}
+@media screen and (max-width:389px){
+  .bx-wrapper .bx-pager.bx-default-pager a{
+    width: 11px;
+    height: 11px;
+    margin: 0 15px;
+  }
 }
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev {

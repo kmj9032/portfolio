@@ -27,6 +27,8 @@
         n = $(this).index();
         let pos = $('.sect').eq(n)
         $('html, body').animate({ scrollTop: pos.position().top }, 500)
+        $("#pagedot>a .pdot").eq(n).css({backgroundColor:'#0065bd'})
+        
     })
 
     // 팝업창
@@ -119,11 +121,7 @@
     // 슬로건페이지
     $('.bxslider').bxSlider({
         auto: true,
-        autoControls: true,
-        stopAutoOnClick: true,
-        pager: true,
-        contol:true,
-        dot: true
+        pager: true
     });
     $('#slider-next').click(function(){
         slider.goToNextSlide();
@@ -135,29 +133,37 @@
         return false;
     });
 
-
-    // let slogan = 1;
-    // $("#sbtn button:nth-child(2)").click(function(){
-    //     if(slogan < 3){
-    //         $(".slogantext li").css({transform:`translateX(-${slogan}00%)`, transition: `all 0.8s`});
-    //         slogan += 1;
-    //     } else{
-    //         $(".slogantext li").css({transform:`translateX(0)`});
-    //         slogan = 1;
-    //     }
-    // });
-    // $("#sbtn button:nth-child(1)").click(function(){
-    //     if(slogan > 1){
-    //         $(".slogantext li").css({transform:`translateX(-${slogan - 2}00%)`, transition: `all 0.8s`});
-    //         slogan -= 1;
-    //     } else{
-    //         $(".slogantext li").css({transform:`translateX(-200%)`});
-    //         slogan = 3;
-    //     }
-    // });
-    
-
-
-
     // 비즈니스페이지
-    
+    $('.owl-carousel').owlCarousel({
+        center: true,
+        items: 4,
+        loop: false,
+        responsive:{
+            0:{
+                items: 2,
+                center: false,
+                margin: 20
+            },
+            700:{
+                items: 2,
+                center: false
+            },
+            1000:{
+                items: 3
+            },
+            1300:{
+                items: 3.5
+            },
+            1400:{
+                items: 4
+            }
+        }
+    })
+
+    //패밀리사이트
+    $("#fheader nav .bottommenu li:last-child a").click(function(){
+        $("#familysite").css({display:'block'});
+    });
+    $("#familysite>a").click(function(){
+        $("#familysite").css({display:'none'});
+    });

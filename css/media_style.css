@@ -12,30 +12,11 @@
         width: 380px;
         height: 550px;
     }
-    #ocean .bcard:nth-child(1){
-        background-size: 350px 520px;
-    }
     #ocean .bcard h3{
         line-height: 550px;
     }
-    #ocean .bcard:nth-child(2){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #ocean .bcard:nth-child(3){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #ocean .bcard:nth-child(4){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #ocean .bcard:nth-child(5){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
     #ocean .bcard dl{
-        margin-top: 280px;
+        margin-top: 300px;
     }
     #ocean .bcard dl .title{
         font-size: 1.5625em;
@@ -44,7 +25,6 @@
         font-size: 1.0625em;
     }
     #ocean .bcard dl .text{
-        width: 350px;
         line-height: 26px;
         font-size: 0.9375em;
     }
@@ -57,30 +37,11 @@
         width: 380px;
         height: 550px;
     }
-    #food .bcard:nth-child(1){
-        background-size: 350px 520px;
-    }
     #food .bcard h3{
         line-height: 550px;
     }
-    #food .bcard:nth-child(2){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #food .bcard:nth-child(3){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #food .bcard:nth-child(4){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #food .bcard:nth-child(5){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
     #food .bcard dl{
-        margin-top: 280px;
+        margin-top: 300px;
     }
     #food .bcard dl .title{
         font-size: 1.5625em;
@@ -89,7 +50,6 @@
         font-size: 1.0625em;
     }
     #food .bcard dl .text{
-        width: 350px;
         line-height: 26px;
         font-size: 0.9375em;
     }
@@ -102,30 +62,11 @@
         width: 380px;
         height: 550px;
     }
-    #living .bcard:nth-child(1){
-        background-size: 350px 520px;
-    }
     #living .bcard h3{
         line-height: 550px;
     }
-    #living .bcard:nth-child(2){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #living .bcard:nth-child(3){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #living .bcard:nth-child(4){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #living .bcard:nth-child(5){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
     #living .bcard dl{
-        margin-top: 280px;
+        margin-top: 300px;
     }
     #living .bcard dl .title{
         font-size: 1.5625em;
@@ -134,7 +75,6 @@
         font-size: 1.0625em;
     }
     #living .bcard dl .text{
-        width: 350px;
         line-height: 26px;
         font-size: 0.9375em;
     }
@@ -147,38 +87,11 @@
         width: 380px;
         height: 550px;
     }
-    #global .bcard:nth-child(1){
-        background-size: 350px 520px;
-    }
     #global .bcard h3{
         line-height: 550px;
     }
-    #global .bcard:nth-child(2){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #global .bcard:nth-child(3){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #global .bcard:nth-child(4){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #global .bcard:nth-child(5){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #global .bcard:nth-child(6){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #global .bcard:nth-child(7){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
     #global .bcard dl{
-        margin-top: 280px;
+        margin-top: 300px;
     }
     #global .bcard dl .title{
         font-size: 1.5625em;
@@ -187,7 +100,6 @@
         font-size: 1.0625em;
     }
     #global .bcard dl .text{
-        width: 350px;
         line-height: 26px;
         font-size: 0.9375em;
     }
@@ -286,30 +198,11 @@
         width: 380px;
         height: 550px;
     }
-    #ocean .bcard:nth-child(1){
-        background-size: 350px 520px;
-    }
     #ocean .bcard h3{
         line-height: 550px;
     }
-    #ocean .bcard:nth-child(2){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #ocean .bcard:nth-child(3){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #ocean .bcard:nth-child(4){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #ocean .bcard:nth-child(5){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
     #ocean .bcard dl{
-        margin-top: 280px;
+        margin-top: 300px;
     }
     #ocean .bcard dl .title{
         font-size: 1.5625em;
@@ -318,7 +211,6 @@
         font-size: 1.0625em;
     }
     #ocean .bcard dl .text{
-        width: 350px;
         line-height: 26px;
         font-size: 0.9375em;
     }
@@ -331,30 +223,11 @@
         width: 380px;
         height: 550px;
     }
-    #food .bcard:nth-child(1){
-        background-size: 350px 520px;
-    }
     #food .bcard h3{
         line-height: 550px;
     }
-    #food .bcard:nth-child(2){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #food .bcard:nth-child(3){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #food .bcard:nth-child(4){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #food .bcard:nth-child(5){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
     #food .bcard dl{
-        margin-top: 280px;
+        margin-top: 300px;
     }
     #food .bcard dl .title{
         font-size: 1.5625em;
@@ -363,7 +236,6 @@
         font-size: 1.0625em;
     }
     #food .bcard dl .text{
-        width: 350px;
         line-height: 26px;
         font-size: 0.9375em;
     }
@@ -376,30 +248,11 @@
         width: 380px;
         height: 550px;
     }
-    #living .bcard:nth-child(1){
-        background-size: 350px 520px;
-    }
     #living .bcard h3{
         line-height: 550px;
     }
-    #living .bcard:nth-child(2){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #living .bcard:nth-child(3){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #living .bcard:nth-child(4){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #living .bcard:nth-child(5){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
     #living .bcard dl{
-        margin-top: 280px;
+        margin-top: 300px;
     }
     #living .bcard dl .title{
         font-size: 1.5625em;
@@ -408,7 +261,6 @@
         font-size: 1.0625em;
     }
     #living .bcard dl .text{
-        width: 350px;
         line-height: 26px;
         font-size: 0.9375em;
     }
@@ -421,38 +273,11 @@
         width: 380px;
         height: 550px;
     }
-    #global .bcard:nth-child(1){
-        background-size: 350px 520px;
-    }
     #global .bcard h3{
         line-height: 550px;
     }
-    #global .bcard:nth-child(2){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #global .bcard:nth-child(3){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #global .bcard:nth-child(4){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #global .bcard:nth-child(5){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #global .bcard:nth-child(6){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #global .bcard:nth-child(7){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
     #global .bcard dl{
-        margin-top: 280px;
+        margin-top: 300px;
     }
     #global .bcard dl .title{
         font-size: 1.5625em;
@@ -461,7 +286,6 @@
         font-size: 1.0625em;
     }
     #global .bcard dl .text{
-        width: 350px;
         line-height: 26px;
         font-size: 0.9375em;
     }
@@ -580,30 +404,11 @@
         width: 380px;
         height: 550px;
     }
-    #ocean .bcard:nth-child(1){
-        background-size: 350px 520px;
-    }
     #ocean .bcard h3{
         line-height: 550px;
     }
-    #ocean .bcard:nth-child(2){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #ocean .bcard:nth-child(3){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #ocean .bcard:nth-child(4){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #ocean .bcard:nth-child(5){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
     #ocean .bcard dl{
-        margin-top: 280px;
+        margin-top: 300px;
     }
     #ocean .bcard dl .title{
         font-size: 1.5625em;
@@ -612,7 +417,6 @@
         font-size: 1.0625em;
     }
     #ocean .bcard dl .text{
-        width: 350px;
         line-height: 26px;
         font-size: 0.9375em;
     }
@@ -625,30 +429,11 @@
         width: 380px;
         height: 550px;
     }
-    #food .bcard:nth-child(1){
-        background-size: 350px 520px;
-    }
     #food .bcard h3{
         line-height: 550px;
     }
-    #food .bcard:nth-child(2){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #food .bcard:nth-child(3){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #food .bcard:nth-child(4){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #food .bcard:nth-child(5){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
     #food .bcard dl{
-        margin-top: 280px;
+        margin-top: 300px;
     }
     #food .bcard dl .title{
         font-size: 1.5625em;
@@ -657,7 +442,6 @@
         font-size: 1.0625em;
     }
     #food .bcard dl .text{
-        width: 350px;
         line-height: 26px;
         font-size: 0.9375em;
     }
@@ -670,30 +454,11 @@
         width: 380px;
         height: 550px;
     }
-    #living .bcard:nth-child(1){
-        background-size: 350px 520px;
-    }
     #living .bcard h3{
         line-height: 550px;
     }
-    #living .bcard:nth-child(2){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #living .bcard:nth-child(3){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #living .bcard:nth-child(4){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #living .bcard:nth-child(5){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
     #living .bcard dl{
-        margin-top: 280px;
+        margin-top: 300px;
     }
     #living .bcard dl .title{
         font-size: 1.5625em;
@@ -702,7 +467,6 @@
         font-size: 1.0625em;
     }
     #living .bcard dl .text{
-        width: 350px;
         line-height: 26px;
         font-size: 0.9375em;
     }
@@ -715,38 +479,11 @@
         width: 380px;
         height: 550px;
     }
-    #global .bcard:nth-child(1){
-        background-size: 350px 520px;
-    }
     #global .bcard h3{
         line-height: 550px;
     }
-    #global .bcard:nth-child(2){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #global .bcard:nth-child(3){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #global .bcard:nth-child(4){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #global .bcard:nth-child(5){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #global .bcard:nth-child(6){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
-    #global .bcard:nth-child(7){
-        background-size: 350px 250px;
-        background-position: center 15px;
-    }
     #global .bcard dl{
-        margin-top: 280px;
+        margin-top: 300px;
     }
     #global .bcard dl .title{
         font-size: 1.5625em;
@@ -755,7 +492,6 @@
         font-size: 1.0625em;
     }
     #global .bcard dl .text{
-        width: 350px;
         line-height: 26px;
         font-size: 0.9375em;
     }
@@ -930,30 +666,11 @@
         width: 380px;
         height: 560px;
     }
-    #ocean .bcard:nth-child(1){
-        background-size: 350px 530px;
-    }
     #ocean .bcard h3{
         line-height: 560px;
     }
-    #ocean .bcard:nth-child(2){
-        background-size: 350px 260px;
-        background-position: 13px 13px;
-    }
-    #ocean .bcard:nth-child(3){
-        background-size: 350px 260px;
-        background-position: 13px 13px;
-    }
-    #ocean .bcard:nth-child(4){
-        background-size: 350px 260px;
-        background-position: 13px 13px;
-    }
-    #ocean .bcard:nth-child(5){
-        background-size: 350px 260px;
-        background-position: 13px 13px;
-    }
     #ocean .bcard dl{
-        margin-top: 290px;
+        margin-top: 300px;
     }
     #ocean .bcard dl .title{
         font-size: 1.6666em;
@@ -964,8 +681,7 @@
         margin-bottom: 5px;
     }
     #ocean .bcard dl .text{
-        width: 350px;
-        line-height: 30px;
+        line-height: 27px;
     }
     #ocean .bcard>a{
         bottom: 13px;
@@ -976,30 +692,11 @@
         width: 380px;
         height: 560px;
     }
-    #food .bcard:nth-child(1){
-        background-size: 350px 530px;
-    }
     #food .bcard h3{
         line-height: 560px;
     }
-    #food .bcard:nth-child(2){
-        background-size: 350px 260px;
-        background-position: 13px 13px;
-    }
-    #food .bcard:nth-child(3){
-        background-size: 350px 260px;
-        background-position: 13px 13px;
-    }
-    #food .bcard:nth-child(4){
-        background-size: 350px 260px;
-        background-position: 13px 13px;
-    }
-    #food .bcard:nth-child(5){
-        background-size: 350px 260px;
-        background-position: 13px 13px;
-    }
     #food .bcard dl{
-        margin-top: 290px;
+        margin-top: 300px;
     }
     #food .bcard dl .title{
         font-size: 1.6666em;
@@ -1010,8 +707,7 @@
         margin-bottom: 5px;
     }
     #food .bcard dl .text{
-        width: 350px;
-        line-height: 30px;
+        line-height: 27px;
     }
     #food .bcard>a{
         bottom: 13px;
@@ -1022,30 +718,11 @@
         width: 380px;
         height: 560px;
     }
-    #living .bcard:nth-child(1){
-        background-size: 350px 530px;
-    }
     #living .bcard h3{
         line-height: 560px;
     }
-    #living .bcard:nth-child(2){
-        background-size: 350px 260px;
-        background-position: 13px 13px;
-    }
-    #living .bcard:nth-child(3){
-        background-size: 350px 260px;
-        background-position: 13px 13px;
-    }
-    #living .bcard:nth-child(4){
-        background-size: 350px 260px;
-        background-position: 13px 13px;
-    }
-    #living .bcard:nth-child(5){
-        background-size: 350px 260px;
-        background-position: 13px 13px;
-    }
     #living .bcard dl{
-        margin-top: 290px;
+        margin-top: 300px;
     }
     #living .bcard dl .title{
         font-size: 1.6666em;
@@ -1056,8 +733,7 @@
         margin-bottom: 5px;
     }
     #living .bcard dl .text{
-        width: 350px;
-        line-height: 30px;
+        line-height: 27px;
     }
     #living .bcard>a{
         bottom: 13px;
@@ -1068,38 +744,11 @@
         width: 380px;
         height: 560px;
     }
-    #global .bcard:nth-child(1){
-        background-size: 350px 530px;
-    }
     #global .bcard h3{
         line-height: 560px;
     }
-    #global .bcard:nth-child(2){
-        background-size: 350px 260px;
-        background-position: 13px 13px;
-    }
-    #global .bcard:nth-child(3){
-        background-size: 350px 260px;
-        background-position: 13px 13px;
-    }
-    #global .bcard:nth-child(4){
-        background-size: 350px 260px;
-        background-position: 13px 13px;
-    }
-    #global .bcard:nth-child(5){
-        background-size: 350px 260px;
-        background-position: 13px 13px;
-    }
-    #global .bcard:nth-child(6){
-        background-size: 350px 260px;
-        background-position: 13px 13px;
-    }
-    #global .bcard:nth-child(7){
-        background-size: 350px 260px;
-        background-position: 13px 13px;
-    }
     #global .bcard dl{
-        margin-top: 290px;
+        margin-top: 300px;
     }
     #global .bcard dl .title{
         font-size: 1.6666em;
@@ -1110,8 +759,7 @@
         margin-bottom: 5px;
     }
     #global .bcard dl .text{
-        width: 350px;
-        line-height: 30px;
+        line-height: 27px;
     }
     #global .bcard>a{
         bottom: 13px;
@@ -1292,6 +940,9 @@
     /* //페이지 넘어가기 */
 
     /* 슬로건페이지 */
+    #slogan{
+        height: auto;
+    }
     #slogan .slogantext{
         height: auto;
     }
@@ -1304,19 +955,6 @@
         display: block !important;
     }
     /* //슬로건페이지 */
-    /* 슬로건페이지 넘어가기 */
-    #spagedot{
-        width: 130px;
-    }
-    #spagedot>a{
-        width: 23px;
-        height: 23px;
-    }
-    #spagedot>a .sdot{
-        width: 13px;
-        height: 13px;
-    }
-    /* //슬로건페이지 넘어가기 */
     
     /* 비즈니스페이지 */
     #business{
@@ -1345,35 +983,32 @@
     #ocean .bcard{
         width: 350px;
         height: 530px;
-        margin-right: 30px;
+        margin-right: 25px;
     }
     #ocean .bcard:hover{
         border: 3px solid #0065bd;
-    }
-    #ocean .bcard:nth-child(1){
-        background-size: 325px 505px;
     }
     #ocean .bcard h3{
         line-height: 530px;
     }
     #ocean .bcard:nth-child(2){
-        background-size: 325px 325px;
-        background-position: 11px 9.5px;
+        background-size: 93% 65%;
+        background-position: center 14px;
     }
     #ocean .bcard:nth-child(3){
-        background-size: 325px 325px;
-        background-position: 11px 9.5px;
+        background-size: 93% 65%;
+        background-position: center 14px;
     }
     #ocean .bcard:nth-child(4){
-        background-size: 325px 325px;
-        background-position: 11px 9.5px;
+        background-size: 93% 65%;
+        background-position: center 14px;
     }
     #ocean .bcard:nth-child(5){
-        background-size: 325px 325px;
-        background-position: 11px 9.5px;
+        background-size: 93% 65%;
+        background-position: center 14px;
     }
     #ocean .bcard dl{
-        margin-top: 370px;
+        margin-top: 380px;
     }
     #ocean .bcard dl .title{
         font-size: 1.6666em;
@@ -1393,35 +1028,32 @@
     #food .bcard{
         width: 350px;
         height: 530px;
-        margin-right: 30px;
+        margin-right: 25px;
     }
     #food .bcard:hover{
         border: 3px solid #0065bd;
-    }
-    #food .bcard:nth-child(1){
-        background-size: 325px 505px;
     }
     #food .bcard h3{
         line-height: 530px;
     }
     #food .bcard:nth-child(2){
-        background-size: 325px 325px;
-        background-position: 11px 9.5px;
+        background-size: 93% 65%;
+        background-position: center 14px;
     }
     #food .bcard:nth-child(3){
-        background-size: 325px 325px;
-        background-position: 11px 9.5px;
+        background-size: 93% 65%;
+        background-position: center 14px;
     }
     #food .bcard:nth-child(4){
-        background-size: 325px 325px;
-        background-position: 11px 9.5px;
+        background-size: 93% 65%;
+        background-position: center 14px;
     }
     #food .bcard:nth-child(5){
-        background-size: 325px 325px;
-        background-position: 11px 9.5px;
+        background-size: 93% 65%;
+        background-position: center 14px;
     }
     #food .bcard dl{
-        margin-top: 370px;
+        margin-top: 380px;
     }
     #food .bcard dl .title{
         font-size: 1.6666em;
@@ -1441,35 +1073,32 @@
     #living .bcard{
         width: 350px;
         height: 530px;
-        margin-right: 30px;
+        margin-right: 25px;
     }
     #living .bcard:hover{
         border: 3px solid #0065bd;
-    }
-    #living .bcard:nth-child(1){
-        background-size: 325px 505px;
     }
     #living .bcard h3{
         line-height: 530px;
     }
     #living .bcard:nth-child(2){
-        background-size: 325px 325px;
-        background-position: 11px 9.5px;
+        background-size: 93% 65%;
+        background-position: center 14px;
     }
     #living .bcard:nth-child(3){
-        background-size: 325px 325px;
-        background-position: 11px 9.5px;
+        background-size: 93% 65%;
+        background-position: center 14px;
     }
     #living .bcard:nth-child(4){
-        background-size: 325px 325px;
-        background-position: 11px 9.5px;
+        background-size: 93% 65%;
+        background-position: center 14px;
     }
     #living .bcard:nth-child(5){
-        background-size: 325px 325px;
-        background-position: 11px 9.5px;
+        background-size: 93% 65%;
+        background-position: center 14px;
     }
     #living .bcard dl{
-        margin-top: 370px;
+        margin-top: 380px;
     }
     #living .bcard dl .title{
         font-size: 1.6666em;
@@ -1489,43 +1118,40 @@
     #global .bcard{
         width: 350px;
         height: 530px;
-        margin-right: 30px;
+        margin-right: 25px;
     }
     #global .bcard:hover{
         border: 3px solid #0065bd;
-    }
-    #global .bcard:nth-child(1){
-        background-size: 325px 505px;
     }
     #global .bcard h3{
         line-height: 530px;
     }
     #global .bcard:nth-child(2){
-        background-size: 325px 325px;
-        background-position: 11px 9.5px;
+        background-size: 93% 65%;
+        background-position: center 14px;
     }
     #global .bcard:nth-child(3){
-        background-size: 325px 325px;
-        background-position: 11px 9.5px;
+        background-size: 93% 65%;
+        background-position: center 14px;
     }
     #global .bcard:nth-child(4){
-        background-size: 325px 325px;
-        background-position: 11px 9.5px;
+        background-size: 93% 65%;
+        background-position: center 14px;
     }
     #global .bcard:nth-child(5){
-        background-size: 325px 325px;
-        background-position: 11px 9.5px;
+        background-size: 93% 65%;
+        background-position: center 14px;
     }
     #global .bcard:nth-child(6){
-        background-size: 325px 325px;
-        background-position: 11px 9.5px;
+        background-size: 93% 65%;
+        background-position: center 14px;
     }
     #global .bcard:nth-child(7){
-        background-size: 325px 325px;
-        background-position: 11px 9.5px;
+        background-size: 93% 65%;
+        background-position: center 14px;
     }
     #global .bcard dl{
-        margin-top: 370px;
+        margin-top: 380px;
     }
     #global .bcard dl .title{
         font-size: 1.6666em;
@@ -1793,7 +1419,7 @@
 
     /* 팝업창 */
     #popup{
-        top: 200px;
+        top: 320px;
     }
     /* //팝업창 */
 }
@@ -1902,20 +1528,6 @@
         display: block !important;
     }
     /* //슬로건페이지 */
-    /* 슬로건페이지 넘어가기 */
-    #spagedot{
-        width: 110px;
-        bottom: 25px;
-    }
-    #spagedot>a{
-        width: 21px;
-        height: 21px;
-    }
-    #spagedot>a .sdot{
-        width: 11px;
-        height: 11px;
-    }
-    /* //슬로건페이지 넘어가기 */
     
     /* 비즈니스페이지 */
     #business{
@@ -1944,37 +1556,34 @@
     }
     #ocean .bcard{
         width: 260px;
-        height: 380px;
+        height: 400px;
         margin-right: 30px;
     }
     #ocean .bcard:hover{
         border: 3px solid #0065bd;
     }
-    #ocean .bcard:nth-child(1){
-        background-size: 240px 360px;
-    }
     #ocean .bcard h3{
-        line-height: 380px;
+        line-height: 400px;
         font-size: 1.5384em;
     }
     #ocean .bcard:nth-child(2){
-        background-size: 240px 240px;
-        background-position: 8px 7px;
+        background-size: 93% 65%;
+        background-position: center 10px;
     }
     #ocean .bcard:nth-child(3){
-        background-size: 240px 240px;
-        background-position: 8px 7px;
+        background-size: 93% 65%;
+        background-position: center 10px;
     }
     #ocean .bcard:nth-child(4){
-        background-size: 240px 240px;
-        background-position: 8px 7px;
+        background-size: 93% 65%;
+        background-position: center 10px;
     }
     #ocean .bcard:nth-child(5){
-        background-size: 240px 240px;
-        background-position: 8px 7px;
+        background-size: 93% 65%;
+        background-position: center 10px;
     }
     #ocean .bcard dl{
-        margin-top: 260px;
+        margin-top: 280px;
     }
     #ocean .bcard dl .title{
         font-size: 1.5384em;
@@ -1982,7 +1591,7 @@
     }
     #ocean .bcard dl .subtitle{
         font-size: 1em;
-        width: 230px;
+        width: 93%;
         margin: auto;
     }
     #ocean .bcard dl .text{
@@ -1998,37 +1607,34 @@
 
     #food .bcard{
         width: 260px;
-        height: 380px;
+        height: 400px;
         margin-right: 30px;
     }
     #food .bcard:hover{
         border: 3px solid #0065bd;
     }
-    #food .bcard:nth-child(1){
-        background-size: 240px 360px;
-    }
     #food .bcard h3{
-        line-height: 380px;
+        line-height: 400px;
         font-size: 1.5384em;
     }
     #food .bcard:nth-child(2){
-        background-size: 240px 240px;
-        background-position: 8px 7px;
+        background-size: 93% 65%;
+        background-position: center 10px;
     }
     #food .bcard:nth-child(3){
-        background-size: 240px 240px;
-        background-position: 8px 7px;
+        background-size: 93% 65%;
+        background-position: center 10px;
     }
     #food .bcard:nth-child(4){
-        background-size: 240px 240px;
-        background-position: 8px 7px;
+        background-size: 93% 65%;
+        background-position: center 10px;
     }
     #food .bcard:nth-child(5){
-        background-size: 240px 240px;
-        background-position: 8px 7px;
+        background-size: 93% 65%;
+        background-position: center 10px;
     }
     #food .bcard dl{
-        margin-top: 260px;
+        margin-top: 280px;
     }
     #food .bcard dl .title{
         font-size: 1.5384em;
@@ -2036,7 +1642,7 @@
     }
     #food .bcard dl .subtitle{
         font-size: 1em;
-        width: 230px;
+        width: 93%;
         margin: auto;
     }
     #food .bcard dl .text{
@@ -2052,37 +1658,34 @@
 
     #living .bcard{
         width: 260px;
-        height: 380px;
+        height: 400px;
         margin-right: 30px;
     }
     #living .bcard:hover{
         border: 3px solid #0065bd;
     }
-    #living .bcard:nth-child(1){
-        background-size: 240px 360px;
-    }
     #living .bcard h3{
-        line-height: 380px;
+        line-height: 400px;
         font-size: 1.5384em;
     }
     #living .bcard:nth-child(2){
-        background-size: 240px 240px;
-        background-position: 8px 7px;
+        background-size: 93% 65%;
+        background-position: center 10px;
     }
     #living .bcard:nth-child(3){
-        background-size: 240px 240px;
-        background-position: 8px 7px;
+        background-size: 93% 65%;
+        background-position: center 10px;
     }
     #living .bcard:nth-child(4){
-        background-size: 240px 240px;
-        background-position: 8px 7px;
+        background-size: 93% 65%;
+        background-position: center 10px;
     }
     #living .bcard:nth-child(5){
-        background-size: 240px 240px;
-        background-position: 8px 7px;
+        background-size: 93% 65%;
+        background-position: center 10px;
     }
     #living .bcard dl{
-        margin-top: 260px;
+        margin-top: 280px;
     }
     #living .bcard dl .title{
         font-size: 1.5384em;
@@ -2090,7 +1693,7 @@
     }
     #living .bcard dl .subtitle{
         font-size: 1em;
-        width: 230px;
+        width: 93%;
         margin: auto;
     }
     #living .bcard dl .text{
@@ -2106,45 +1709,42 @@
 
     #global .bcard{
         width: 260px;
-        height: 380px;
+        height: 400px;
         margin-right: 30px;
     }
     #global .bcard:hover{
         border: 3px solid #0065bd;
     }
-    #global .bcard:nth-child(1){
-        background-size: 240px 360px;
-    }
     #global .bcard h3{
-        line-height: 380px;
+        line-height: 400px;
         font-size: 1.5384em;
     }
     #global .bcard:nth-child(2){
-        background-size: 240px 240px;
-        background-position: 8px 7px;
+        background-size: 93% 65%;
+        background-position: center 10px;
     }
     #global .bcard:nth-child(3){
-        background-size: 240px 240px;
-        background-position: 8px 7px;
+        background-size: 93% 65%;
+        background-position: center 10px;
     }
     #global .bcard:nth-child(4){
-        background-size: 240px 240px;
-        background-position: 8px 7px;
+        background-size: 93% 65%;
+        background-position: center 10px;
     }
     #global .bcard:nth-child(5){
-        background-size: 240px 240px;
-        background-position: 8px 7px;
+        background-size: 93% 65%;
+        background-position: center 10px;
     }
     #global .bcard:nth-child(6){
-        background-size: 240px 240px;
-        background-position: 8px 7px;
+        background-size: 93% 65%;
+        background-position: center 10px;
     }
     #global .bcard:nth-child(7){
-        background-size: 240px 240px;
-        background-position: 8px 7px;
+        background-size: 93% 65%;
+        background-position: center 10px;
     }
     #global .bcard dl{
-        margin-top: 260px;
+        margin-top: 280px;
     }
     #global .bcard dl .title{
         font-size: 1.5384em;
@@ -2152,7 +1752,7 @@
     }
     #global .bcard dl .subtitle{
         font-size: 1em;
-        width: 230px;
+        width: 93%;
         margin: auto;
     }
     #global .bcard dl .text{
@@ -2428,7 +2028,7 @@
     #popup{
         width: 400px;
         height: 250px;
-        top: 160px;
+        top: 345px;
     }
     #popup button{
         margin-top: 50px;
@@ -2557,21 +2157,6 @@
         display: block !important;
     }
     /* //슬로건페이지 */
-    /* 슬로건페이지 넘어가기 */
-    #spagedot{
-        width: 100px;
-        bottom: 20px;
-    }
-    #spagedot>a{
-        width: 17px;
-        height: 17px;
-    }
-    #spagedot>a .sdot{
-        width: 9px;
-        height: 9px;
-        margin-top: 3px;
-    }
-    /* //슬로건페이지 넘어가기 */
     
     /* 비즈니스페이지 */
     #business{
@@ -2600,37 +2185,34 @@
     }
     #ocean .bcard{
         width: 180px;
-        height: 270px;
-        margin-right: 10px;
+        height: 300px;
+        margin-right: 20px;
     }
     #ocean .bcard:hover{
         border: 3px solid #0065bd;
     }
-    #ocean .bcard:nth-child(1){
-        background-size: 165px 255px;
-    }
     #ocean .bcard h3{
-        line-height: 270px;
+        line-height: 300px;
         font-size: 1.3333em;
     }
     #ocean .bcard:nth-child(2){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #ocean .bcard:nth-child(3){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #ocean .bcard:nth-child(4){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #ocean .bcard:nth-child(5){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #ocean .bcard dl{
-        margin-top: 180px;
+        margin-top: 200px;
     }
     #ocean .bcard dl .title{
         font-size: 1.3333em;
@@ -2638,7 +2220,7 @@
     }
     #ocean .bcard dl .subtitle{
         font-size: 0.83333em;
-        width: 165px;
+        width: 93%;
         margin: auto;
     }
     #ocean .bcard dl .text{
@@ -2654,37 +2236,34 @@
 
     #food .bcard{
         width: 180px;
-        height: 270px;
+        height: 300px;
         margin-right: 10px;
     }
     #food .bcard:hover{
         border: 3px solid #0065bd;
     }
-    #food .bcard:nth-child(1){
-        background-size: 165px 255px;
-    }
     #food .bcard h3{
-        line-height: 270px;
+        line-height: 300px;
         font-size: 1.3333em;
     }
     #food .bcard:nth-child(2){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #food .bcard:nth-child(3){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #food .bcard:nth-child(4){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #food .bcard:nth-child(5){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #food .bcard dl{
-        margin-top: 180px;
+        margin-top: 200px;
     }
     #food .bcard dl .title{
         font-size: 1.3333em;
@@ -2692,7 +2271,7 @@
     }
     #food .bcard dl .subtitle{
         font-size: 0.83333em;
-        width: 165px;
+        width: 93%;
         margin: auto;
     }
     #food .bcard dl .text{
@@ -2708,37 +2287,34 @@
 
     #living .bcard{
         width: 180px;
-        height: 270px;
+        height: 300px;
         margin-right: 10px;
     }
     #living .bcard:hover{
         border: 3px solid #0065bd;
     }
-    #living .bcard:nth-child(1){
-        background-size: 165px 255px;
-    }
     #living .bcard h3{
-        line-height: 270px;
+        line-height: 300px;
         font-size: 1.3333em;
     }
     #living .bcard:nth-child(2){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #living .bcard:nth-child(3){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #living .bcard:nth-child(4){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #living .bcard:nth-child(5){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #living .bcard dl{
-        margin-top: 180px;
+        margin-top: 200px;
     }
     #living .bcard dl .title{
         font-size: 1.3333em;
@@ -2746,7 +2322,7 @@
     }
     #living .bcard dl .subtitle{
         font-size: 0.83333em;
-        width: 165px;
+        width: 93%;
         margin: auto;
     }
     #living .bcard dl .text{
@@ -2768,39 +2344,36 @@
     #global .bcard:hover{
         border: 3px solid #0065bd;
     }
-    #global .bcard:nth-child(1){
-        background-size: 165px 255px;
-    }
     #global .bcard h3{
         line-height: 270px;
         font-size: 1.3333em;
     }
     #global .bcard:nth-child(2){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #global .bcard:nth-child(3){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #global .bcard:nth-child(4){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #global .bcard:nth-child(5){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #global .bcard:nth-child(6){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #global .bcard:nth-child(7){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #global .bcard dl{
-        margin-top: 180px;
+        margin-top: 200px;
     }
     #global .bcard dl .title{
         font-size: 1.3333em;
@@ -2808,7 +2381,7 @@
     }
     #global .bcard dl .subtitle{
         font-size: 0.83333em;
-        width: 165px;
+        width: 93%;
         margin: auto;
     }
     #global .bcard dl .text{
@@ -3117,7 +2690,7 @@
     #popup{
         width: 300px;
         height: 200px;
-        top: 130px;
+        top: 370px;
     }
     #popup p{
         margin-top: 10px;
@@ -3268,21 +2841,6 @@
         height: 13px;
     }
     /* //슬로건페이지 */
-    /* 슬로건페이지 넘어가기 */
-    #spagedot{
-        width: 100px;
-        bottom: 20px;
-    }
-    #spagedot>a{
-        width: 17px;
-        height: 17px;
-    }
-    #spagedot>a .sdot{
-        width: 9px;
-        height: 9px;
-        margin-top: 3px;
-    }
-    /* //슬로건페이지 넘어가기 */
     
     /* 비즈니스페이지 */
     #business{
@@ -3317,28 +2875,25 @@
     #ocean .bcard:hover{
         border: 3px solid #0065bd;
     }
-    #ocean .bcard:nth-child(1){
-        background-size: 165px 255px;
-    }
     #ocean .bcard h3{
         line-height: 270px;
         font-size: 1.3333em;
     }
     #ocean .bcard:nth-child(2){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #ocean .bcard:nth-child(3){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #ocean .bcard:nth-child(4){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #ocean .bcard:nth-child(5){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #ocean .bcard dl{
         margin-top: 180px;
@@ -3349,7 +2904,7 @@
     }
     #ocean .bcard dl .subtitle{
         font-size: 0.83333em;
-        width: 165px;
+        width: 93%;
         margin: auto;
     }
     #ocean .bcard dl .text{
@@ -3371,28 +2926,25 @@
     #food .bcard:hover{
         border: 3px solid #0065bd;
     }
-    #food .bcard:nth-child(1){
-        background-size: 165px 255px;
-    }
     #food .bcard h3{
         line-height: 270px;
         font-size: 1.3333em;
     }
     #food .bcard:nth-child(2){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #food .bcard:nth-child(3){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #food .bcard:nth-child(4){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #food .bcard:nth-child(5){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #food .bcard dl{
         margin-top: 180px;
@@ -3403,7 +2955,7 @@
     }
     #food .bcard dl .subtitle{
         font-size: 0.83333em;
-        width: 165px;
+        width: 93%;
         margin: auto;
     }
     #food .bcard dl .text{
@@ -3425,28 +2977,25 @@
     #living .bcard:hover{
         border: 3px solid #0065bd;
     }
-    #living .bcard:nth-child(1){
-        background-size: 165px 255px;
-    }
     #living .bcard h3{
         line-height: 270px;
         font-size: 1.3333em;
     }
     #living .bcard:nth-child(2){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #living .bcard:nth-child(3){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #living .bcard:nth-child(4){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #living .bcard:nth-child(5){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #living .bcard dl{
         margin-top: 180px;
@@ -3457,7 +3006,7 @@
     }
     #living .bcard dl .subtitle{
         font-size: 0.83333em;
-        width: 165px;
+        width: 93%;
         margin: auto;
     }
     #living .bcard dl .text{
@@ -3479,36 +3028,33 @@
     #global .bcard:hover{
         border: 3px solid #0065bd;
     }
-    #global .bcard:nth-child(1){
-        background-size: 165px 255px;
-    }
     #global .bcard h3{
         line-height: 270px;
         font-size: 1.3333em;
     }
     #global .bcard:nth-child(2){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #global .bcard:nth-child(3){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #global .bcard:nth-child(4){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #global .bcard:nth-child(5){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #global .bcard:nth-child(6){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #global .bcard:nth-child(7){
-        background-size: 164px 164px;
-        background-position: 6.5px 7px;
+        background-size: 93% 60%;
+        background-position: center 8px;
     }
     #global .bcard dl{
         margin-top: 180px;
@@ -3519,7 +3065,7 @@
     }
     #global .bcard dl .subtitle{
         font-size: 0.83333em;
-        width: 165px;
+        width: 93%;
         margin: auto;
     }
     #global .bcard dl .text{
@@ -3828,7 +3374,7 @@
     #popup{
         width: 250px;
         height: 150px;
-        top: 100px;
+        top: 395px;
         padding: 5px;
     }
     #popup p{

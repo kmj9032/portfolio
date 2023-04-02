@@ -143,7 +143,7 @@ header .menuicon{
 #actmenu #menu1>li{
     width: 50%;
     margin: auto;
-    line-height: 80px;
+    line-height: 60px;
     text-align: center;
 }
 #actmenu #menu1>li>a{
@@ -458,7 +458,6 @@ header .hicon{
     left: 0;
     width: 100%;
     height: 100%;
-    padding-left: 38%;
 }
 #ocean{
     display: flex;
@@ -474,7 +473,7 @@ header .hicon{
 #ocean .bcard:nth-child(1){
     background-image: url(../img/ocean.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 610px;
+    background-size: 93% 95%;
     background-position: center center;
 }
 #ocean .bcard h3{
@@ -490,30 +489,30 @@ header .hicon{
 #ocean .bcard:nth-child(2){
     background-image: url(../img/ocean1.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 300px;
-    background-position: 20px 20px;
+    background-size: 93% 49%;
+    background-position: center 16px;
 }
 #ocean .bcard:nth-child(3){
     background-image: url(../img/ocean2.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 300px;
-    background-position: 20px 20px;
+    background-size: 93% 49%;
+    background-position: center 16px;
 }
 #ocean .bcard:nth-child(4){
     background-image: url(../img/ocean3.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 300px;
-    background-position: 20px 20px;
+    background-size: 93% 49%;
+    background-position: center 16px;
 }
 #ocean .bcard:nth-child(5){
     background-image: url(../img/ocean4.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 300px;
-    background-position: 20px 20px;
+    background-size: 93% 49%;
+    background-position: center 16px;
 }
 #ocean .bcard dl{
     text-align: center;
-    margin-top: 340px;
+    margin-top: 350px;
 }
 #ocean .bcard dl .title{
     font-family: 'S-CoreDream-3Light';
@@ -540,7 +539,7 @@ header .hicon{
     color: #222;
     line-height: 33px;
     text-align: left;
-    width: 410px;
+    width: 93%;
     margin: auto;
 }
 #ocean .bcard>a{
@@ -551,8 +550,8 @@ header .hicon{
     background-repeat: no-repeat;
     background-size: 70px 25px;
     position: absolute;
-    bottom: 30px;
-    right: 30px;
+    bottom: 20px;
+    right: 20px;
 }
 #food{
     display: flex;
@@ -568,7 +567,7 @@ header .hicon{
 #food .bcard:nth-child(1){
     background-image: url(../img/food.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 610px;
+    background-size: 93% 95%;
     background-position: center center;
 }
 #food .bcard h3{
@@ -584,30 +583,30 @@ header .hicon{
 #food .bcard:nth-child(2){
     background-image: url(../img/food1.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 300px;
-    background-position: 20px 20px;
+    background-size: 93% 49%;
+    background-position: center 16px;
 }
 #food .bcard:nth-child(3){
     background-image: url(../img/food2.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 300px;
-    background-position: 20px 20px;
+    background-size: 93% 49%;
+    background-position: center 16px;
 }
 #food .bcard:nth-child(4){
     background-image: url(../img/food3.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 300px;
-    background-position: 20px 20px;
+    background-size: 93% 49%;
+    background-position: center 16px;
 }
 #food .bcard:nth-child(5){
     background-image: url(../img/food4.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 300px;
-    background-position: 20px 20px;
+    background-size: 93% 49%;
+    background-position: center 16px;
 }
 #food .bcard dl{
     text-align: center;
-    margin-top: 340px;
+    margin-top: 350px;
 }
 #food .bcard dl .title{
     font-family: 'S-CoreDream-3Light';
@@ -630,7 +629,7 @@ header .hicon{
     color: #222;
     line-height: 33px;
     text-align: left;
-    width: 410px;
+    width: 93%;
     margin: auto;
 }
 #food .bcard>a{
@@ -641,8 +640,8 @@ header .hicon{
     background-repeat: no-repeat;
     background-size: 70px 25px;
     position: absolute;
-    bottom: 30px;
-    right: 30px;
+    bottom: 20px;
+    right: 20px;
 }
 #living{
     display: flex;
@@ -658,7 +657,7 @@ header .hicon{
 #living .bcard:nth-child(1){
     background-image: url(../img/living.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 610px;
+    background-size: 93% 95%;
     background-position: center center;
 }
 #living .bcard h3{
@@ -674,30 +673,30 @@ header .hicon{
 #living .bcard:nth-child(2){
     background-image: url(../img/living1.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 300px;
-    background-position: 20px 20px;
+    background-size: 93% 49%;
+    background-position: center 16px;
 }
 #living .bcard:nth-child(3){
     background-image: url(../img/living2.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 300px;
-    background-position: 20px 20px;
+    background-size: 93% 49%;
+    background-position: center 16px;
 }
 #living .bcard:nth-child(4){
     background-image: url(../img/living3.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 300px;
-    background-position: 20px 20px;
+    background-size: 93% 49%;
+    background-position: center 16px;
 }
 #living .bcard:nth-child(5){
     background-image: url(../img/living4.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 300px;
-    background-position: 20px 20px;
+    background-size: 93% 49%;
+    background-position: center 16px;
 }
 #living .bcard dl{
     text-align: center;
-    margin-top: 340px;
+    margin-top: 350px;
 }
 #living .bcard dl .title{
     font-family: 'S-CoreDream-3Light';
@@ -720,7 +719,7 @@ header .hicon{
     color: #222;
     line-height: 33px;
     text-align: left;
-    width: 410px;
+    width: 93%;
     margin: auto;
 }
 #living .bcard>a{
@@ -731,8 +730,8 @@ header .hicon{
     background-repeat: no-repeat;
     background-size: 70px 25px;
     position: absolute;
-    bottom: 30px;
-    right: 30px;
+    bottom: 20px;
+    right: 20px;
 }
 #global{
     display: flex;
@@ -748,7 +747,7 @@ header .hicon{
 #global .bcard:nth-child(1){
     background-image: url(../img/global.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 610px;
+    background-size: 93% 95%;
     background-position: center center;
 }
 #global .bcard h3{
@@ -764,42 +763,42 @@ header .hicon{
 #global .bcard:nth-child(2){
     background-image: url(../img/global1.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 300px;
-    background-position: 20px 20px;
+    background-size: 93% 49%;
+    background-position: center 16px;
 }
 #global .bcard:nth-child(3){
     background-image: url(../img/global2.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 300px;
-    background-position: 20px 20px;
+    background-size: 93% 49%;
+    background-position: center 16px;
 }
 #global .bcard:nth-child(4){
     background-image: url(../img/global3.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 300px;
-    background-position: 20px 20px;
+    background-size: 93% 49%;
+    background-position: center 16px;
 }
 #global .bcard:nth-child(5){
     background-image: url(../img/global4.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 300px;
-    background-position: 20px 20px;
+    background-size: 93% 49%;
+    background-position: center 16px;
 }
 #global .bcard:nth-child(6){
     background-image: url(../img/global5.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 300px;
-    background-position: 20px 20px;
+    background-size: 93% 49%;
+    background-position: center 16px;
 }
 #global .bcard:nth-child(7){
     background-image: url(../img/global6.jpg);
     background-repeat: no-repeat;
-    background-size: 410px 300px;
-    background-position: 20px 20px;
+    background-size: 93% 49%;
+    background-position: center 16px;
 }
 #global .bcard dl{
     text-align: center;
-    margin-top: 340px;
+    margin-top: 350px;
 }
 #global .bcard dl .title{
     font-family: 'S-CoreDream-3Light';
@@ -831,7 +830,7 @@ header .hicon{
     color: #222;
     line-height: 33px;
     text-align: left;
-    width: 410px;
+    width: 93%;
     margin: auto;
 }
 #global .bcard>a{
@@ -842,8 +841,8 @@ header .hicon{
     background-repeat: no-repeat;
     background-size: 70px 25px;
     position: absolute;
-    bottom: 30px;
-    right: 30px;
+    bottom: 20px;
+    right: 20px;
 }
 /* //비즈니스페이지 */
 

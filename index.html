@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media_style.css">
     <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <script src="script/jquery-3.6.4.min.js"></script>
     <script src="script/main.js" defer></script>
     <script src="script/jquery.bxslider.js"></script>
+    <script src="script/owl.carousel.js"></script>
 </head>
 <body>
     <!-- headear -->
@@ -184,14 +187,6 @@
                     <li class="slogan2">바다의 무한한 가치를<br> 식탁으로 전합니다.</li>
                     <li class="slogan3">바다를 넘어 전세계에<br> 동원의 가치를 알리겠습니다.</li>
                 </ul>
-
-                <!-- 슬로건 페이지 넘어가기 -->
-                <div id="spagedot">
-                    <a href="#"><div class="sdot"></div><span class="hidden">첫번째 슬로건보기</span></a>
-                    <a href="#"><div class="sdot"></div><span class="hidden">두번째 슬로건보기</span></a>
-                    <a href="#"><div class="sdot"></div><span class="hidden">세번째 슬로건보기</span></a>
-                </div>
-                <!-- //슬로건 페이지 넘어가기 -->
             </section>
             <!-- //슬로건페이지 -->
 
@@ -206,14 +201,14 @@
                 <!-- //title -->
 
                 <!-- 사업영역 설명 카드 -->
-                <section id="cardbox" class="swiper-container">
+                <section id="cardbox" class="owl-carousel">
                     <!-- 오션 -->
-                    <div id="ocean" class="swiper-wrapper">
-                        <div class="bcard swiper-slide">
+                    <div id="ocean" class="owl-stage">
+                        <div class="bcard owl-item">
                             <h3>Ocean & Logistics</h3>
                         </div>
     
-                        <div class="bcard swiper-slide">
+                        <div class="bcard owl-item">
                             <dl>
                                 <dt class="title">동원산업</dt>
                                 <dd class="subtitle">세계 1위 종합수산 식품기업</dd>
@@ -224,7 +219,7 @@
                             <a href="#" title="동원산업 바로가기"></a>                        
                         </div>
     
-                        <div class="bcard swiper-slide">
+                        <div class="bcard owl-item">
                             <dl>
                                 <dt class="title">동원로엑스</dt>
                                 <dd class="subtitle">세계 물류시장을 선도하는 종합물류기업</dd>
@@ -235,7 +230,7 @@
                             <a href="#" title="동원로엑스 바로가기"></a>
                         </div>
     
-                        <div class="bcard swiper-slide">
+                        <div class="bcard owl-item">
                             <dl>
                                 <dt class="title">BIDC</dt>
                                 <dd class="subtitle">부산항 배후물류단지 내 최대 물류센터 운영기업</dd>
@@ -246,7 +241,7 @@
                             <a href="#" title="BIDC 바로가기"></a>
                         </div>
     
-                        <div class="bcard swiper-slide">
+                        <div class="bcard owl-item">
                             <dl>
                                 <dt class="title">동원로엑스냉장</dt>
                                 <dd class="subtitle">부산-진해 냉장물류의 새로운 랜드마크</dd>
@@ -261,12 +256,12 @@
                     <!-- //오션 -->
 
                     <!-- 푸드 -->
-                    <div id="food" class="swiper-wrapper">
-                        <div class="bcard swiper-slide">
+                    <div id="food" class="owl-stage">
+                        <div class="bcard owl-item">
                             <h3>Food Culture</h3>
                         </div>
     
-                        <div class="bcard swiper-slide">
+                        <div class="bcard owl-item">
                             <dl>
                                 <dt class="title">동원F&B</dt>
                                 <dd class="subtitle">국민 건강에 기여하는 글로벌 종합식품기업</dd>
@@ -277,7 +272,7 @@
                             <a href="#" title="동원F&B 바로가기"></a>
                         </div>
     
-                        <div class="bcard swiper-slide">
+                        <div class="bcard owl-item">
                             <dl>
                                 <dt class="title">동원홈푸드</dt>
                                 <dd class="subtitle">새로운 식문화를 선도하는 종합식품유통기업</dd>
@@ -288,7 +283,7 @@
                             <a href="#" title="동원홈푸드 바로가기"></a>
                         </div>
     
-                        <div class="bcard swiper-slide">
+                        <div class="bcard owl-item">
                             <dl>
                                 <dt class="title">동원디어푸드</dt>
                                 <dd class="subtitle">고객에게 차별화된 서비스를 제공하는<br>온라인 비즈니스 기업</dd>
@@ -299,7 +294,7 @@
                             <a href="#" title="동원디어푸드 바로가기"></a>
                         </div>
     
-                        <div class="bcard swiper-slide">
+                        <div class="bcard owl-item">
                             <dl>
                                 <dt class="title">동원팜스</dt>
                                 <dd class="subtitle">고품질 사료 전문 기업</dd>
@@ -313,12 +308,12 @@
                     <!-- //푸드 -->
 
                     <!-- 생활 -->
-                    <div id="living" class="swiper-wrapper">
-                        <div class="bcard swiper-slide">
+                    <div id="living" class="owl-stage">
+                        <div class="bcard owl-item">
                             <h3>Living & Finance</h3>
                         </div>
     
-                        <div class="bcard swiper-slide">
+                        <div class="bcard owl-item">
                             <dl>
                                 <dt class="title">동원시스템즈</dt>
                                 <dd class="subtitle">국내 1위 종합 포장재 전문기업</dd>
@@ -329,7 +324,7 @@
                             <a href="#" title="동원시스템즈 바로가기"></a>
                         </div>
     
-                        <div class="bcard swiper-slide">
+                        <div class="bcard owl-item">
                             <dl>
                                 <dt class="title">동원건설산업</dt>
                                 <dd class="subtitle">종합 건설기업</dd>
@@ -340,7 +335,7 @@
                             <a href="#" title="동원건설산업 바로가기"></a>
                         </div>
     
-                        <div class="bcard swiper-slide">
+                        <div class="bcard owl-item">
                             <dl>
                                 <dt class="title">동원CNS</dt>
                                 <dd class="subtitle">아웃소싱 서비스 기업</dd>
@@ -351,7 +346,7 @@
                             <a href="#" title="동원CNS 바로가기"></a>
                         </div>
     
-                        <div class="bcard swiper-slide">
+                        <div class="bcard owl-item">
                             <dl>
                                 <dt class="title">동원기술투자</dt>
                                 <dd class="subtitle">국내 최초의 기업형 벤처캐피탈(CVC)</dd>
@@ -365,12 +360,12 @@
                     <!-- //생활 -->
 
                     <!-- 글로벌 -->
-                    <div id="global" class="swiper-wrapper">
-                        <div class="bcard swiper-slide">
+                    <div id="global" class="owl-stage">
+                        <div class="bcard owl-item">
                             <h3>Global</h3>
                         </div>
     
-                        <div class="bcard swiper-slide">
+                        <div class="bcard owl-item">
                             <dl>
                                 <dt class="title">StarKist</dt>
                                 <dd class="subtitle">미국 No.1 참치 브랜드</dd>
@@ -381,7 +376,7 @@
                             <a href="#" title="StarKist 바로가기"></a>
                         </div>
     
-                        <div class="bcard swiper-slide">
+                        <div class="bcard owl-item">
                             <dl>
                                 <dt class="title">S.C.A SA</dt>
                                 <dd class="subtitle">세네갈 최대 참치 제조 기업</dd>
@@ -392,7 +387,7 @@
                             <a href="#" title="S.C.A SA 바로가기"></a>
                         </div>
     
-                        <div class="bcard swiper-slide">
+                        <div class="bcard owl-item">
                             <dl>
                                 <dt class="title">TALOFA SYSTEMS</dt>
                                 <dd class="subtitle">고품질 캔 포장재 전문 기업</dd>
@@ -403,7 +398,7 @@
                             <a href="#" title="TALOFA SYSTEMS 바로가기"></a>
                         </div>
     
-                        <div class="bcard swiper-slide">
+                        <div class="bcard owl-item">
                             <dl>
                                 <dt class="title">TTP</dt>
                                 <dd class="subtitle">연포장재 전문 기업</dd>
@@ -414,7 +409,7 @@
                             <a href="#" title="TTP 바로가기"></a>
                         </div>
     
-                        <div class="bcard swiper-slide">
+                        <div class="bcard owl-item">
                             <dl>
                                 <dt class="title">MVP</dt>
                                 <dd class="subtitle">PET병, CAP 포장재 전문 기업</dd>
@@ -425,7 +420,7 @@
                             <a href="#" title="MVP 바로가기"></a>
                         </div>
     
-                        <div class="bcard swiper-slide">
+                        <div class="bcard owl-item">
                             <dl>
                                 <dt class="title">CAPSEN</dt>
                                 <dd class="subtitle">세네갈 최고의 수산 전문기업</dd>
