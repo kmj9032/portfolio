@@ -369,7 +369,13 @@
     /* //로고 */
     /* 메뉴 */
     nav #menu>li{
-        padding: 0 7px;
+        padding: 0 25px;
+    }
+    nav .submenu{
+        left: -16%;
+    }
+    nav .submenu>li{
+        padding: 0 15px;
     }
     /* //메뉴 */
     /* header 아이콘 */
@@ -904,6 +910,7 @@
     }
     header .menuicon{
         display: block;
+        top: 6vh;
     }
     #actmenu{
         width: 40%;
@@ -1251,6 +1258,12 @@
     #youtube .item:nth-child(10){
         grid-row-start: 5;
         grid-row-end: 6;
+    }
+    #youtube .item::after{
+        background-color: rgba(0, 0, 0, 0);
+    }
+    #youtube .item::after{
+        background-color: rgba(0, 0, 0, 0);
     }
     
     /* //미디어페이지 */
@@ -1850,6 +1863,9 @@
     #youtube .item:nth-child(10){
         grid-row-start: 5;
         grid-row-end: 6;
+    }
+    #youtube .item::after{
+        background-color: rgba(0, 0, 0, 0);
     }
     
     /* //미디어페이지 */
@@ -2481,6 +2497,9 @@
     #youtube .item:nth-child(10){
         grid-row-start: 5;
         grid-row-end: 6;
+    }
+    #youtube .item::after{
+        background-color: rgba(0, 0, 0, 0);
     }
     
     /* //미디어페이지 */
@@ -3165,6 +3184,9 @@
     #youtube .item:nth-child(10){
         grid-row-start: 5;
         grid-row-end: 6;
+    }
+    #youtube .item::after{
+        background-color: rgba(0, 0, 0, 0);
     }
     
     /* //미디어페이지 */

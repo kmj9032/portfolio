@@ -1,35 +1,42 @@
     // 페이지제어
-    let n = 0;
-    let state = 1;
-    $(window).on('wheel',function(){
-        if(event.wheelDelta < 0 && state == 1){
-            state = 0;
-            n++;
-            if(n > 5) n = 5;
-            let next = $('.sect').eq(n);
-            $('html, body').stop().animate({scrollTop: next.position().top},500, function(){
-                state = 1;
-            });
-            console.log(n)
-        }
-        else if(event.wheelDelta > 0 && state == 1){
-            state = 0;
-            n--;
-            if(n < 0) n = 0;
-            let prev = $('.sect').eq(n);
-            $('html, body').stop().animate({scrollTop: prev.position().top},500, function(){
-                state = 1;
-            });
-        }
-    })
-    $("#pagedot a").on('click',function(e){
-        e.preventDefault();
-        n = $(this).index();
-        let pos = $('.sect').eq(n)
-        $('html, body').animate({ scrollTop: pos.position().top }, 500)
-        $("#pagedot>a .pdot").eq(n).css({backgroundColor:'#0065bd'})
-        
-    })
+    // let n = 0;
+    // let state = 1;
+    // $(window).on('wheel',function(){
+    //     if(event.wheelDelta < 0 && state == 1){
+    //         state = 0;
+    //         n++;
+    //         if(n > 5) n = 5;
+    //         let next = $('.sect').eq(n);
+    //         $('html, body').stop(true).animate({scrollTop: next.position().top},500, function(){
+    //             state = 1;
+    //         });
+            
+
+    //         // console.log(n)
+    //     }
+    //     else if(event.wheelDelta > 0 && state == 1){
+    //         state = 0;
+    //         n--;
+    //         if(n < 0) n = 0;
+    //         let prev = $('.sect').eq(n);
+    //         $('html, body').stop(true).animate({scrollTop: prev.position().top},500, function(){
+    //             state = 1;
+    //         });
+    //     }
+    //     $("#pagedot a").removeClass('on');    
+    //     $("#pagedot a").eq(n).addClass('on');
+    // })
+
+    // $("#pagedot a").on('click',function(e){
+    //     e.preventDefault();
+    //     n = $(this).index();
+    //     let pos = $('.sect').eq(n)
+    //     $('html, body').animate({ scrollTop: pos.position().top }, 500)
+    //     // $("#pagedot a .pdot").css({backgroundColor:'#000'})
+    //     // $("> .pdot", this).css({backgroundColor:'#0065bd'})
+    //     $("#pagedot a").removeClass('on');    
+    //     $(this).addClass('on');
+    // })
 
     // 팝업창
     $("#popup button").click(function(){
@@ -50,14 +57,16 @@
     })
     $("#bottom").on('click', function() {
         $("html, body").animate({ scrollTop: $('html').height() })
-    }) 
+    });
     
     // 메뉴
     $("nav #menu>li").mouseover(function(){
         $(".submenu",this).stop(true).slideDown();
+        $(".submenu>li:nth-child(1)").css({borderTop:'1px solid #fff'});
     })
     .mouseout(function(){
         $(".submenu",this).stop(true).slideUp();
+        $(".submenu>li:nth-child(1)").css({borderTop:'none'});
     });
 
     // 반응형 메뉴
@@ -101,6 +110,9 @@
             $(".lang h2 a  img").attr({ src: 'icon/language-b.svg'});
             $(".hicon>h2 a img").attr({ src: 'icon/search-b.svg'});
             $("header .menuicon img").attr({ src: 'icon/menu-burger-b.svg'});
+            $("header").css({backgroundColor:'#fff', borderBottom:'1px solid #b1b1b1'});
+            $(".submenu>li a").css({color:'#fff'});
+
         } 
         if( $(this).scrollTop() < $(window).height() ) {
             $("#menu li a").css({ color:'#fff'});
@@ -108,6 +120,7 @@
             $(".lang h2 a  img").attr({ src: 'icon/language.svg'});
             $(".hicon>h2 a img").attr({ src: 'icon/search.svg'});
             $("header .menuicon img").attr({ src: 'icon/menu-burger.svg'});
+            $("header").css({backgroundColor:'#ffffff00', borderBottom:'none'});
         }     
         if( $(this).scrollTop() > $(window).height()* 4 ) {
             $("#menu li a").css({ color:'#fff'});
@@ -115,6 +128,7 @@
             $(".lang h2 a  img").attr({ src: 'icon/language.svg'});
             $(".hicon>h2 a img").attr({ src: 'icon/search.svg'});
             $("header .menuicon img").attr({ src: 'icon/menu-burger.svg'});
+            $("header").css({backgroundColor:'#ffffff00', borderBottom:'none'});
         }     
     })
 
@@ -161,9 +175,13 @@
     })
 
     //패밀리사이트
+    $('.noMove').on('click', function(e) {
+        e.preventDefault();
+    })
     $("#fheader nav .bottommenu li:last-child a").click(function(){
         $("#familysite").css({display:'block'});
     });
     $("#familysite>a").click(function(){
         $("#familysite").css({display:'none'});
     });
+

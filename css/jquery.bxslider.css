@@ -31,7 +31,6 @@ ul.bxslider {
   -moz-box-shadow: 0 0 5px #ccc;
   -webkit-box-shadow: 0 0 5px #ccc;
   box-shadow: 0 0 5px #ccc;
-  border: 5px solid #fff;
   background: #fff;
 }
 .bx-wrapper .bx-pager,
@@ -61,7 +60,7 @@ ul.bxslider {
   padding-top: 20px;
 }
 .bx-wrapper .bx-pager.bx-default-pager a {
-  background: rgba(80, 80, 80, 0.5);
+  border: 1px solid #cfcfcf;
   text-indent: -9999px;
   display: block;
   width: 15px;

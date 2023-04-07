@@ -35,7 +35,7 @@ img{
 body{
     font-size: 16px;
     position: relative;
-    transition: all 0.4s;
+    transition: all 0.3s;
 }
 
 /* 아웃라인숨기기 */
@@ -52,12 +52,15 @@ body{
 /* header */
 header{
     width: 100%;
-    height: 13.5vh;
+    height: 135px;
     display: flex;
     justify-content: center;
     padding: 0 100px;
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: 99;
+    background-color: #ffffff00;
 }
 
 /* 로고 */
@@ -81,9 +84,10 @@ nav #menu{
     margin-top: 5vh;
 }
 nav #menu>li{
-    padding: 0 20px;
+    padding: 0 30px;
     line-height: 50px;
     text-align: center;
+    position: relative;
 }
 nav #menu>li>a{
     display: block;
@@ -93,16 +97,18 @@ nav #menu>li>a{
     color: #fff;
     padding: 0 10px;
 }
+nav #menu>li>a:hover{
+    font-weight: 900;
+}
 nav .submenu{
     display: none;
+    position: absolute;
+    left: -10%;
 }
 nav .submenu>li{
-    padding: 0 10px;
     line-height: 60px;
     background-color: rgba(34, 34, 34, 0.3);
-}
-nav .submenu>li:nth-child(1){
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    width: 200px;
 }
 nav .submenu>li>a{
     display: block;
@@ -288,48 +294,6 @@ header .hicon{
 /* //header */
 
 /* contenst 시작 */
-/* 페이지 넘어가기 */
-#pagedot{
-    position: fixed;
-    top: 50%;
-    left: 37px;
-    transform: translateY(-50%);
-    z-index: 98;
-}
-#pagedot>a{
-    display: block;
-    width: 25px;
-    height: 25px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    margin-bottom: 30px;
-}
-#pagedot>a:nth-child(6){
-    margin-bottom: 0;
-}
-#pagedot>a:nth-child(2),
-#pagedot>a:nth-child(3),
-#pagedot>a:nth-child(4),
-#pagedot>a:nth-child(5),
-#pagedot>a:nth-child(6){
-    border: none;
-}
-#pagedot>a .pdot{
-    width: 15px;
-    height: 15px;
-    background-color: #fff;
-    border-radius: 50%;
-    margin: auto;
-    margin-top: 4px;
-}
-#pagedot>a:nth-child(2) .pdot,
-#pagedot>a:nth-child(3) .pdot,
-#pagedot>a:nth-child(4) .pdot,
-#pagedot>a:nth-child(5) .pdot,
-#pagedot>a:nth-child(6) .pdot{
-    background-color: rgba(238, 238, 238, 0.5);
-}
-/* //페이지 넘어가기 */
 
 /* 슬로건페이지 */
 #slogan{
@@ -538,7 +502,7 @@ header .hicon{
     font-weight: 500;
     color: #222;
     line-height: 33px;
-    text-align: left;
+    text-align: justify;
     width: 93%;
     margin: auto;
 }
@@ -628,7 +592,7 @@ header .hicon{
     font-weight: 500;
     color: #222;
     line-height: 33px;
-    text-align: left;
+    text-align: justify;
     width: 93%;
     margin: auto;
 }
@@ -718,7 +682,7 @@ header .hicon{
     font-weight: 500;
     color: #222;
     line-height: 33px;
-    text-align: left;
+    text-align: justify;
     width: 93%;
     margin: auto;
 }
@@ -829,7 +793,7 @@ header .hicon{
     font-weight: 500;
     color: #222;
     line-height: 33px;
-    text-align: left;
+    text-align: justify;
     width: 93%;
     margin: auto;
 }

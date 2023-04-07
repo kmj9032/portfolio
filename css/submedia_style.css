@@ -1,0 +1,2459 @@
+@media screen and (min-width:1600px) and (max-width:1840px) {
+    /* con1페이지 */
+    .con1 .detail{
+        width: 47%;
+    }
+    .con1 .detail p{
+        font-size: 2.25em;
+    }
+    .con1 .img{
+        width: 47%;
+    }
+    /* //con1페이지 */
+    /* con2페이지 */
+    .con2 .detail{
+        width: 47%;
+    }
+    .con2 .detail p{
+        font-size: 2.25em;
+    }
+    .con2 .img{
+        width: 47%;
+    }
+    /* //con2페이지 */
+    /* con3페이지 */
+    .back h3{
+        margin-top: 50px;
+    }
+    /* //con3페이지 */
+    /* con5페이지 */
+    .con5 .detail{
+        width: 47%;
+    }
+    .con5 .img{
+        width: 47%;
+    }
+    /* //con5페이지 */
+}
+
+@media screen and (min-width:1380px) and (max-width:1599px){
+     /* 검색 */
+     .searchbox input[type="search"]{
+        width: 35%;
+    }
+    /* //검색 */
+    /* con1페이지 */
+    .con1{
+        width: 70%;
+    }
+    .con1 .detail{
+        width: 47%;
+    }
+    .con1 .detail p{
+        font-size: 2.25em;
+    }
+    .con1 .img{
+        width: 47%;
+    }
+    /* //con1페이지 */
+    /* con2페이지 */
+    .con2{
+        width: 70%;
+    }
+    .con2 .detail{
+        width: 47%;
+    }
+    .con2 .detail p{
+        font-size: 2.25em;
+    }
+    .con2 .img{
+        width: 47%;
+    }
+    /* //con2페이지 */
+    .con3{
+        width: 80%;
+    }
+    /* con3페이지 */
+    .back h3{
+        margin-top: 50px;
+    }
+    /* //con3페이지 */
+    /* con4페이지 */
+    .con4{
+        width: 80%;
+    }
+    .network{
+        width: 100%;
+    }
+    /* //con4페이지 */
+    /* con5페이지 */
+    .con5{
+        width: 70%;
+    }
+    .con5 .detail{
+        width: 47%;
+    }
+    .con5 .img{
+        width: 47%;
+    }
+    /* //con5페이지 */
+    /* 하단 */
+    #fbottom img{
+        margin: 6.5vh 100px;
+    }
+    #fbottom .ftext{
+        margin: 10vh 80px;
+    }
+    /* //하단 */
+}
+
+@media screen and (min-width:1180px) and (max-width:1379px){
+    /* header */
+    header{
+        padding: 0 50px;
+    }
+    /* //header */
+    /* 로고 */
+    header .logo{
+        left: 50px;
+    }
+    /* //로고 */
+    /* menu */
+    nav #menu>li{
+        padding: 0 10px;
+    }
+    nav .submenu{
+        left: -30%;
+    }
+    /* //menu */
+    /* header 아이콘 */
+    header .hicon{
+        width: 7.5%;
+        right: 50px;
+    }
+    /* //header 아이콘 */
+     /* 검색 */
+     .searchbox input[type="search"]{
+        width: 38%;
+    }
+    /* //검색 */
+    /* title페이지 */
+    #title{
+        padding: 270px 120px 0;
+    }
+    /* //title페이지 */
+    /* con1페이지 */
+    .con1{
+        width: 80%;
+    }
+    .con1 .detail{
+        width: 47%;
+    }
+    .con1 .detail p{
+        font-size: 2.25em;
+    }
+    .con1 .img{
+        width: 47%;
+    }
+    /* //con1페이지 */
+    /* con2페이지 */
+    .con2{
+        width: 80%;
+    }
+    .con2 .detail{
+        width: 47%;
+    }
+    .con2 .detail p{
+        font-size: 2.25em;
+    }
+    .con2 .img{
+        width: 47%;
+    }
+    /* //con2페이지 */
+    /* con3페이지 */
+    .con3{
+        width: 85%;
+    }
+    .back h3{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .back p{
+        line-height: 32px;
+        font-size: 1.125em;
+    }
+    /* //con3페이지 */
+    /* con4페이지 */
+    .con4{
+        width: 85%;
+    }
+    .network{
+        width: 100%;
+    }
+    /* //con4페이지 */
+    /* con5페이지 */
+    .con5{
+        width: 80%;
+    }
+    .con5 .detail{
+        width: 47%;
+    }
+    .con5 .img{
+        width: 47%;
+    }
+    /* //con5페이지 */
+    /* 뉴스페이지 */
+    #news{
+        width: 80%;
+    }
+    /* //뉴스페이지 */
+    /* 하단 */
+    #fbottom img{
+        margin: 6.5vh 100px;
+    }
+    #fbottom .ftext{
+        margin: 10vh 80px;
+    }
+    /* //하단 */
+}
+
+@media screen and (min-width:1080px) and (max-width:1179px) {
+    body{
+        font-size: 15px;
+    }
+    /* header */
+    header{
+        padding: 0 50px;
+    }
+    /* //header */
+    /* 로고 */
+    header .logo{
+        left: 50px;
+    }
+    /* //로고 */
+    /* menu */
+    nav #menu>li{
+        padding: 0 10px;
+    }
+    nav .submenu{
+        left: -30%;
+    }
+    /* //menu */
+    /* header 아이콘 */
+    header .hicon{
+        width: 7.5%;
+        right: 50px;
+    }
+    /* //header 아이콘 */
+     /* 검색 */
+     .searchbox input[type="search"]{
+        width: 40%;
+    }
+    /* //검색 */
+    /* title페이지 */
+    #title{
+        padding: 270px 120px 0;
+    }
+    #title h3 a{
+        margin-top: 128px;
+    }
+    /* //title페이지 */
+    /* con1페이지 */
+    .con1{
+        width: 80%;
+    }
+    .con1 .detail{
+        width: 47%;
+    }
+    .con1 .detail p{
+        font-size: 2.25em;
+    }
+    .con1 .img{
+        width: 47%;
+    }
+    /* //con1페이지 */
+    /* con2페이지 */
+    .con2{
+        width: 80%;
+        margin-top: 20vh;
+    }
+    .con2 .detail{
+        width: 47%;
+    }
+    .con2 .detail p{
+        font-size: 2.25em;
+    }
+    .con2 .img{
+        width: 47%;
+    }
+    /* //con2페이지 */
+    /* con3페이지 */
+    .con3{
+        width: 90%;
+        margin-top: 20vh;
+    }
+    .flip{
+        height: 500px;
+    }
+    .back h3{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .back p{
+        line-height: 28px;
+        font-size: 1.2em;
+    }
+    /* //con3페이지 */
+    /* con4페이지 */
+    .con4{
+        width: 90%;
+        margin-top: 20vh;
+    }
+    .network{
+        width: 100%;
+    }
+    .con4 .img{
+        height: 57vh;
+    }
+    /* //con4페이지 */
+    /* con5페이지 */
+    .con5{
+        width: 80%;
+    }
+    .con5 .detail{
+        width: 47%;
+    }
+    .con5 .img{
+        width: 47%;
+    }
+    /* //con5페이지 */
+    /* 뉴스페이지 */
+    #news{
+        width: 80%;
+        margin-top: 20vh;
+    }
+    /* //뉴스페이지 */
+    /* 하단 */
+    #fbottom img{
+        margin: 6.5vh 100px;
+    }
+    #fbottom .ftext{
+        margin: 10vh 80px;
+    }
+    /* //하단 */
+    /* 패밀리사이트 */
+    #familysite{
+        width: 940px;
+    }
+    /* //패밀리사이트 */
+}
+
+@media screen and (min-width:885px) and (max-width:1079px){
+    body{
+        font-size: 14px;
+    }
+    /* header */
+    header{
+        padding: 0 50px;
+    }
+    /* //header */
+    /* 로고 */
+    header .logo{
+        position: static;
+        margin-top: 2vh;
+    }
+    /* //로고 */
+    /* menu */
+    nav #menu{
+        display: none;
+    }
+    header .menuicon{
+        display: block;
+    }
+    #actmenu{
+        display: block;
+    }
+    nav .close img{
+        width: 30px;
+        height: 30px;
+    }
+    /* //menu */
+    /* header 아이콘 */
+    header .hicon{
+        width: 12%;
+        right: 50px;
+    }
+    /* //header 아이콘 */
+     /* 검색 */
+     .searchbox input[type="search"]{
+        width: 50%;
+    }
+    /* //검색 */
+    /* title페이지 */
+    #title{
+        height: auto;
+        padding: 220px 50px 20px 50px;
+    }
+    #title .title h2{
+        font-size: 4.666666em;
+    }
+    #title .title p{
+        font-size: 2em;
+    }
+    #title h3 a{
+        margin-top: 121px;
+    }
+    /* //title페이지 */
+    /* con1페이지 */
+    .con1{
+        width: 85%;
+        height: auto;
+        margin-top: 150px;
+    }
+    .con1 .detail{
+        width: 48%;
+        height: 500px;
+    }
+    .con1 .detail h2{
+        margin-top: 2vh;
+    }
+    .con1 .detail p{
+        font-size: 1.86666em;
+        margin: 3vh 0;
+    }
+    .con1 .detail .text{
+        font-size: 1.2em;
+        line-height: 35px;
+    }
+    .con1 .img{
+        width: 48%;
+        height: 500px;
+    }
+    /* //con1페이지 */
+    /* con2페이지 */
+    .con2{
+        width: 85%;
+        height: auto;
+        margin-top: 200px;
+    }
+    .con2 .detail{
+        width: 48%;
+        height: 500px;
+    }
+    .con2 .detail h2{
+        margin-top: 2vh;
+    }
+    .con2 .detail p{
+        font-size: 1.86666em;
+        margin: 3vh 0;
+    }
+    .con2 .detail .text{
+        font-size: 1.2em;
+        line-height: 35px;
+    }
+    .con2 .img{
+        width: 48%;
+        height: 500px;
+    }
+    /* //con2페이지 */
+    /* con3페이지 */
+    .con3{
+        width: 90%;
+        height: auto;
+        margin-top: 20vh;
+    }
+    .con3 .detail h2{
+        margin-bottom: 3vh;
+    }
+    .flip{
+        width: 32.5%;
+        height: 450px;
+    }
+    .back h3{
+        font-size: 1.86666em;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .back p{
+        line-height: 28px;
+        font-size: 1.06666em;
+    }
+    /* //con3페이지 */
+    /* con4페이지 */
+    .con4{
+        width: 90%;
+        height: auto;
+        margin-top: 200px;
+    }
+    .con4 .detail p{
+        font-size: 2em;
+        margin: 3vh;
+    }
+    .con4 .detail .text{
+        font-size: 1.125em;
+    }
+    .con4 .img{
+        height: 58vh;
+    }
+    .network{
+        width: 95%;
+        height: 17vh;
+    }
+    .network dl{
+        width: 160px;
+        height: 160px;
+    }
+    .network dl dt{
+        font-size: 2.66666em;
+    }
+    .network dl dd:nth-child(3){
+        margin-top: 0;
+        width: 81%;
+    }
+    /* //con4페이지 */
+    /* con5페이지 */
+    .con5{
+        width: 85%;
+        height: auto;
+        margin-top: 200px;
+    }
+    .con5 .detail{
+        width: 48%;
+        height: 500px;
+    }
+    .con5 .detail h2{
+        margin-top: 2vh;
+    }
+    .con5 .detail p{
+        font-size: 1.86666em;
+        margin: 3vh 0;
+    }
+    .con5 .detail .text{
+        font-size: 1.2em;
+        line-height: 35px;
+    }
+    .con5 .img{
+        width: 48%;
+        height: 500px;
+    }
+    /* //con5페이지 */
+    /* 뉴스페이지 */
+    #news{
+        width: 90%;
+        height: auto;
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    /* //뉴스페이지 */
+    /* 하단 */
+    footer{
+        margin-top: 5vh;
+        height: auto;
+    }
+    #fheader{
+        height: auto;
+    }
+    #fheader nav .bottommenu li{
+        padding: 0 20px;
+    }
+    #fbottom img{
+        display: none;
+    }
+    #fbottom  .ftext{
+        float: none;
+        margin: auto;
+        padding: 80px 0;
+    }
+    /* //하단 */
+    #familysite{
+        width: 100%;
+        height: 450px;
+        bottom: 317px;
+    }
+    .fsmenu{
+        margin: 0 30px;
+        margin-top: 60px;
+    }
+    .fsmenu .fsbox{
+        width: 17%;
+    }
+    .fsmenu .fsbox>li{
+        line-height: 45px;
+    }
+    .fsmenu .fsbox>li:nth-child(2){
+        margin-top: 15px;
+    }
+    .fsmenu .fsbox>li a{
+        font-size: 0.9285em;
+        font-weight: 800;
+    }
+    .fsmenu .fsbox .title{
+        border-top: 3px solid #0065bd;
+        border-bottom: 3px solid #0065bd;
+    }
+    #familysite>a img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //패밀리사이트 */
+    /* 최상단하단버튼 */
+    #udbtn{
+        width: 40px;
+        height: 90px;
+        bottom: 35px;
+        right: 12px;
+    }
+    #udbtn>a{
+        width: 40px;
+        height: 40px;
+        padding-top: 14px;
+
+    }
+    /* //최상단하단버튼 */
+}
+
+@media screen and (min-width:750px) and (max-width:884px) {
+    body{
+        font-size: 14px;
+    }
+    /* header */
+    header{
+        padding: 0 50px;
+    }
+    /* //header */
+    /* 로고 */
+    header .logo{
+        position: static;
+        margin-top: 2vh;
+    }
+    /* //로고 */
+    /* menu */
+    nav #menu{
+        display: none;
+    }
+    header .menuicon{
+        display: block;
+    }
+    #actmenu{
+        display: block;
+    }
+    nav .close img{
+        width: 30px;
+        height: 30px;
+    }
+    /* //menu */
+    /* header 아이콘 */
+    header .hicon{
+        width: 12%;
+        right: 50px;
+    }
+    /* //header 아이콘 */
+     /* 검색 */
+     .searchbox input[type="search"]{
+        width: 50%;
+    }
+    /* //검색 */
+    /* title페이지 */
+    #title{
+        height: auto;
+        padding: 180px 50px 20px 50px;
+    }
+    #title .title h2{
+        font-size: 4.666666em;
+    }
+    #title .title p{
+        font-size: 1.7857em;
+    }
+    #title h3 a{
+        width: 170px;
+        height: 38px;
+        background-size: 170px 38px;
+        font-size: 1em;
+        margin-top: 111px;
+    }
+    /* //title페이지 */
+    /* con1페이지 */
+    .con1{
+        width: 85%;
+        height: auto;
+        margin-top: 150px;
+    }
+    .con1 .detail{
+        width: 48%;
+        height: 470px;
+    }
+    .con1 .detail p{
+        font-size: 2em;
+        margin: 3vh 0;
+        line-height: 50px;
+    }
+    .con1 .detail .text{
+        font-size: 1.28571em;
+        line-height: 32px;
+    }
+    .con1 .img{
+        width: 48%;
+        height: 470px;
+    }
+    /* //con1페이지 */
+    /* con2페이지 */
+    .con2{
+        width: 85%;
+        height: auto;
+        margin-top: 150px;
+    }
+    .con2 .detail{
+        width: 48%;
+        height: 470px;
+    }
+    .con2 .detail p{
+        font-size: 2em;
+        margin: 3vh 0;
+    }
+    .con2 .detail p br{
+        display: none !important;
+    }
+    .con2 .detail .text{
+        font-size: 1.28571em;
+        line-height: 32px;
+    }
+    .con2 .img{
+        width: 48%;
+        height: 470px;
+    }
+    /* //con2페이지 */
+    /* con3페이지 */
+    .con3{
+        width: 90%;
+        height: auto;
+        margin-top: 150px;
+    }
+    .con3 .detail h2{
+        margin-bottom: 3vh;
+    }
+    .wrap{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .flip{
+        width: 48%;
+        height: 470px;
+    }
+    .flip:last-child{
+        margin-top: 20px;
+    }
+    .back h3{
+        font-size: 1.86666em;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .back p{
+        line-height: 30px;
+        font-size: 1.1428em;
+    }
+    /* //con3페이지 */
+    /* con4페이지 */
+    .con4{
+        width: 90%;
+        height: auto;
+        margin-top: 200px;
+    }
+    .con4 .detail p{
+        font-size: 2em;
+        margin: 3vh;
+    }
+    .con4 .detail .text{
+        font-size: 1.125em;
+    }
+    .con4 .img{
+        height: 40vh;
+    }
+    .network{
+        width: 95%;
+        height: 17vh;
+    }
+    .network dl{
+        width: 160px;
+        height: 160px;
+    }
+    .network dl dt{
+        font-size: 2.66666em;
+    }
+    .network dl dd:nth-child(3){
+        margin-top: 0;
+        width: 81%;
+    }
+    /* //con4페이지 */
+    /* con5페이지 */
+    .con5{
+        width: 85%;
+        height: auto;
+        margin-top: 200px;
+    }
+    .con5 .detail{
+        width: 48%;
+        height: 500px;
+    }
+    .con5 .detail h2{
+        margin-top: 2vh;
+    }
+    .con5 .detail p{
+        font-size: 1.86666em;
+        margin: 3vh 0;
+    }
+    .con5 .detail .text{
+        font-size: 1.2em;
+        line-height: 35px;
+    }
+    .con5 .img{
+        width: 48%;
+        height: 500px;
+    }
+    /* //con5페이지 */
+    /* 뉴스페이지 */
+    #news{
+        width: 90%;
+        height: auto;
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+    .nbox .title{
+        font-size: 1.28571em;
+        margin: 40px 10px;
+    }
+    .nbox .date{
+        margin: 40px 10px;
+    }
+    /* //뉴스페이지 */
+    /* 하단 */
+    footer{
+        margin-top: 5vh;
+        height: auto;
+    }
+    #fheader{
+        height: auto;
+    }
+    #fheader nav .bottommenu li{
+        padding: 0 20px;
+    }
+    #fbottom img{
+        display: none;
+    }
+    #fbottom  .ftext{
+        float: none;
+        margin: auto;
+        padding: 80px 0;
+    }
+    /* //하단 */
+    #familysite{
+        width: 100%;
+        height: 450px;
+        bottom: 325px;
+    }
+    .fsmenu{
+        margin: 0 30px;
+        margin-top: 60px;
+    }
+    .fsmenu .fsbox{
+        width: 17%;
+    }
+    .fsmenu .fsbox>li{
+        line-height: 45px;
+    }
+    .fsmenu .fsbox>li:nth-child(2){
+        margin-top: 15px;
+    }
+    .fsmenu .fsbox>li a{
+        font-size: 0.9285em;
+        font-weight: 800;
+    }
+    .fsmenu .fsbox .title{
+        border-top: 3px solid #0065bd;
+        border-bottom: 3px solid #0065bd;
+    }
+    #familysite>a img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //패밀리사이트 */
+    /* 최상단하단버튼 */
+    #udbtn{
+        width: 40px;
+        height: 90px;
+        bottom: 35px;
+        right: 12px;
+    }
+    #udbtn>a{
+        width: 40px;
+        height: 40px;
+        padding-top: 14px;
+
+    }
+    /* //최상단하단버튼 */
+}
+
+@media screen and (min-width:645px) and (max-width:749px) {
+    body{
+        font-size: 13px;
+    }
+    /* header */
+    header{
+        padding: 0 20px;
+        height: 100px;
+    }
+    /* //header */
+    /* 로고 */
+    header .logo{
+        position: static;
+        margin-top: 20px;
+        width: 120px;
+        height: 52px;
+    }
+    .logo img{
+        width: 120px;
+        height: 52px;
+    }
+    /* //로고 */
+    /* menu */
+    nav #menu{
+        display: none;
+    }
+    header .menuicon{
+        display: block;
+        top: 48px;
+        left: 20px;
+    }
+    #actmenu{
+        display: block;
+        width: 50%;
+    }
+    #actmenu #menu1>li{
+        width: 60%;
+    }
+    nav .close{
+        top: 25px;
+        left: 25px;
+    }
+    nav .close img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //menu */
+    /* header 아이콘 */
+    header .hicon{
+        width: 17%;
+        top: 44px;
+        right: 20px;
+    }
+    /* //header 아이콘 */
+    /* 검색 */
+    .search{
+        height: 170px;
+    }
+    .searchbox{
+        margin-top: 95px;
+    }
+    .searchbox input[type="search"]{
+        width: 50%;
+        height: 35px;
+    }
+    .searchbox button img{
+        width: 20px;
+        height: 20px;
+    }
+    .search>a{
+        top: 25px;
+        right: 25px;
+    }
+    .search>a img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //검색 */
+    /* title페이지 */
+    #title{
+        height: auto;
+        padding: 140px 20px 0 20px;
+        margin-top: 100px;
+    }
+    #title .title h2{
+        font-size: 3.84615em;
+    }
+    #title .title p{
+        font-size: 1.6923em;
+    }
+    #title h3 a{
+        width: 170px;
+        height: 38px;
+        background-size: 170px 38px;
+        font-size: 1em;
+        margin-top: 89px;
+    }
+    /* //title페이지 */
+    /* con1페이지 */
+    .con1{
+        width: 90%;
+        height: auto;
+        margin-top: 100px;
+    }
+    .con1 .detail{
+        width: 48%;
+        height: 450px;
+    }
+    .con1 .detail h2{
+        margin-top: 20px;
+    }
+    .con1 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .con1 .detail p{
+        font-size: 1.8461em;
+        margin: 3vh 0;
+        line-height: 40px;
+    }
+    .con1 .detail .text{
+        font-size: 1.15384em;
+        line-height: 30px;
+    }
+    .con1 .img{
+        width: 48%;
+        height: 440px;
+    }
+    /* //con1페이지 */
+    /* con2페이지 */
+    .con2{
+        width: 90%;
+        height: auto;
+        margin-top: 100px;
+    }
+    .con2 .detail{
+        width: 48%;
+        height: 440px;
+    }
+    .con2 .detail h2{
+        margin-top: 20px;
+    }
+    .con2 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .con2 .detail p{
+        font-size: 1.8461em;
+        margin: 3vh 0;
+        line-height: 40px;
+    }
+    .con2 .detail p br{
+        display: none !important;
+    }
+    .con2 .detail .text{
+        font-size: 1.15384em;
+        line-height: 30px;
+    }
+    .con2 .img{
+        width: 48%;
+        height: 440px;
+    }
+    /* //con2페이지 */
+    /* con3페이지 */
+    .con3{
+        width: 90%;
+        height: auto;
+        margin-top: 100px;
+    }
+    .con3 .detail h2{
+        margin-bottom: 3vh;
+    }
+    .con3 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .wrap{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .flip{
+        width: 48%;
+        height: 440px;
+    }
+    .flip:last-child{
+        margin-top: 20px;
+    }
+    .back h3{
+        font-size: 1.8461em;
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+    .back p{
+        line-height: 30px;
+        font-size: 1.15384em;
+    }
+    /* //con3페이지 */
+    /* con4페이지 */
+    .con4{
+        width: 90%;
+        height: auto;
+        margin-top: 150px;
+    }
+    .con4 .detail h2{
+        margin-bottom: 3vh;
+    }
+    .con4 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .con4 .detail p{
+        font-size: 1.8461em;
+        margin: 3vh;
+    }
+    .con4 .detail .text{
+        font-size: 1.15384em;
+    }
+    .con4 .img{
+        height: 35vh;
+    }
+    .network{
+        width: 100%;
+        height: 100%;
+    }
+    .network dl{
+        width: 130px;
+        height: 130px;
+    }
+    .network dl dt{
+        font-size: 3.0769em;
+        margin-top: 20px;
+    }
+    .network dl dd:nth-child(3){
+        display: none;
+    }
+    /* //con4페이지 */
+    /* con5페이지 */
+    .con5{
+        width: 90%;
+        height: auto;
+        margin-top: 150px;
+    }
+    .con5 .detail{
+        width: 48%;
+        height: 440px;
+    }
+    .con5 .detail h2{
+        margin-top: 20px;
+    }
+    .con5 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .con5 .detail p{
+        font-size: 1.8461em;
+        margin: 3vh 0;
+        line-height: 40px;
+    }
+    .con5 .detail p br{
+        display: none !important;
+    }
+    .con5 .detail .text{
+        font-size: 1.15384em;
+        line-height: 30px;
+    }
+    .con5 .img{
+        width: 48%;
+        height: 440px;
+    }
+    /* //con5페이지 */
+    /* 뉴스페이지 */
+    #news{
+        width: 90%;
+        height: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .nbox .title{
+        font-size: 1.15384em;
+        margin: 40px 0px;
+    }
+    .nbox .date{
+        margin: 40px 0px;
+    }
+    /* //뉴스페이지 */
+    /* 하단 */
+    footer{
+        height: auto;
+    }
+    #fheader{
+        height: auto;
+    }
+    #fheader nav .bottommenu{
+        justify-content: space-between;
+    }
+    #fheader nav .bottommenu li{
+        padding: 0 15px;
+        line-height: 80px;
+    }
+    #fbottom img{
+        display: none;
+    }
+    #fbottom  .ftext{
+        float: none;
+        margin: auto;
+        padding: 80px 0;
+    }
+    /* //하단 */
+    #familysite{
+        width: 100%;
+        height: 450px;
+        bottom: 294px;
+    }
+    .fsmenu{
+        margin: 0 30px;
+        margin-top: 60px;
+    }
+    .fsmenu .fsbox{
+        width: 17%;
+    }
+    .fsmenu .fsbox>li{
+        line-height: 45px;
+    }
+    .fsmenu .fsbox>li:nth-child(2){
+        margin-top: 15px;
+    }
+    .fsmenu .fsbox>li a{
+        font-size: 0.9285em;
+        font-weight: 800;
+    }
+    .fsmenu .fsbox .title{
+        border-top: 3px solid #0065bd;
+        border-bottom: 3px solid #0065bd;
+    }
+    #familysite>a img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //패밀리사이트 */
+    /* 최상단하단버튼 */
+    #udbtn{
+        width: 40px;
+        height: 90px;
+        bottom: 35px;
+        right: 12px;
+    }
+    #udbtn>a{
+        width: 40px;
+        height: 40px;
+        padding-top: 14px;
+
+    }
+    /* //최상단하단버튼 */
+}
+
+@media screen and (min-width:580px) and (max-width:644px) {
+    body{
+        font-size: 13px;
+    }
+    /* header */
+    header{
+        padding: 0 20px;
+        height: 100px;
+    }
+    /* //header */
+    /* 로고 */
+    header .logo{
+        position: static;
+        margin-top: 20px;
+        width: 120px;
+        height: 52px;
+    }
+    .logo img{
+        width: 120px;
+        height: 52px;
+    }
+    /* //로고 */
+    /* menu */
+    nav #menu{
+        display: none;
+    }
+    header .menuicon{
+        display: block;
+        top: 48px;
+        left: 20px;
+    }
+    #actmenu{
+        display: block;
+        width: 50%;
+    }
+    #actmenu #menu1>li{
+        width: 60%;
+    }
+    nav .close{
+        top: 25px;
+        left: 25px;
+    }
+    nav .close img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //menu */
+    /* header 아이콘 */
+    header .hicon{
+        width: 17%;
+        top: 44px;
+        right: 20px;
+    }
+    /* //header 아이콘 */
+    /* 검색 */
+    .search{
+        height: 170px;
+    }
+    .searchbox{
+        margin-top: 95px;
+    }
+    .searchbox input[type="search"]{
+        width: 50%;
+        height: 35px;
+    }
+    .searchbox button img{
+        width: 20px;
+        height: 20px;
+    }
+    .search>a{
+        top: 25px;
+        right: 25px;
+    }
+    .search>a img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //검색 */
+    /* title페이지 */
+    #title{
+        height: auto;
+        padding: 140px 20px 0 20px;
+    }
+    #title .title h2{
+        font-size: 3.84615em;
+        margin-bottom: 10px;
+    }
+    #title .title p{
+        font-size: 1.53846em;
+        line-height: 32px;
+    }
+    #title h3 a{
+        width: 150px;
+        height: 30px;
+        background-size: 150px 30px;
+        font-size: 13px;
+        margin-top: 80px;
+    }
+    /* //title페이지 */
+    /* con1페이지 */
+    .con1{
+        width: 90%;
+        height: auto;
+        margin-top: 100px;
+    }
+    .con1 .detail{
+        width: 48%;
+        height: 450px;
+    }
+    .con1 .detail h2{
+        margin-top: 20px;
+    }
+    .con1 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .con1 .detail p{
+        font-size: 1.8461em;
+        margin: 3vh 0;
+        line-height: 32px;
+    }
+    .con1 .detail .text{
+        font-size: 1.15384em;
+        line-height: 27px;
+    }
+    .con1 .img{
+        width: 48%;
+        height: 440px;
+    }
+    /* //con1페이지 */
+    /* con2페이지 */
+    .con2{
+        width: 90%;
+        height: auto;
+        margin-top: 100px;
+    }
+    .con2 .detail{
+        width: 48%;
+        height: 440px;
+    }
+    .con2 .detail h2{
+        margin-top: 20px;
+    }
+    .con2 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .con2 .detail p{
+        font-size: 1.8461em;
+        margin: 3vh 0;
+        line-height: 32px;
+    }
+    .con2 .detail p br{
+        display: none !important;
+    }
+    .con2 .detail .text{
+        font-size: 1.15384em;
+        line-height: 27px;
+    }
+    .con2 .img{
+        width: 48%;
+        height: 440px;
+    }
+    /* //con2페이지 */
+    /* con3페이지 */
+    .con3{
+        width: 90%;
+        height: auto;
+        margin-top: 100px;
+    }
+    .con3 .detail h2{
+        margin-bottom: 3vh;
+    }
+    .con3 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .wrap{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .flip{
+        width: 48%;
+        height: 440px;
+    }
+    .flip:last-child{
+        margin-top: 20px;
+    }
+    .back h3{
+        font-size: 1.8461em;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .back p{
+        line-height: 27px;
+        font-size: 1.15384em;
+    }
+    /* //con3페이지 */
+    /* con4페이지 */
+    .con4{
+        width: 90%;
+        height: auto;
+        margin-top: 150px;
+    }
+    .con4 .detail h2{
+        margin-bottom: 3vh;
+    }
+    .con4 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .con4 .detail p{
+        font-size: 1.8461em;
+        margin: 3vh;
+    }
+    .con4 .detail .text{
+        font-size: 1.15384em;
+    }
+    .con4 .img{
+        height: 35vh;
+    }
+    .network{
+        width: 100%;
+        height: 100%;
+    }
+    .network dl{
+        width: 130px;
+        height: 130px;
+    }
+    .network dl dt{
+        font-size: 3.0769em;
+        margin-top: 20px;
+    }
+    .network dl dd:nth-child(3){
+        display: none;
+    }
+    /* //con4페이지 */
+    /* con5페이지 */
+    .con5{
+        width: 90%;
+        height: auto;
+        margin-top: 150px;
+    }
+    .con5 .detail{
+        width: 48%;
+        height: 440px;
+    }
+    .con5 .detail h2{
+        margin-top: 20px;
+    }
+    .con5 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .con5 .detail p{
+        font-size: 1.8461em;
+        margin: 3vh 0;
+        line-height: 32px;
+    }
+    .con5 .detail p br{
+        display: none !important;
+    }
+    .con5 .detail .text{
+        font-size: 1.15384em;
+        line-height: 27px;
+    }
+    .con5 .img{
+        width: 48%;
+        height: 440px;
+    }
+    /* //con5페이지 */
+    /* 뉴스페이지 */
+    #news{
+        width: 90%;
+        height: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .nbox .title{
+        font-size: 1.15384em;
+        margin: 40px 0px;
+    }
+    .nbox .date{
+        margin: 40px 0px;
+    }
+    /* //뉴스페이지 */
+    /* 하단 */
+    footer{
+        height: auto;
+    }
+    #fheader{
+        height: auto;
+    }
+    #fheader nav .bottommenu{
+        justify-content: space-between;
+    }
+    #fheader nav .bottommenu li{
+        padding: 0 15px;
+        line-height: 80px;
+    }
+    #fbottom img{
+        display: none;
+    }
+    #fbottom  .ftext{
+        float: none;
+        margin: auto;
+        padding: 80px 0;
+    }
+    /* //하단 */
+    #familysite{
+        width: 100%;
+        height: 450px;
+        bottom: 294px;
+    }
+    .fsmenu{
+        margin: 0 30px;
+        margin-top: 60px;
+    }
+    .fsmenu .fsbox{
+        width: 17%;
+    }
+    .fsmenu .fsbox>li{
+        line-height: 45px;
+    }
+    .fsmenu .fsbox>li:nth-child(2){
+        margin-top: 15px;
+    }
+    .fsmenu .fsbox>li a{
+        font-size: 0.9285em;
+        font-weight: 800;
+    }
+    .fsmenu .fsbox .title{
+        border-top: 3px solid #0065bd;
+        border-bottom: 3px solid #0065bd;
+    }
+    #familysite>a img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //패밀리사이트 */
+    /* 최상단하단버튼 */
+    #udbtn{
+        width: 40px;
+        height: 90px;
+        bottom: 35px;
+        right: 12px;
+    }
+    #udbtn>a{
+        width: 40px;
+        height: 40px;
+        padding-top: 14px;
+
+    }
+    /* //최상단하단버튼 */
+}
+
+@media screen and (min-width:400px) and (max-width:579px) {
+    body{
+        font-size: 12px;
+    }
+    /* header */
+    header{
+        padding: 0 20px;
+        height: 80px;
+    }
+    /* //header */
+    /* 로고 */
+    header .logo{
+        position: static;
+        margin-top: 25px;
+        width: 100px;
+        height: 41px;
+    }
+    .logo img{
+        width: 100px;
+        height: 41px;
+    }
+    /* //로고 */
+    /* menu */
+    nav #menu{
+        display: none;
+    }
+    header .menuicon{
+        display: block;
+        top: 44px;
+        left: 20px;
+    }
+    header .menuicon img{
+        width: 20px;
+        height: 20px;
+    }
+    #actmenu{
+        display: block;
+        width: 55%;
+    }
+    #actmenu #menu1>li{
+        width: 65%;
+    }
+    nav .close{
+        top: 25px;
+        left: 25px;
+    }
+    nav .close img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //menu */
+    /* header 아이콘 */
+    header .hicon{
+        width: 13%;
+        top: 44px;
+        right: 20px;
+    }
+    .hicon .lang>h2 a img{
+        width: 20px;
+        height: 20px;
+    }
+    .hicon>h2 a img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //header 아이콘 */
+    /* 언어 */
+    .hicon .lang .langlist{
+        top: 32px;
+        left: -8px;
+    }
+    .hicon .lang .langlist>li>a{
+        padding: 3px 6px;
+    }
+    /* //언어 */
+    /* 검색 */
+    .search{
+        height: 170px;
+    }
+    .searchbox{
+        margin-top: 95px;
+    }
+    .searchbox input[type="search"]{
+        width: 50%;
+        height: 35px;
+    }
+    .searchbox button img{
+        width: 20px;
+        height: 20px;
+    }
+    .search>a{
+        top: 25px;
+        right: 25px;
+    }
+    .search>a img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //검색 */
+    /* title페이지 */
+    #title{
+        height: auto;
+        padding: 140px 20px 30px 20px;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    #title .title h2{
+        font-size: 2.91666em;
+        margin-bottom: 10px;
+    }
+    #title .title p{
+        font-size: 1.3333em;
+        line-height: 32px;
+    }
+    #title h3 a{
+        width: 130px;
+        height: 30px;
+        background-size: 130px 30px;
+        font-size: 12px;
+        margin-top: 0px;
+        float: right;
+    }
+    /* //title페이지 */
+    /* con1페이지 */
+    .con1{
+        width: 80%;
+        height: auto;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+    .con1 .detail{
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+    .con1 .detail h2{
+        margin-top: 20px;
+    }
+    .con1 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .con1 .detail p{
+        font-size: 1.8461em;
+        margin: 3vh 0;
+        line-height: 32px;
+    }
+    .con1 .detail .text{
+        font-size: 1.15384em;
+        line-height: 27px;
+    }
+    .con1 .img{
+        width: 100%;
+        height: 360px;
+    }
+    /* //con1페이지 */
+    /* con2페이지 */
+    .con2{
+        width: 80%;
+        height: auto;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+    .con2 .detail{
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+        order: 1;
+    }
+    .con2 .detail h2{
+        margin-top: 20px;
+    }
+    .con2 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .con2 .detail p{
+        font-size: 1.8461em;
+        margin: 3vh 0;
+        line-height: 32px;
+    }
+    .con2 .detail p br{
+        display: none !important;
+    }
+    .con2 .detail .text{
+        font-size: 1.15384em;
+        line-height: 27px;
+    }
+    .con2 .img{
+        width: 100%;
+        height: 360px;
+        order: 2;
+    }
+    /* //con2페이지 */
+    /* con3페이지 */
+    .con3{
+        width: 80%;
+        height: auto;
+        margin-top: 100px;
+    }
+    .con3 .detail h2{
+        margin-bottom: 3vh;
+    }
+    .con3 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .wrap{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .flip{
+        width: 100%;
+        height: 360px;
+        margin-bottom: 20px;
+    }
+    .back h3{
+        font-size: 1.8461em;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .back p{
+        line-height: 27px;
+        font-size: 1.15384em;
+    }
+    /* //con3페이지 */
+    /* con4페이지 */
+    .con4{
+        width: 80%;
+        height: auto;
+        margin-top: 100px;
+    }
+    .con4 .detail h2{
+        margin-bottom: 3vh;
+    }
+    .con4 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .con4 .detail p{
+        font-size: 1.8461em;
+        margin: 3vh;
+    }
+    .con4 .detail .text br{
+        display: none !important;
+    }
+    .con4 .detail .text{
+        font-size: 1.15384em;
+        line-height: 27px;
+        text-align: justify;
+    }
+    .con4 .img{
+        height: 250px;
+        background-image: url(../img/subcon4-2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-size: 100%;
+    }
+    .con4 .img-text p{
+        margin: 30px 0 0 0;
+        text-align: justify;
+    }
+    .network{
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 0;
+    }
+    .network dl{
+        width: 40%;
+        height: 120px;
+        margin-top: 20px;
+    }
+    .network dl dt{
+        font-size: 3.0769em;
+        margin-top: 20px;
+    }
+    .network dl dd:nth-child(3){
+        display: none;
+    }
+    /* //con4페이지 */
+    /* con5페이지 */
+    .con5{
+        width: 80%;
+        height: auto;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+    .con5 .detail{
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+    .con5 .detail h2{
+        margin-top: 20px;
+    }
+    .con5 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .con5 .detail p{
+        font-size: 1.8461em;
+        margin: 3vh 0;
+        line-height: 32px;
+    }
+    .con5 .detail .text{
+        font-size: 1.15384em;
+        line-height: 27px;
+    }
+    .con5 .img{
+        width: 100%;
+        height: 360px;
+    }
+    /* //con5페이지 */
+    /* 뉴스페이지 */
+    #news{
+        width: 80%;
+        height: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .nbox dl{
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .nbox .title{
+        font-size: 1.15384em;
+        line-height: 25px;
+        margin: 0;
+    }
+    .nbox .date{
+        margin: 20px 0 0 0;
+    }
+    /* //뉴스페이지 */
+    /* 하단 */
+    footer{
+        height: auto;
+    }
+    #fheader{
+        height: auto;
+    }
+    #fheader nav .bottommenu{
+        justify-content: space-between;
+    }
+    #fheader nav .bottommenu li{
+        padding: 0 10px;
+        line-height: 60px;
+    }
+    #fheader nav .bottommenu li a{
+        font-size: 1em;
+    }
+    #fbottom img{
+        display: none;
+    }
+    #fbottom  .ftext{
+        margin: auto;
+        padding: 60px 0;
+    }
+    #fbottom  .ftext .adress{
+        margin-bottom: 20px;
+    }
+    #fbottom  .ftext .adress p{
+        font-size: 1em;
+        float: none;
+    }
+    #fbottom  .ftext .adress a{
+        float: none;
+        width: 60px;
+        height: 25px;
+        font-size: 0.8333em;
+        line-height: 25px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    #fbottom  .ftext>p{
+        font-size: 0.8333em;
+        margin-left: 0;
+        text-align: center;
+    }
+    /* //하단 */
+    #familysite{
+        width: 100%;
+        height: 280px;
+        bottom: 290px;
+    }
+    .fsmenu{
+        margin: 0 15px;
+        margin-top: 30px;
+    }
+    .fsmenu .fsbox{
+        width: 18%;
+    }
+    .fsmenu .fsbox>li{
+        line-height: 25px;
+    }
+    .fsmenu .fsbox>li:nth-child(2){
+        margin-top: 10px;
+    }
+    .fsmenu .fsbox>li a{
+        font-size: 0.6666em;
+        font-weight: 800;
+    }
+    .fsmenu .fsbox .title{
+        border-top: 2px solid #0065bd;
+        border-bottom: 2px solid #0065bd;
+    }
+    #familysite>a{
+        top: 10px;
+        right: 10px;
+    }
+    #familysite>a img{
+        width: 13px;
+        height: 13px;
+    }
+    /* //패밀리사이트 */
+    /* 최상단하단버튼 */
+    #udbtn{
+        width: 25px;
+        height: 55px;
+        bottom: 35px;
+        right: 10px;
+    }
+    #udbtn>a{
+        width: 25px;
+        height: 25px;
+        padding-top: 6px;
+    }
+    #udbtn>a img{
+        width: 13px;
+        height: 13px;
+    }
+    /* //최상단하단버튼 */
+}
+
+@media screen and (max-width:399px) {
+    body{
+        font-size: 12px;
+    }
+    /* header */
+    header{
+        padding: 0 20px;
+        height: 80px;
+    }
+    /* //header */
+    /* 로고 */
+    header .logo{
+        position: static;
+        margin-top: 25px;
+        width: 100px;
+        height: 41px;
+    }
+    .logo img{
+        width: 100px;
+        height: 41px;
+    }
+    /* //로고 */
+    /* menu */
+    nav #menu{
+        display: none;
+    }
+    header .menuicon{
+        display: block;
+        top: 44px;
+        left: 20px;
+    }
+    header .menuicon img{
+        width: 20px;
+        height: 20px;
+    }
+    #actmenu{
+        display: block;
+        width: 60%;
+    }
+    #actmenu #menu1>li{
+        width: 70%;
+    }
+    nav .close{
+        top: 25px;
+        left: 25px;
+    }
+    nav .close img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //menu */
+    /* header 아이콘 */
+    header .hicon{
+        width: 13%;
+        top: 44px;
+        right: 20px;
+    }
+    .hicon .lang>h2 a img{
+        width: 20px;
+        height: 20px;
+    }
+    .hicon>h2 a img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //header 아이콘 */
+    /* 언어 */
+    .hicon .lang .langlist{
+        top: 32px;
+        left: -8px;
+    }
+    .hicon .lang .langlist>li>a{
+        padding: 3px 6px;
+    }
+    /* //언어 */
+    /* 검색 */
+    .search{
+        height: 170px;
+    }
+    .searchbox{
+        margin-top: 95px;
+    }
+    .searchbox input[type="search"]{
+        width: 50%;
+        height: 35px;
+    }
+    .searchbox button img{
+        width: 20px;
+        height: 20px;
+    }
+    .search>a{
+        top: 25px;
+        right: 25px;
+    }
+    .search>a img{
+        width: 20px;
+        height: 20px;
+    }
+    /* //검색 */
+    /* title페이지 */
+    #title{
+        height: auto;
+        padding: 140px 20px 30px 20px;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    #title .title h2{
+        font-size: 2.91666em;
+        margin-bottom: 10px;
+    }
+    #title .title p{
+        font-size: 1.3333em;
+        line-height: 32px;
+    }
+    #title h3 a{
+        width: 130px;
+        height: 30px;
+        background-size: 130px 30px;
+        font-size: 12px;
+        margin-top: 0px;
+        float: right;
+    }
+    /* //title페이지 */
+    /* con1페이지 */
+    .con1{
+        width: 80%;
+        height: auto;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+    .con1 .detail{
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+    .con1 .detail h2{
+        margin-top: 20px;
+    }
+    .con1 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .con1 .detail p{
+        font-size: 1.8461em;
+        margin: 3vh 0;
+        line-height: 32px;
+    }
+    .con1 .detail .text{
+        font-size: 1.15384em;
+        line-height: 27px;
+    }
+    .con1 .img{
+        width: 100%;
+        height: 300px;
+    }
+    /* //con1페이지 */
+    /* con2페이지 */
+    .con2{
+        width: 80%;
+        height: auto;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+    .con2 .detail{
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+        order: 1;
+    }
+    .con2 .detail h2{
+        margin-top: 20px;
+    }
+    .con2 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .con2 .detail p{
+        font-size: 1.8461em;
+        margin: 3vh 0;
+        line-height: 32px;
+    }
+    .con2 .detail p br{
+        display: none !important;
+    }
+    .con2 .detail .text{
+        font-size: 1.15384em;
+        line-height: 27px;
+    }
+    .con2 .img{
+        width: 100%;
+        height: 300px;
+        order: 2;
+    }
+    /* //con2페이지 */
+    /* con3페이지 */
+    .con3{
+        width: 80%;
+        height: auto;
+        margin-top: 100px;
+    }
+    .con3 .detail h2{
+        margin-bottom: 3vh;
+    }
+    .con3 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .wrap{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .flip{
+        width: 100%;
+        height: 340px;
+        margin-bottom: 20px;
+    }
+    .back h3{
+        font-size: 1.8461em;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .back p{
+        line-height: 20px;
+        font-size: 1em;
+    }
+    /* //con3페이지 */
+    /* con4페이지 */
+    .con4{
+        width: 80%;
+        height: auto;
+        margin-top: 100px;
+    }
+    .con4 .detail h2{
+        margin-bottom: 3vh;
+    }
+    .con4 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .con4 .detail p{
+        font-size: 1.8461em;
+        margin: 3vh;
+    }
+    .con4 .detail .text br{
+        display: none !important;
+    }
+    .con4 .detail .text{
+        font-size: 1.15384em;
+        line-height: 27px;
+        text-align: justify;
+    }
+    .con4 .img{
+        height: 200px;
+        background-image: url(../img/subcon4-2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-size: 100% 100%;
+    }
+    .con4 .img-text p{
+        margin: 30px 0 0 0;
+        text-align: justify;
+    }
+    .network{
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 0;
+    }
+    .network dl{
+        width: 40%;
+        height: 95px;
+        margin-top: 15px;
+    }
+    .network dl dt{
+        font-size: 3.0769em;
+        margin-top: 8px;
+    }
+    .network dl dd{
+        font-size: 1.16666em;
+    }
+    .network dl dd:nth-child(3){
+        display: none;
+    }
+    /* //con4페이지 */
+    /* con5페이지 */
+    .con5{
+        width: 80%;
+        height: auto;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+    .con5 .detail{
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+    .con5 .detail h2{
+        margin-top: 20px;
+    }
+    .con5 .detail h2::before{
+        margin: 4px 11px 4px 0;
+    }
+    .con5 .detail p{
+        font-size: 1.8461em;
+        margin: 3vh 0;
+        line-height: 32px;
+    }
+    .con5 .detail .text{
+        font-size: 1.15384em;
+        line-height: 27px;
+    }
+    .con5 .img{
+        width: 100%;
+        height: 300px;
+    }
+    /* //con5페이지 */
+    /* 뉴스페이지 */
+    #news{
+        width: 80%;
+        height: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .nbox dl{
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .nbox .title{
+        font-size: 1.15384em;
+        line-height: 25px;
+        margin: 0;
+    }
+    .nbox .date{
+        margin: 20px 0 0 0;
+    }
+    /* //뉴스페이지 */
+    /* 하단 */
+    footer{
+        height: auto;
+    }
+    #fheader{
+        height: auto;
+    }
+    #fheader nav .bottommenu{
+        justify-content: space-evenly;
+    }
+    #fheader nav .bottommenu li{
+        padding: 0 10px;
+        line-height: 60px;
+    }
+    #fheader nav .bottommenu li a{
+        font-size: 1em;
+    }
+    #fbottom img{
+        display: none;
+    }
+    #fbottom  .ftext{
+        margin: auto;
+        padding: 60px 0;
+    }
+    #fbottom  .ftext .adress{
+        margin-bottom: 20px;
+    }
+    #fbottom  .ftext .adress p{
+        font-size: 1em;
+        float: none;
+    }
+    #fbottom  .ftext .adress a{
+        float: none;
+        width: 60px;
+        height: 25px;
+        font-size: 0.8333em;
+        line-height: 25px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    #fbottom  .ftext>p{
+        font-size: 0.8333em;
+        margin-left: 0;
+        text-align: center;
+    }
+    /* //하단 */
+    #familysite{
+        width: 100%;
+        height: 280px;
+        bottom: 290px;
+    }
+    .fsmenu{
+        margin: 0 15px;
+        margin-top: 30px;
+    }
+    .fsmenu .fsbox{
+        width: 18%;
+    }
+    .fsmenu .fsbox>li{
+        line-height: 25px;
+    }
+    .fsmenu .fsbox>li:nth-child(2){
+        margin-top: 10px;
+    }
+    .fsmenu .fsbox>li a{
+        font-size: 0.6666em;
+        font-weight: 800;
+    }
+    .fsmenu .fsbox .title{
+        border-top: 2px solid #0065bd;
+        border-bottom: 2px solid #0065bd;
+    }
+    #familysite>a{
+        top: 10px;
+        right: 10px;
+    }
+    #familysite>a img{
+        width: 13px;
+        height: 13px;
+    }
+    /* //패밀리사이트 */
+    /* 최상단하단버튼 */
+    #udbtn{
+        width: 25px;
+        height: 55px;
+        bottom: 35px;
+        right: 10px;
+    }
+    #udbtn>a{
+        width: 25px;
+        height: 25px;
+        padding-top: 6px;
+    }
+    #udbtn>a img{
+        width: 13px;
+        height: 13px;
+    }
+    /* //최상단하단버튼 */
+}
