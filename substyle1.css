@@ -1,0 +1,897 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Secular+One&display=swap');
+/* 
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Secular One', sans-serif;
+}
+*/
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+body, h1, h2, h3, p, ul, li, a, dl, dt, dd{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    display: block;
+}
+body{
+    font-size: 16px;
+    color: #222;
+    position: relative;
+    transition: all 0.3s;
+}
+
+/* 아웃라인숨기기 */
+.hidden{
+    position: absolute;
+    margin-left: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+}
+/* //아웃라인숨기기 */
+
+/* header */
+header{
+    width: 100%;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    padding: 0 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: #fff;
+}
+
+/* 로고 */
+header .logo{
+    display: block;
+    width: 160px;
+    height: 66px;
+    position: absolute;
+    top: 2vh;
+    left: 100px;
+}
+.logo img{
+    width: 160px;
+    height: 66px;
+}
+/* 로고 */
+
+/* 메뉴 */
+nav #menu{
+    display: flex;
+    margin-top: 5vh;
+}
+nav #menu>li{
+    padding: 0 30px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+}
+nav #menu>li>a{
+    display: block;
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.25em;
+    font-weight: 300;
+    color: #222;
+    padding: 0 10px;
+}
+nav #menu>li>a:hover{
+    font-weight: 900;
+    color: #0065bd;
+}
+nav .submenu{
+    display: none;
+    position: absolute;
+    left: -10%;
+}
+nav .submenu>li{
+    line-height: 60px;
+    background-color: #fff;
+    width: 200px;
+}
+nav .submenu>li:nth-child(1){
+    border-top: 2px solid #222;
+}
+nav .submenu>li>a{
+    display: block;
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.125em;
+    font-weight: 300;
+    color: #222;
+    width: 200px;
+}
+nav .submenu>li>a:hover{
+    background-color: rgba(34, 34, 34, 0.8);
+    color: #fff;
+}
+/* //메뉴 */
+
+/* 반응형메뉴 */
+header .menuicon{
+    display: none;
+    position: absolute;
+    top: 6vh;
+    left: 50px;
+}
+#actmenu{
+    width: 40%;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    display: none;
+}
+#actmenu #menu1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8vh;
+    overflow: hidden;
+}
+#actmenu #menu1>li{
+    width: 60%;
+    margin: auto;
+    line-height: 60px;
+    text-align: center;
+}
+#actmenu #menu1>li>a{
+    display: block;
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.2em;
+    font-weight: 800;
+    color: #222;
+    padding: 0 10px;
+    border-bottom: 2px solid #222;
+}
+#actmenu #menu1>li>a:hover{
+    color: #0065bd;
+}
+#actmenu #menu1>li>a img{
+    float: right;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+#actmenu .submenu1{
+    display: none;
+}
+#actmenu .submenu1>li{
+    padding: 0 10px;
+    line-height: 60px;
+}
+#actmenu .submenu1>li>a{
+    display: block;
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #222;
+}
+#actmenu .submenu1>li>a:hover{
+    color: #0065bd;
+}
+nav .close{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 99;
+    /* display: none; */
+}
+/* //반응형메뉴 */
+
+/* header 아이콘 */
+header .hicon{
+    width: 6.5%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 6vh;
+    right: 100px;
+}
+/* 언어 */
+.hicon .lang{
+    position: relative;
+}
+.hicon .lang .langlist{
+    position: absolute;
+    top: 40px;
+    left: -11px;
+    display: none;
+}
+.hicon .lang .langlist>li{
+    background-color: #fff;
+    text-align: center;
+}
+.hicon .lang .langlist>li:nth-child(1){
+    border-top: 2px solid #222;
+}
+.hicon .lang .langlist>li:nth-child(2){
+    border-bottom: none;
+}
+.hicon .lang .langlist>li>a:hover{
+    color: #fff;
+    background-color: rgba(34, 34, 34, 0.8);
+}
+.hicon .lang .langlist>li>a{
+    display: block;
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.125em;
+    font-weight: 300;
+    color: #222;
+    padding: 5px 10px;
+    line-height: 40px;
+}
+.hicon .lang>h2 a img{
+    width: 30px;
+    height: 30px;
+}
+/* //언어 */
+/* 검색 */
+.hicon>h2 a img{
+    width: 30px;
+    height: 30px;
+}
+.search{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 268px;
+    background-color: #000;
+    display: none;
+}
+.searchbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.searchbox input[type="search"]{
+    width: 33.85%;
+    height: 40px;
+    font-size: 1.125em;
+}
+.searchbox button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    display: block;
+}
+.searchbox button:focus{
+    cursor: pointer;
+}
+.searchbox button:hover{
+    background-color: #000;
+}
+.searchbox button img{
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
+.searchbox input:focus{
+    outline: 1px solid #eee;
+}
+.search a{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+/* //검색 */
+/* //header 아이콘 */
+/* //header */
+
+/* contents start */
+/* title페이지 */
+#title{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 270px 180px 0;
+    margin-top: 127px;
+    background: url(../img/subbg.jpg) no-repeat center / cover fixed;
+}
+#title .title h2{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 5em;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 2vh;
+}
+#title .title p{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 2.1875em;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 3vh;
+}
+#title h3 a{
+    display: block;
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1em;
+    font-weight: 600;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    background-image: url(../icon/arrow-wh.svg);
+    background-repeat: no-repeat;
+    background-size: 200px 40px;
+    margin-top: 135px;
+    padding-left: 5px;
+}
+/* //title페이지 */
+/* contents페이지 */
+#contents{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+/* con1페이지 */
+.con1{
+    width: 60%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+.con1 .detail{
+    width: 45%;
+    height: 100%;
+}
+.con1 .detail h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    color: #0065bd;
+    margin-top: 4vh;
+}
+.con1 .detail h2::before{
+    display: block;
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: #0065bd;
+    border-radius: 50%;
+    float: left;
+    margin: 6px 11px 6px 0;
+}
+.con1 .detail p{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 2.625em;
+    font-weight: 900;
+    margin: 5vh 0;
+    text-align: center;
+}
+.con1 .detail .text{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.375em;
+    line-height: 40px;
+    text-align: justify;
+}
+.con1 .img{
+    width: 45%;
+    height: 100%;
+    background-image: url(../img/subcon1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* //con1페이지 */
+/* con2페이지 */
+.con2{
+    width: 60%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+.con2 .img{
+    width: 45%;
+    height: 100%;
+    background-image: url(../img/subcon2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.con2 .detail{
+    width: 45%;
+    height: 100%;
+}
+.con2 .detail h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    color: #0065bd;
+    margin-top: 3vh;
+}
+.con2 .detail h2::before{
+    display: block;
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: #0065bd;
+    border-radius: 50%;
+    float: left;
+    margin: 6px 11px 6px 0;
+}
+.con2 .detail p{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 2.625em;
+    font-weight: 900;
+    margin: 5vh 0;
+    text-align: center;
+    line-height: 50px;
+}
+.con2 .detail .text{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.375em;
+    line-height: 40px;
+    text-align: justify;
+}
+/* //con2페이지 */
+/* con3페이지 */
+.con3{
+    width: 70%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 30vh;
+}
+.con3 .detail h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    color: #0065bd;
+    margin-bottom: 5vh;
+}
+.con3 .detail h2::before{
+    display: block;
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: #0065bd;
+    border-radius: 50%;
+    float: left;
+    margin: 6px 11px 6px 0;
+}
+.wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.flip{
+    width: 32%;
+    height: 570px;
+    perspective: 1100px;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: .4s;
+    transform-style: preserve-3d;
+}
+.front,
+.back{
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    backface-visibility: hidden;
+}
+.flip:nth-child(1) .card .front {
+    background-image: url(../img/subcon3-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.flip:nth-child(2) .card .front{
+    background-image: url(../img/subcon3-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.flip:nth-child(3) .card .front{
+    background-image: url(../img/subcon3-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.back { 
+    background-color: #fff;
+    border: 2px solid #0065bd;
+    transform: rotateY(180deg);
+}
+.back h3{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 2.5em;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.back p{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.25em;
+    line-height: 35px;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+}
+.flip:hover .card {
+    transform: rotateY(180deg);
+}
+/* //con3페이지 */
+/* con4페이지 */
+.con4{
+    width: 70%;
+    height: 130vh;
+    margin: auto;
+    margin-top: 30vh;
+}
+.con4 .detail h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    color: #0065bd;
+    margin-top: 3vh;
+}
+.con4 .detail h2::before{
+    display: block;
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: #0065bd;
+    border-radius: 50%;
+    float: left;
+    margin: 6px 11px 6px 0;
+}
+.con4 .detail p{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 2.625em;
+    font-weight: 900;
+    margin: 5vh 0;
+    text-align: center;
+    line-height: 50px;
+}
+.con4 .detail .text{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.375em;
+    line-height: 40px;
+    text-align: center;
+}
+.con4 .img{
+    width: 100%;
+    height: 65vh;
+    background-image: url(../img/subcon4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-top: 2vh;
+}
+.con4 .img-text p{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1em;
+    color: #505050;
+    text-align: center;
+    margin: 20px 0;
+}
+.network{
+    width: 90%;
+    height: 22vh;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 5vh;
+}
+.network dl{
+    width: 230px;
+    height: 230px;
+    background-color: rgba(0, 101, 189, 0.9);
+    border-radius: 50%;
+}
+.network dl:nth-child(2),
+.network dl:nth-child(4){
+    background-color: #fff;
+    border: 2px solid #0065bd;
+}
+.network dl dt{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 5em;
+    color: #fff;
+    text-align: center;
+    margin-top: 1vh;
+}
+.network dl:nth-child(2) dt,
+.network dl:nth-child(4) dt{
+    color: #222;
+}
+.network dl dd{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.375em;
+    font-weight: 800;
+    text-align: center;
+}
+.network dl dd:nth-child(3){
+    font-size: 1em;
+    text-align: center;
+    width: 76%;
+    margin: auto;
+    margin-top: 1vh;
+}
+.network dl:nth-child(1) dd,
+.network dl:nth-child(1) dd:nth-child(3),
+.network dl:nth-child(3) dd,
+.network dl:nth-child(3) dd:nth-child(3){
+    color: #fff;
+}
+/* //con4페이지 */
+/* con5페이지 */
+.con5{
+    width: 60%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+.con5 .detail{
+    width: 45%;
+    height: 100%;
+}
+.con5 .detail h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    color: #0065bd;
+    margin-top: 3vh;
+}
+.con5 .detail h2::before{
+    display: block;
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: #0065bd;
+    border-radius: 50%;
+    float: left;
+    margin: 6px 11px 6px 0;
+}
+.con5 .detail p{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 2.625em;
+    font-weight: 900;
+    margin: 5vh 0;
+    text-align: center;
+    line-height: 50px;
+}
+.con5 .detail .text{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.375em;
+    line-height: 40px;
+    text-align: justify;
+}
+.con5 .img{
+    width: 45%;
+    height: 100%;
+    background-image: url(../img/subcon5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* //con5페이지 */
+/* news페이지 */
+#news{
+    width: 70%;
+    height: 50vh;
+    margin: auto;
+    margin-top: 30vh;
+}
+#news .detail h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    color: #0065bd;
+    margin-bottom: 3vh;
+}
+#news .detail h2::before{
+    display: block;
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: #0065bd;
+    border-radius: 50%;
+    float: left;
+    margin: 6px 11px 6px 0;
+}
+.nbox{
+    display: block;
+}
+.nbox dl{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #0065bd;
+}
+.nbox dl:hover{
+    background-color: #f9f9f9;
+    transition: 0.4s;
+    color: #0065bd;
+}
+.nbox:nth-child(4) dl{
+    border-bottom: 2px solid #0065bd;
+}
+.nbox .title{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.375em;
+    font-weight: 600;
+    margin: 50px 10px;
+
+}
+.nbox .date{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.125em;
+    font-weight: 600;
+    margin: 50px 10px;
+}
+/* //news페이지 */
+/* //contents페이지 */
+/* contents end */
+/* footer */
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: #505050;
+    position: relative;
+    margin-top: 10vh;
+}
+/* footer메뉴 */
+#fheader{
+    width: 100%;
+    height: 10.6vh;
+    border-bottom: 3px solid #707070;
+}
+#fheader nav .bottommenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#fheader nav .bottommenu li{
+    padding: 0 50px;
+    line-height: 10.6vh;
+    
+}
+#fheader nav .bottommenu li a{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.125em;
+    font-weight: 300;
+    color: #eee;
+}
+/* //footer메뉴 */
+
+/* footer하단 */
+#fbottom{
+    width: 100%;
+    display: flex;
+}
+#fbottom img{
+    width: 182px;
+    height: 75px;
+    margin:  6.5vh 200px;
+}
+#fbottom  .ftext{
+    margin:  10vh 200px;
+}
+#fbottom  .ftext .adress{
+    margin-bottom: 25px;
+}
+#fbottom  .ftext .adress p{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.125em;
+    font-weight: 300;
+    color: #eee;
+    float: left;
+}
+#fbottom  .ftext .adress a{
+    display: block;
+    float: left;
+    width: 74px;
+    height: 30px;
+    background-color: #222;
+    border-radius: 5px;
+    font-family: 'S-CoreDream-3Light';
+    font-size: 0.75em;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 35px;
+}
+#fbottom  .ftext>p{
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.125em;
+    font-weight: 300;
+    color: #eee;
+    margin-left: 115px;
+}
+/* //footer하단 */
+
+/* 패밀리사이트 */
+#familysite{
+    width: 1100px;
+    height: 500px;
+    background-color: #f6f6f6;
+    position: absolute;
+    bottom: 40.1vh;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+.fsmenu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    margin-top: 70px;
+}
+.fsmenu .fsbox{
+    width: 16.73%;
+}
+.fsmenu .fsbox>li{
+    line-height: 50px;
+}
+.fsmenu .fsbox>li:nth-child(2){
+    margin-top: 20px;
+}
+.fsmenu .fsbox .title{
+    border-top: 3px solid #0065bd;
+    border-bottom: 3px solid #0065bd;
+}
+.fsmenu .fsbox>li a{
+    display: block;
+    font-family: 'S-CoreDream-3Light';
+    font-size: 1.125em;
+    font-weight: 500;
+}
+#familysite>a{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+/* //패밀리사이트 */
+/* //footer */
+
+/* 최상단하단버튼 */
+#udbtn{
+    width: 50px;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 4vh;
+    right: 23px;
+    z-index: 98;
+}
+#udbtn>a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #222;
+    padding-top: 18.6px;
+}
+#udbtn>a img{
+    margin: auto;
+}
+/* //최상단하단버튼 */
