@@ -684,6 +684,7 @@
     }
     .container .item dl{
         height: 230px;
+        padding: 15px;
     }
     .container .item dl dt{
         line-height: 30px;
@@ -873,6 +874,7 @@
     }
     .container .item dl{
         height: 215px;
+        padding: 15px;
     }
     .container .item dl dt{
         line-height: 30px;
@@ -1088,6 +1090,7 @@
     }
     .container .item dl{
         height: 200px;
+        padding: 15px;
     }
     .container .item dl dt{
         line-height: 25px;
@@ -1340,20 +1343,22 @@
         gap: 20px;
     }
     .container .item{
-        height: 290px;
+        height: 260px;
     }
     .container .item:nth-child(9){
         display: none;
     }
     .container .item dl{
-        height: 175px;
+        height: 140px;
         padding: 10px;
     }
     .container .item dl dt{
-        line-height: 25px;
+        line-height: 20px;
+        font-size: 1.25em;
     }
     .container .item dl dd{
         bottom: 10px;
+        font-size: 1em;
     }
     /* //item페이지 */
     /* 다음페이지버튼 */
