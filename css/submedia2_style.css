@@ -1359,7 +1359,7 @@
     /* 다음페이지버튼 */
     .num{
         width: 350px;
-        margin: 100px auto;
+        margin: 60px auto;
     }
     .num>a img{
         width: 20px;
@@ -1577,7 +1577,7 @@
     /* //검색 */
     /* title페이지 */
     #title{
-        height: 33vh;
+        height: 35vh;
         padding: 90px 30px 0;
         display: block;
         margin-top: 80px;
@@ -1603,26 +1603,28 @@
         gap: 20px;
     }
     .container .item{
-        height: 290px;
+        height: 250px;
     }
     .container .item:nth-child(9){
         display: none;
     }
     .container .item dl{
-        height: 200px;
+        height: 160px;
         padding: 10px;
     }
     .container .item dl dt{
-        line-height: 25px;
+        line-height: 20px;
+        font-size: 1.25em;
     }
     .container .item dl dd{
         bottom: 10px;
+        font-size: 1em;
     }
     /* //item페이지 */
     /* 다음페이지버튼 */
     .num{
         width: 350px;
-        margin: 100px auto;
+        margin: 60px auto;
     }
     .num>a img{
         width: 20px;
