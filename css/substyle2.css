@@ -378,14 +378,14 @@ header .hicon{
 }
 .container .item dl dt{
     font-family: 'S-CoreDream-3Light';
-    font-size: 1.5625em;
+    font-size: 1.375em;
     font-weight: 600;
     color: #222;
-    line-height: 50px;
+    line-height: 45px;
 }
 .container .item dl dd{
     font-family: 'Roboto Mono', monospace;
-    font-size: 1.5625em;
+    font-size: 1.375em;
     font-weight: 400;
     color: #939393;
     margin-top: 20px;
