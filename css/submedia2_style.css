@@ -322,7 +322,7 @@
     /* //검색 */
     /* title페이지 */
     #title{
-        height: 50vh;
+        height: 70vh;
         padding: 200px 50px 0;
         display: block;
     }
@@ -470,7 +470,7 @@
     /* //검색 */
     /* title페이지 */
     #title{
-        height: 50vh;
+        height: 70vh;
         padding: 200px 50px 0;
         display: block;
     }
@@ -655,7 +655,7 @@
     /* //검색 */
     /* title페이지 */
     #title{
-        height: 50vh;
+        height: 70vh;
         padding: 200px 50px 0;
         display: block;
         margin-top: 100px;
@@ -845,10 +845,10 @@
     /* //검색 */
     /* title페이지 */
     #title{
-        height: 45vh;
         padding: 150px 30px 0;
         display: block;
         margin-top: 100px;
+        height: 60vh;
     }
     #title h2{
         font-size: 4.666666em;
@@ -1057,7 +1057,6 @@
     /* //검색 */
     /* title페이지 */
     #title{
-        height: 38vh;
         padding: 125px 30px 0;
         display: block;
         margin-top: 80px;
